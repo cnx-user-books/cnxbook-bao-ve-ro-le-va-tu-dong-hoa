@@ -1,0 +1,277 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Bảo vệ tần số cao và vô tuyến</title>
+  <metadata>
+  <md:content-id>m29109</md:content-id><md:title>Bảo vệ tần số cao và vô tuyến</md:title>
+  <md:abstract>Bảo vệ tần số cao và vô tuyến</md:abstract>
+  <md:uuid>dc6eb367-9ff0-4b5d-9b21-8929762216bc</md:uuid>
+</metadata>
+  <content>
+    <section id="id-472000498994">
+      <title>Các phương pháp thực hiện bảo vệ dọc:</title>
+      <para id="id17701756">Muốn cắt nhanh đường dây bị hư hỏng có thể sử dụng bảo vệ dọc dựa trên nguyên tắc so sánh các đại lượng điện ở hai đầu của đường dây. Việc liên lạc giữa hai đầu đường dây có thể thực hiện bằng dây dẫn phụ, kênh tần số cao, kênh vô tuyến...Bảo vệ dọc thực hiện SO SÁNH TRỰC TIẾP các đại lượng ở hai đầu đường dây nếu các đại lượng cần so sánh được truyền qua kênh liên lạc, và SO SÁNH GIÁN TIẾP nếu truyền qua kênh liên lạc là các tín hiệu khóa hoặc cho phép tác động.</para>
+      <para id="id17701651">Bảo vệ dòng so lệch dùng dây dẫn phụ (chương 5) là một loại bảo vệ dọc trong đó so sánh trực tiếp dòng điện ở hai đầu phần tử được bảo vệ.</para>
+      <para id="id17127136">Trong mạng điện áp cao, bảo vệ khoảng cách và bảo vệ dòng có hướng thường không đảm bảo yêu cầu tác động nhanh. Các bảo vệ so lệch dọc dùng dây dẫn phụ khi xét về mặt kinh tế - kỹ thuật chỉ được dùng đối với đường dây có chiều dài ngắn. Ở mạng 110KV trở lên, người ta sử dụng BẢO VỆ TẦN SỐ CAO, đó là loại bảo vệ dọc mà việc liên lạc giữa hai đầu đường dây được thực hiện bằng tín hiệu tần số cao (khoảng 50  300 KHz) truyền theo dây dẫn của chính đường dây đó.</para>
+      <para id="id18450516">Có nhiều phương pháp thực hiện bảo vệ tần số cao. Những phương pháp chủ yếu là :</para>
+      <para id="id17702850">1) BẢO VỆ TẦN SỐ CAO CÓ HƯỚNG :dựa vào việc so sánh gián tiếp dấu công suất ở hai đầu đường dây.</para>
+      <para id="id17702870">2) BẢO VỆ SO LỆCH PHA : dựa vào việc so sánh trực tiếp góc pha của dòng điện ở hai đầu đường dây được bảo vệ.</para>
+      <para id="id7338545">BẢO VỆ VÔ TUYẾN là loại bảo vệ dọc mà liên lạc giữa các đầu đường dây được thực hiện bằng tín hiệu vô tuyến sóng cực ngắn. Các loại bảo vệ có hướng và so lệch pha nói trên nếu không dùng kênh liên lạc tần số cao, mà là kênh vô tuyến thì chúng sẽ không phải là bảo vệ tần số cao, mà là bảo vệ vô tuyến. Do tính chất khác nhau của kênh tần số cao và kênh vô tuyến nên sơ đồ thực hiện của các bảo vệ tương ứng cũng khác nhau.</para>
+      <para id="id18450524">Trường hợp tổng quát kênh tần số cao và vô tuyến có thể được dùng để truyền tín hiệu KHÓA hoặc CHO PHÉP. Khi có tín hiệu khóa từ đầu kia của đường dây truyền đến, thì bảo vệ ở đầu này sẽ bị ngăn cấm tác động và ngược lại, nhận được tín hiệu cho phép sẽ làm cho bảo vệ có thể tác động và cắt ngắn mạch. Tín hiệu có thể truyền qua kênh liên lạc một cách liên tục hoặc chỉ vào lúc phát sinh ngắn mạch.</para>
+      <para id="id18609872">Trên hình 7.1 là sơ đồ mạng điện được bảo vệ bằng các bảo vệ dọc. Các nửa bộ bảo vệ được đặt ở hai đầu mỗi đoạn đường dây. Giả sử xét ngắn mạch ở điểm N trên đoạn BC. Khi sử dụng bảo vệ tần số cao có tín hiệu cho phép thì trên đoạn hư hỏng tín hiệu phải truyền qua chỗ ngắn mạch. Lúc ấy độ tin cậy tác động của bảo vệ có thể bị giảm thấp. Nếu sử dụng tín hiệu khóa, thì trên đọan không hư hỏng AB và CD tín hiệu được truyền đi một cách chắc chắn. Còn ở đoạn hư hỏng BC lúc này không yêu cầu phải truyền tín hiệu khóa và bảo vệ của đoạn này sẽ đảm bảo khởi động được. Như vậy, đối với bảo vệ tần số cao thì sử dụng tín hiệu khóa sẽ hợp lí hơn.</para>
+      <para id="id18609876">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      <para id="id3650516">Hình 7.1: Mạng có nguồn cung cấp từ hai phía được bảo vệ bằng bảo vệ dọc</para>
+      <para id="id3650531">Kênh vô tuyến không có những nhược điểm nêu trên, do vậy có thể được sử dụng để truyền tín hiệu khóa cũng như tín hiệu cho phép.</para>
+      <para id="id17677982">Kênh vô tuyến và kênh tần số cao cũng có thể sử dụng đồng thời cho bảo vệ rơle, điều khiển xa, đo lường xa và thông tin liên lạc.</para>
+    </section>
+    <section id="id-414481683419">
+      <title>Bảo vệ có hướng có khóa tần số cao:</title>
+      <section id="id-0258054398983">
+        <title>Nguyên tắc làm việc:</title>
+        <para id="id18450258">Bảo vệ có hướng và có khóa làm việc dựa trên nguyên tắc so sánh gián tiếp hướng (dấu) của công suất ngắn mạch ở hai đầu đoạn đường dây được bảo vê. Bảo vệ chỉ tác động khi công suất ngắn mạch ở hai đầu đường dây có hướng từ thanh góp vào đường dây (đối với công suất thứ tự nghịch và thứ tự không - từ đường dây vào thanh góp)</para>
+        <para id="id17678278">Xét sơ đồ mạng điện hình 7.4, giả sử ngắn mạch tại điểm N trên đoạn đường dây BC. Ở cả hai phía của đoạn này công suất ngắn mạch có hướng từ thanh góp về phía đường dây (đến chỗ ngắn mạch). Các bảo vệ 3,4 sẽ không gửi tín hiệu khóa đi và sẽ tác động cắt không thời gian máy cắt hai đầu đoạn BC. Ở các đoạn AB, CD không hư hỏng, công suất một phía có hướng từ đường dây vào thanh góp. Các bảo vệ 2 và 5 sẽ xác định công suất ngược hướng nên chúng không tác động, đồng thời sẽ gửi tín hiệu khóa đến các bảo vệ 1 và 6 ở đầu kia của đường dây làm cho các bảo vệ 1 và 6 cũng không tác động được.</para>
+        <para id="id17678287">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id16712916">Hình 7.4: Mạng có nguồn cung cấp từ hai phía được bảo vệ </para>
+        <para id="id16712929">bằng bảo vệ có hướng có khóa</para>
+        <para id="id16712935">Theo nguyên tắc làm việc, bảo vệ đảm bảo tác động chọn lọc mà không yêu cầu phải phối hợp về thời gian với các bảo vệ khác. Do vậy bảo vệ được thực hiện để làm việc không thời gian. Đây là loại bảo vệ có tính chọn lọc tuyệt đối, nên không thể sử dụng để làm dự trữ khi ngắn mạch ở phần tử kề.</para>
+      </section>
+      <section id="id-650578539912">
+        <title>Sơ đồ thực hiện bảo vệ:</title>
+        <para id="id18447284">Xét sơ đồ bảo vệ như hình 7.5, trong sơ đồ này các bộ phận chính của bảo vệ có thể nối vào dòng và áp pha toàn phần hoặc các thành phần đối xứng của chúng.</para>
+        <para id="id16678586">Đối với mỗi nữa bộ bảo vệ, bộ phận khởi động gồm hai rơle dòng: 1RI và 2RI có độ nhạy khác nhau. Rơle 1RI có dòng khởi động bé hơn, làm nhiệm vụ khởi động máy phát tín hiệu khóa tần số cao. Rơle 2RI để tác động cắt máy cắt thông qua rơle định hướng công suất 3RW, và các rơle trung gian 4RG, 6RG.</para>
+        <para id="id18447289">Rơle 4RG có hai cuộn dây: làm việc và hãm. Cuộn làm việc nhận nguồn thao tác khi rơle 2RI và 3RW khởi động. Cuộn hãm được cấp dòng chỉnh lưu từ máy thu tần số cao khi có tín hiệu khóa tần số cao ở đầu vào của nó. Rơle 4RG tác động khi chỉ có dòng trong cuộn làm việc. Khi có dòng trong cuộn hãm hoặc trong cả hai cuộn dây thì rơle 4RG sẽ không khởi động. Do vậy, nhờ có rơle 4RG mà bảo vệ chỉ tác động khi hư hỏng trên đoạn được bảo vệ vì lúc ấy không có tín hiệu khóa.</para>
+        <para id="id16712946">Để đảm bảo máy phát tần số cao không làm việc khi ngắn mạch trên đoạn đường dây được bảo vệ, trong sơ đồ sử dụng rơle trung gian 5RG có tiếp điểm thường kín. Bảo vệ tác động đi cắt máy cắt thông qua rơle trung gian 6RG và rơle tín hiệu 7Th.</para>
+      </section>
+      <section id="id-0561372261266">
+        <title>Hoạt động của sơ đồ khi ngắn mạch:</title>
+        <section id="id-544099607042">
+          <title>Ngắn mạch ngoài: (về phía trạm B)</title>
+          <para id="id17983861">Rơle 1RI thực hiện khởi động máy phát tần số cao ở cả hai phía của đường dây. Máy phát gửi tín hiệu khóa đến rơle 4RG ở đầu kia của đường dây (theo kênh tần số cao), cũng như đến 4RG ở đầu này (trực tiếp qua máy thu). Đồng thời rơle 2RI khởi động đưa áp vào cuộn dây và đưa cực dương (+) nguồn thao tác đến tiếp điểm của rơle định hướng công suất 3RW. Rơle 3RW phía A khép tiếp điểm đưa nguồn đến rơle trung gian 5RG và cuộn làm việc của rơle 4RG. Rơle 5RG mở tiếp điểm làm hở mạch khởi động máy phát, máy phát tần số cao phía A ngừng làm việc. Tuy nhiên rơle 3RW phía B không khởi động do hướng công suất ngắn mạch đi vào thanh góp. Máy phát phía B vẫn tiếp tục làm việc, gửi tín hiệu khóa qua kênh tần số cao đến rơle 4RG ở phía A.</para>
+          <para id="id17983865">Như vậy ở phía A, rơle 4RG có dòng trong cả 2 cuộn làm việc và hãm nên nó không khởi động, bảo vệ không tác động. Ở phía B cũng tương tự, bảo vệ không tác động do 4RG chỉ có dòng trong cuộn hãm.</para>
+        </section>
+        <section id="id-650417638957">
+          <title>Ngắn mạch trong vùng bảo vệ khi có nguồn cung cấp từ hai phía: </title>
+          <para id="id16712728">Các rơle dòng 1RI, 2RI, rơle định hướng công suất 3RW và rơle trung gian 5RG khởi động ở cả hai phiá của đường dây được bảo vệ. Máy phát tần số cao ở cả hai phía đều không làm việc do vậy không có tín hiệu khóa gửi đến cuộn hãm của các rơle trung gian 4RG. Lúc này rơle 4RG chỉ có dòng vào cuộn làm việc, nên chúng tác động và đường dây bị hư hỏng được cắt ra cả ở hai phía.</para>
+        </section>
+        <section id="id-804121182019">
+          <title>Ngắn mạch trong vùng bảo vệ khi chỉ có nguồn cung cấp từ 1 phía: (Giả sử chỉ có nguồn cung cấp ở phía trạm A)</title>
+          <para id="id7222584">Khi xảy ra ngắn mạch trong vùng bảo vệ, ở phía B bộ phận khởi động không làm việc, ở phía A sau khi rơle 5RG tác động, tín hiệu khóa sẽ không còn, rơle 4RG chỉ có dòng trong cuộn làm việc và bảo vệ tác động cắt đường dây bị hư hỏng về phía A.</para>
+          <para id="id7222598">Khi có nguồn cung cấp từ hai phía, có thể xảy ra hiện tượng khởi động không đồng thời nếu lúc đầu sự phân bố dòng như thế nào đó khiến cho bảo vệ chỉ khởi động về một phía. Lúc ấy bảo vệ tác động cắt đường dây giống như trường hợp có một nguồn cung cấp.</para>
+        </section>
+        <section id="id-861122445841">
+          <title>Ngắn mạch khi kênh tần số cao bị hỏng:</title>
+          <para id="id17928098">Khi ngắn mạch trên đoạn được bảo vệ và kênh thông tin bị hỏng, thì bảo vệ không làm việc sai bởi vì chỉ yêu cầu kênh làm việc tốt khi ngắn mạch ngoài. Trong trường hợp ngắn mạch ngoài nếu hỏng kênh thông tin thì bảo vệ có thể tác động nhầm. Tuy nhiên trong thực tế xác suất đó là rất bé.</para>
+          <para id="id7222610">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        </section>
+      </section>
+      <section id="id-348022392916">
+        <title>Lí do đặt 2 rơle dòng ở bộ phận khởi động:</title>
+        <para id="id18625007">Khi xảy ra ngắn mạch ngoài, bảo vệ sẽ đảm bảo tác động đúng nếu bộ phận khởi động ở cả hai phía của đường dây đồng thời làm việc.</para>
+        <para id="id17676831">Giả thiết mỗi nửa bộ bảo vệ ở mỗi đầu đường dây chỉ dùng 1 rơle dòng làm nhiệm vụ khởi động. Khi dòng ngắn mạch ngoài xấp xỉ với dòng khởi động của rơle này, do sai số khác nhau của các máy biến dòng và rơle ở hai phía đường dây nên có thể chỉ có bộ phận khởi động ở một đầu đường dây làm việc. Điều đó khiến cho bảo vệ tác động không đúng và cắt đường dây không bị hư hỏng. Trường hợp tương tự cũng có thể xảy ra nếu các rơle ở một phía làm việc nhanh hơn phía kia.</para>
+        <para id="id17677933">Để ngăn ngừa tác động nhầm như vậy trong sơ đồ hình 7.5 sử dụng bộ phận khởi động gồm 2 rơle dòng : 1RI và 2RI có độ nhạy khác nhau. (1RI nhạy hơn khoảng 1,5 lần so với 2RI). Khi thực hiện sơ đồ như vậy, rơle 2RI chỉ có thể tác động đến mạch cắt nếu rơle 1RI nhạy hơn chắc chắn đã khởi động, đảm bảo khóa bảo vệ trong trường hợp ngắn mạch ngoài.</para>
+        <para id="id17676850">Cũng có thể thực hiện sơ đồ chỉ có 1 rơle dòng trong bộ phận khởi động nếu máy phát tần số cao được khởi động từ xa (sẽ xét đến ở mục III.9). Lúc ấy bộ phận khởi động ở một phía làm việc sẽ đồng thời khởi động cả hai máy phát tần số cao ở hai đầu đường dây.</para>
+      </section>
+      <section id="id-495983968841">
+        <title>Đặc điểm làm việc của bảo vệ khi ngắn mạch trên đường dây ở chế độ có nguồn cung cấp 1 phía:</title>
+        <para id="id16695532"> Đối với bảo vệ nối vào dòng và áp pha toàn phần: Bộ phận khởi động quyết định sự làm việc của bảo vệ. Nếu bộ phận khởi động là loại dòng điện chỉnh định khỏi dòng tải cực đại thì nửa bộ bảo vệ phía nguồn sẽ tác động. Nếu dùng bộ phận khởi động tổng trở thì bảo vệ có thể không tác động được do rơle tổng trở về phía nhận điện khởi động khi điện áp giảm thấp và dòng phụ tải vẫn còn tồn tại.</para>
+        <para id="id10678620"> Đối với bảo vệ nối vào thành phần thứ tự không: Khi trung tính về phía nhận điện cách đất thì nửa bộ bảo vệ phía nguồn sẽ làm việc. Nếu nối đất trung tính phía nhận điện thì các nửa bộ bảo vệ ở hai phía đường dây đều làm việc đúng.</para>
+      </section>
+    </section>
+    <section id="id-394268456542">
+      <title>Bảo vệ so lệch pha tần số cao :</title>
+      <section id="id-055470038287">
+        <title>Nguyên tắc làm việc:</title>
+        <para id="id17696911">Bảo vệ dòng so lệch tần số cao là loại bảo vệ dựa trên nguyên tắc so sánh trực tiếp vectơ dòng ở hai đầu đường dây được bảo vê, các vectơ dòng được biến đổi thành tín hiệu tần số cao, truyền từ 1 phía của đường dây đến phía kia theo kênh tần số cao và được so sánh với nhau. Trong trường hợp sử dụng kênh vô tuyến thì đó là bảo vệ dòng so lệch vô tuyến.</para>
+        <para id="id12418076">Các vectơ dòng được đặc trưng bởi độ lớn và góc pha. Do vậy để so sánh chúng cần có 2 kênh tần số cao (một - để truyền giá trị độ lớn của vectơ, một - góc pha). Trong đa số trường hợp bảo vệ chỉ thực hiện so sánh góc pha của dòng điện. Bảo vệ dựa vào việc so sánh góc pha của dòng điện được gọi là bảo vệ so lệch pha.</para>
+        <para id="id12418103">Khi ngắn mạch trên đường dây được bảo vệ (hình 7.10a) dòng II và III ở hai phía có góc lệch  rất nhỏ (khi hướng quy ước là từ thanh góp vào đường dây). Trị số của  được xác định từ góc lệch pha của các vectơ sức điện động đẳng trị EI và EII của hai phần hệ thống điện và sự khác nhau của góc tổng trở đến điểm ngắn mạch (hình 7.10b). Trong trường hợp này bảo vệ tác động cắt hư hỏng ở cả hai phía của đường dây. Khi ngắn mạch ngoài thì II và III có giá trị bằng nhau, nhưng lệch pha nhau một góc 180o (hình 7.10c), lúc này bảo vệ không tác động. Bảo vệ thường được thực hiện để đảm bảo tác động cả khi ngắn mạch trên đường dây làm việc ở chế độ có nguồn cung cấp 1 phía.</para>
+        <para id="id17697270">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id16678326">Hình 7.10 : Bảo vệ tác động dựa vào việc so sánh góc pha của dòng điện</para>
+        <para id="id16678341">a) Sơ đồ mạng b) Ngắn mạch trên đường dây được bảo vệ c) Ngắn mạch ngoài</para>
+      </section>
+      <section id="id-849484504577">
+        <title>Sơ đồ thực hiện bảo vệ:</title>
+        <para id="id18221225">Ta khảo sát bảo vệ so lệch pha tần số cao có sơ đồ thực hiện như hình 7.11. Đối với mỗi nửa bộ bảo vệ ở mỗi đầu đường dây, bộ phận khởi động gồm 4 rơle dòng: 1RI, 2RI, 3RI, 4RI. Rơle 1RI và 2RI nối vào dòng pha toàn phần dùng để khởi động bảo vệ khi ngắn mạch 3 pha đối xứng. Rơle 3RI và 4RI nối vào thành phần thứ tự nghịch qua bộ lọc 5LI2 dùng để khởi động bảo vệ khi ngắn mạch không đối xứng. Rơle 1RI và 3RI có độ nhạy cao hơn (so với rơle 2RI và 4RI) để khởi động máy phát tần số cao thông qua rơle 6RGT, còn các rơle 2RI và 4RI cùng với rơle 7RGT để chuẩn bị cho mạch cắt.</para>
+        <para id="id13032391">Việc truyền thông tin về góc pha của dòng điện từ 1 đầu đến đầu kia của đường dây được thực hiện theo kênh tần số cao. Máy phát tần số cao sau khi đã làm việc sẽ được điều khiển trực tiếp bởi các dòng cần so sánh thông qua bộ phận điều khiển 8ĐK. Bộ phận này thực hiện đóng, mở máy phát theo chu kỳ tần số công nghiệp. Nhờ vậy dòng tần số cao bị khống chế bởi dòng ngắn mạch. Khi ngắn mạch, dòng tần số cao được truyền đi không liên tục như ở bảo vệ có hướng tần số cao. Độ dài của mỗi xung tín hiệu bằng nửa chu kỳ tần số công nghiệp. Pha của tín hiệu tần số cao đã được điều chế sẽ tương ứng với pha của dòng ngắn mạch ở đầu đường dây.</para>
+        <para id="id15763127">Để thực hiện bảo vệ với một kênh tần số cao, hệ thống dòng ba pha ở hai đầu đường dây được biến đổi thành dòng một pha nhờ bộ lọc thành phần đối xứng phức hợp 9LF (ví dụ, I1+ kI2), dòng đầu ra bộ lọc 9LF được đưa vào bộ phận điều khiển 8ĐK.</para>
+        <para id="id15584781">Việc so sánh góc pha của các dòng điện được thực hiện trong máy thu tần số cao. Máy thu sẽ cung cấp nguồn cho bộ phận thực hiện (rơle 10RG) qua thiết bị san bằng 11SB. Khi ngắn mạch trong vùng bảo vệ, rơle 10RG tác động đi cắt máy cắt qua rơle trung gian đầu ra 12RG và rơle tín hiệu 13Th.</para>
+        <para id="id15584799">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id6103407">Hình 7.11 : Sơ đồ nguyên lí của bảo vệ so lệch pha tần số cao</para>
+        <para id="id15669057">Máy thu tần số cao nhận tín hiệu từ máy phát của mình và từ máy phát ở đầu kia của đường dây, ở đầu ra máy thu chỉ có dòng vào những thời điểm mà đầu vào của nó không có tín hiệu tần số cao. Sơ đồ được thực hiện như thế nào để khi ngắn mạch ngoài thì các máy phát ở hai đầu đường dây làm việc trong những nửa chu kỳ tần số công nghiệp khác nhau; lúc ấy đầu vào máy thu tổng hợp lại sẽ có tín hiệu liên tục và đầu ra của nó không có dòng. Khi ngắn mạch trong vùng bảo vệ dòng đầu ra máy thu sẽ có tính chất gián đoạn. Thiết bị 11SB để san bằng dòng điện ở đầu ra máy thu trước khi đưa vào bộ phận thực hiện.</para>
+      </section>
+      <section id="id-560703796445">
+        <title>Hoạt động của bảo vệ khi ngắn mạch:</title>
+        <section id="id-654543820704">
+          <title>Ngắn mạch ngoài : (hình 7.12 a' - g')</title>
+          <para id="id13149543">Các rơle 1RI, 2RI (khi ngắn mạch ba pha đối xứng), 3RI, 4RI (khi ngắn mạch ba pha không đối xứng), 6RGT và 7RGT khởi động. Dòng ở hai đầu đường dây được bảo vệ lệch pha nhau một góc 180o. Do vậy, các máy phát sẽ làm việc không đồng thời và phát ra các tín hiệu tần số cao lệch pha nhau một nửa chu kỳ tần số công nghiệp. Tổng hợp lại ở đầu vào máy thu sẽ có tín hiệu liên tục. Không có dòng vào rơle 10RG và bảo vệ sẽ không tác động.</para>
+          <para id="id15977340">Để chắc chắn bảo vệ không tác động khi ngắn mạch ngoài, cần đảm bảo hai yêu cầu sau :</para>
+          <para id="id13149552"> Máy phát tần số cao phải khởi động trước khi bộ phận so sánh pha làm việc. Yêu cầu này được thực hiện nhờ cuộn dây rơle 10RG chỉ kín mạch sau khi tiếp điểm của rơle 7RGT đóng lại có thời gian.</para>
+          <para id="id17133297"> Chỉ ngừng máy phát tần số cao sau khi đã cắt ngắn mạch ngoài. Yêu cầu này được thực hiện nhờ rơle 6RGT có tiếp điểm mở chậm. Khi tiếp điểm này mở ra thì các máy phát sẽ ngừng làm việc, lúc ấy mạch cuộn dây10RG đã hở.</para>
+        </section>
+        <section id="id-249292387908">
+          <title>Ngắn mạch trên đường dây được bảo vệ khi có nguồn cung cấp từ hai phía: (hình 7.12 a" - g")</title>
+          <para id="id17375392">Ban đầu, các rơle cũng làm việc giống như trương hợp (a) ngắn mạch ngoài. Dòng ở hai đầu đường dây trùng pha nhau (khi bỏ qua góc lệch pha của các sức điện động nguồn và các yếu tố khác). Các máy phát làm việc đồng bộ với nhau và phát tín hiệu tần số cao trùng pha nhau. Do vậy tín hiệu tổng hợp nhận được ở máy thu sẽ không liên tục và gây nên những xung dòng vuông góc ở đầu ra máy thu. Qua thiết bị san bằng 11SB dòng này được biến đổi thành dòng một chiều đưa vào cuộn dây rơle 10RG. Khi trị số dòng đủ lớn thì rơle 10RG tác động cắt đường dây qua rơle trung gian 12RG và rơle tín hiệu 13Th.</para>
+          <para id="id17375397">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+          <para id="id16958700">Hình 7.12 : Tác động của bảo vệ theo sơ đồ hình 7.11 </para>
+          <para id="id16958714">khi ngắn mạch trong và ngoài vùng bảo vệ.</para>
+          <para id="id16958720">Thực tế khi ngắn mạch trong vùng bảo vệ dòng ở hai phía của đường dây hư hỏng thường lệch pha nhau một góc đáng kể do sức điện động của các phần hệ thống điện lệch pha nhau, do góc tổng trở của các phần hệ thống điện không bằng nhau, do sai số của BI và tính chất của bộ lọc phức hợp 9LF. Vì vậy góc lệch pha giữa các dòng ở đầu ra bộ lọc 9LF có thể tăng lên khiến cho bảo vệ không tác động được khi ngắn mạch trong vùng bảo vệ. Trị số góc lệch giới hạn được xác định theo điều kiện bảo vệ không được tác động khi ngắn mạch ngoài do những khác biệt trong sai số của BI, bộ lọc 9LF, tốc độ truyền sóng hữu hạn và góc lệch pha của dòng ở 2 đầu đường dây do dung dẫn.</para>
+          <para id="id17156181">Khả năng tác động của bảo vệ ứng với những góc lệch pha  khác nhau của các dòng điện ở đầu ra các bộ lọc 9LF được đặc trưng bởi đặc tính pha (hình 7.13), đó là quan hệ giữa dòng iR10 trong cuộn dây rơle 10RG với góc lệch pha . Vùng tác động và không tác động của bảo vệ được xác định bởi giao điểm của đường cong iR10 = f() với đường thẳng dòng khởi động iKĐR10 của rơle 10RG. Vùng không tác động của bảo vệ tính theo góc  chiếm khoảng 40 - 50o.</para>
+          <para id="id16365487">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+          <para id="id16144762">Hình 7.13 : Đặc tính pha của bảo vệ theo hình 7.11</para>
+        </section>
+        <section id="id-802645491475">
+          <title>Ngắn mạch trên đường dây được bảo vệ khi nguồn cung cấp từ 1 phía:</title>
+          <para id="id13856314">Khi bộ phận khởi động ở phía nhận điện không làm việc (ví dụ, dùng bộ phận khởi động theo dòng) thì máy phát tần số cao ở phía này không khởi động được. Do vậy ở phía nguồn, máy thu chỉ nhận được tín hiệu từ máy phát tại chỗ. Dòng trong máy thu có dạng giống như khi có nguồn cung cấp 2 phía (hình 7.12e" ), rơle 10RG phía nguồn tác động cắt đường dây qua 12RG.</para>
+          <para id="id13856335">Bảo vệ cũng có thể cắt đúng đường dây bị hư hỏng có nguồn cung cấp 2 phía khi sự phân bố dòng lúc đầu không thuận lợi.</para>
+        </section>
+        <section id="id-511852969268">
+          <title>Ngắn mạch khi có hư hỏng kênh tần số cao :</title>
+          <para id="id17936719">Bảo vệ chỉ tác động không đúng khi ngắn mạch ngoài đồng thời kênh tần số cao của bảo vệ bị hư hỏng.</para>
+        </section>
+      </section>
+      <section id="id-753468697914">
+        <title>Lí do đặt 2 rơle ở bộ phận khởi động của bảo vệ:</title>
+        <para id="id8781419">Cũng giống như bảo vệ có hướng có khóa tần số cao, việc đặt 2 rơle khởi động (ví dụ, 1RI và 2RI) có độ nhạy khác nhau nhằm để khóa chắc chắn bảo vệ khi ngắn mạch ngoài. Nếu sử dụng bộ phận khởi động chỉ có một rơle thì bảo vệ có thể tác động không đúng trong trường hợp ngắn mạch ngoài mà chỉ có một bộ phận khởi động ở một phía làm việc, lúc ấy hoạt động của bảo vệ giống như khi hư hỏng trên đường dây được bảo vệ có nguồn cung cấp từ một phía.</para>
+      </section>
+      <section id="id-0803572911931">
+        <title>Bộ phận điều khiển:</title>
+        <para id="id17676750">Phần tử chính của bộ phận điều khiển là bộ lọc các thành phần đối xứng dùng để biến đổi một hệ thống dòng ba pha thành dòng 1 pha. Khi ngắn mạch ngoài dòng ở đầu ra của bộ lọc về hai phía đường dây là như nhau. Do vậy việc tính chọn bộ lọc được thực hiện theo điều kiện đảm bảo tác động chắc chắn của bảo vệ khi ngắn mạch trong vùng bảo vệ. Nếu chỉ thực hiện so sánh góc pha của dòng thứ tự thuận, thì bảo vệ có thể không tác động khi ngắn mạch không đối xứng trên đường dây có nguồn cung cấp 1 phía do phía nhận điện có thành phần thứ tự thuận của dòng phụ tải (trong trường hợp bộ phận khởi động và máy phát ở phía nhận điện làm việc). Nếu chỉ so sánh góc pha của dòng thứ tự nghịch và thứ tự không (các thành phần này luôn luôn hướng từ chỗ ngắn mạch về phía các điểm trung tính), thì bảo vệ không đảm bảo tác động với tất cả các dạng ngắn mạch (ví dụ, ngắn mạch ba pha đối xứng). Vì vậy thường sử dụng các loại bộ lọc phức hợp như (I1 + kI2) và (I1 + kIo). Hệ số k cần phải tính chọn thế nào để khi ngắn mạch không đối xứng trong vùng bảo vệ sẽ có quan hệ (kI2 &gt; I1) và (kI0 &gt; I1).</para>
+      </section>
+      <section id="id-346287714654">
+        <title>Tính chọn trị số đặt và độ nhạy của bảo vệ:</title>
+        <section id="id-379849502607">
+          <title>Dòng khởi động của rơle dòng 1RI :</title>
+          <para id="id18447364">IKĐ1RI =
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>at</m:mtext></m:mrow></m:mstyle><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>I</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>lv</m:mtext></m:mrow></m:mstyle><m:mtext> max</m:mtext></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {k rSub { size 8{ ital "at"1} } }  over  {k rSub { size 8{ ital "tv"} }  "." n rSub { size 8{I} } } } I rSub { size 8{ ital "lv"" max"} } } {}</m:annotation></m:semantics></m:math></para>
+          <para id="id17570125">Khi tính chọn IKĐ1RI không cần kể đến hệ số mở máy kmm, vì sau khi cắt ngắn mạch ngoài các động cơ tự mở máy có thể làm trì hoãn sự trở về của bộ phận khởi động nhưng không làm cho bảo vệ dọc tác động nhầm.</para>
+        </section>
+        <section id="id-478695653565">
+          <title>Dòng khởi động của rơle dòng 2RI :</title>
+          <para id="id17831689">Để ngăn ngừa khả năng tác động nhầm của bảo vệ khi ngắn mạch ngoài, dòng khởi động của rơle 2RI được chọn lớn hơn so với rơle 1RI :</para>
+          <para id="id8162612">  IKĐ2RI = kat2. IKĐ1RI </para>
+          <para id="id18124554">trong đó : kat2  1,4  1,5</para>
+        </section>
+        <section id="id-798293966149">
+          <title>Dòng khởi động của bộ lọc - rơle dòng thứ tự nghịch LI2-3RI:</title>
+          <para id="id18591852">Được chỉnh định khỏi dòng không cân bằng sơ cấp của bộ lọc (I'KCB) trong chế độ vận hành bình thường với phụ tải cực đại và (I"KCB) khi ngắn mạch ngoài ba pha với I(3)N.ng.max = nI.IKĐ1RI (vì khi có dòng I(3)Nng lớn hơn thì sẽ có tín hiệu khóa do tác động của các rơle 1RI ở hai đầu đường dây):</para>
+          <para id="id17707575">IKĐLI2 - 3RI  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msup><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msub><m:mi>'</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>at</m:mtext></m:mrow></m:mstyle><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:msup><m:msub><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {k rSup { size 8{'}   rSub { size 8{ ital "at"3} } } }  over  {k rSub { size 8{ ital "tv"} } } } } {}</m:annotation></m:semantics></m:math>. I'KCB</para>
+          <para id="id16700150">và : IKĐLI2 - 3RI  k"at3. I"KCB</para>
+          <para id="id16680750">Để đảm bảo so sánh đúng góc pha dòng điện ở hai đầu đường dây, dạng đường bao tín hiệu tần số cao phải vuông góc. Muốn vậy điện áp ở đầu ra của bộ phận điều khiển không được nhỏ hơn trị số Uđk.min. Khi điện áp nhỏ hơn Uđk.min đường bao đó sẽ có dạng hình thang và bảo vệ sẽ không mất tính chọn lọc khi ngắn mạch ngoài, vì vậy vẫn đảm bảo xung khóa liên tục. Tuy nhiên khi hư hỏng trong vùng bảo vệ với điện áp như vậy bảo vệ có thể không tác động. Do đó, dòng khởi động của các rơle 1RI và 3RI nên phối hợp với điện áp này như thế nào đó để bảo vệ chỉ tác động khi tín hiệu tần số cao có dạng như yêu cầu. Đối với rơle 3RI dòng khởi động tính theo điều kiện này có thể là quyết định.</para>
+          <para id="id16735577">Đối với bộ lọc nối vào dòng I1 + kI2, điều kiện tính toán để phối hợp là ngắn mạch 2 pha chạm đất có điện áp k1.I1tt + kI2tt = Uđk.min ; áp này có thể nhỏ hơn n lần so với áp k1.k.I2tt. Trong trường hợp này cần thực hiện điều kiện :</para>
+          <para id="id16357763">IKĐLI2 - 3RI­ &gt; I2tt</para>
+          <para id="id16357783">Điện áp Uđk.min với giả thiết là I1 = 0 sẽ tương ứng với dòng thứ tự nghịch sơ cấp của bộ lọc là : I2đk.min. Do vậy cần chọn :</para>
+          <para id="id16468759">IKĐLI2- 3RI­ &gt; n. I2đk.min</para>
+        </section>
+        <section id="id-258217562551">
+          <title>Dòng khởi động của bộ lọc - rơle LI2-4RI :</title>
+          <para id="id17545764">Phân tích giống như đối với rơle 2RI, dòng khởi động của bộ lọc - rơle LI2-4RI được chọn lớn hơn IKĐLI2- 3RI­ và lấy bằng :</para>
+          <para id="id9826650">IKĐLI2- 4RI­ = kat4. IKĐLI2- 3RI­</para>
+          <para id="id18703634">Trong đó : kat4  2.</para>
+        </section>
+        <section id="id-22261924371">
+          <title>Hệ số k của bộ lọc trong bộ phận điều khiển :</title>
+          <para id="id17308174">Hệ số k xác định theo điều kiện:</para>
+          <para id="id17308179">kI2  kat I1 </para>
+          <para id="id18091610">Trường hợp tính toán là ngắn mạch 2 pha chạm đất ở một đầu đường dây, khi ấy tỉ số I1 / I2 là lớn nhất. Do vậy :</para>
+          <para id="id8941805">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi fontstyle="italic">k³k</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>at</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mtext>.</m:mtext>
+                        <m:mfrac>
+                          <m:msubsup>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mn>1,1</m:mn>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msubsup>
+                          <m:msubsup>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mn>1,1</m:mn>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msubsup>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{k³k rSub { size 8{ ital "at"} }  "."  {  {I rSub { size 8{1} }  rSup { size 8{ \( 1,1 \) } } }  over  {I rSub { size 8{2} }  rSup { size 8{ \( 1,1 \) } } } } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id18400402">Thường k  6  8 ; kat  1,8  2</para>
+          <para id="id18234443">Để đảm bảo cho bảo vệ làm việc đúng (không tác động) khi ngắn mạch ngoài, cần chọn hệ số k như nhau ở các nửa bộ hai phía đường dây.</para>
+        </section>
+        <section id="id-315333217059">
+          <title>Kiểm tra độ nhạy của bảo vệ :</title>
+          <para id="id18234459">Độ nhạy của bảo vệ được xác định chủ yếu theo độ nhạy của các rơle khởi động 2RI và 4RI dùng để điều khiển mạch cắt của máy cắt.</para>
+          <para id="id18234470">Trong trường hợp nối rơle 4RI vào bộ lọc dòng thứ tự nghịch thì hệ số độ nhạy được tính toán với ngắn mạch một pha hoặc hai pha chạm đất ở một đầu đường dây tùy thuộc dạng hư hỏng nào có dòng nhỏ hơn.</para>
+          <para id="id18287942">Hệ số độ nhạy khi ngắn mạch 3 pha cũng được tính toán với hư hỏng ở một đầu của đường dây được bảo vệ.</para>
+          <para id="id18287951">Yêu cầu : Kn  1,5  2</para>
+        </section>
+      </section>
+    </section>
+    <section id="id-572593968975">
+      <title>Đánh giá và lĩnh vực ứng dụng của</title>
+      <para id="id12403709">bảo vệ tần số cao và vô tuyến:</para>
+      <para id="id12403714">Ưu điểm của bảo vệ tần số cao là: về nguyên tắc bảo vệ có thể tác động chọn lọc trong mạng có hình dáng bất kỳ với một số nguồn cung cấp bất kỳ, tác động nhanh, đủ độ nhạy cần thiết và khá tin cậy mặc dù thực hiện tương đối phức tạp.</para>
+      <para id="id12403730">Nhược điểm chủ yếu của bảo vệ tần số cao là phức tạp và giá thành cao. Do vậy bảo vệ tần số cao được sử dụng khi các bảo vệ khác đơn giản hơn không thỏa mãn các yêu cầu của bảo vệ rơle, nhất là khi yêu cầu phải tác động nhanh.</para>
+      <para id="id12403744">Tất cả các loại bảo vệ dọc đều đảm bảo cắt nhanh, kể cả bảo vệ dòng so lệch có dây dẫn phụ. Chi phí ban đầu đối với bảo vệ có dây dẫn phụ chủ yếu là giá thành của cáp và công lắp đặt nó, do vậy tăng tỷ lệ thuận với chiều dài dây dẫn. Chi phí đối với bảo vệ tần số cao có thể coi là độc lập với chiều dài đường dây được bảo vệ (không tính đến việc phải sử dụng các bộ phận khởi động phức tạp hơn và máy phát có công suất lớn hơn cho đường dây dài)</para>
+      <para id="id18247558">Bảo vệ tần số cao có nhiều loại: bảo vệ có hướng, bảo vệ so lệch pha và bảo vệ có hướng có khóa tần số cao kết hợp với bảo vệ khoảng cách. Tất cả các phương án bảo vệ này đều có thể sử dụng trong thực tế, tuy nhiên mỗi phương án đều có đặc điểm sử dụng riêng.</para>
+      <para id="id18247573">Bảo vệ so lệch pha thực tế không chịu ảnh hưởng của dao động trong hệ thống điện, đặc biệt là khi thực hiện tự động đóng lại không đồng bộ; nó cũng có thể làm việc tốt trong chế độ làm việc không toàn pha. Do vậy loại bảo vệ này được sử dụng phổ biến. Tuy nhiên cần phải đặt thêm bảo vệ dự trữ cho đường dây. Các bảo vệ dự trữ thường dùng loại đơn giản hơn, ví dụ như bảo vệ chỉ phản ứng với ngắn mạch không đối xứng.</para>
+      <para id="id18034241">Bảo vệ có hướng có khóa tần số cao ít được sử dụng, ngoại trừ 1 số trường hợp đặc biệt, ví dụ để bảo vệ đường dây có nhánh rẽ vì lúc này sử dụng bảo vệ so lệch pha sẽ gặp nhiều khó khăn.</para>
+      <para id="id18034254">Hiện nay kênh vô tuyến đã được sử dụng rông rãi. Kênh vô tuyến dùng cho bảo vệ, điều khiển xa và thông tin liên lạc sẽ khắc phục được khó khăn trong việc lựa chọn tần số truyền trên đường dây tải điện, loại trừ được những yêu cầu về xử lí tần số cao trên đường dây tải điện, đảm bảo chống nhiễu tốt hơn... Khi sử dụng kênh vô tuyến thì các bảo vệ dọc có thể thực hiện với tín hiệu cho phép mà trong một số trường hợp trở nên hợp lí hơn so với tín hiệu khóa. </para>
+    </section>
+  </content>
+</document>

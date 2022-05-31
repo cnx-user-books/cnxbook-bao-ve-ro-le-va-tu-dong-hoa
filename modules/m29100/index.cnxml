@@ -1,0 +1,3246 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Bảo vệ khoảng cách</title>
+  <metadata>
+  <md:content-id>m29100</md:content-id><md:title>Bảo vệ khoảng cách</md:title>
+  <md:abstract>Bảo vệ khoảng cách</md:abstract>
+  <md:uuid>05c9bcd7-8940-4477-979a-15bb84025e12</md:uuid>
+</metadata>
+  <content>
+    <section id="id-058380086868">
+      <title>Nguyên tắc tác động:</title>
+      <para id="id18907755">Bảo vệ khoảng cách là loại bảo vệ dùng rơ le tổng trở có thời gian làm việc phụ thuộc vào quan hệ giữa điện áp UR và dòng điện IR đưa vào rơle và góc R giữa chúng :</para>
+      <para id="id17481724">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>t</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>f</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mfrac>
+                      <m:msub>
+                        <m:mi>U</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>R</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>R</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mfrac>
+                    <m:mi>,</m:mi>
+                    <m:msub>
+                      <m:mi>j</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>R</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{t=f \(  {  {U rSub { size 8{R} } }  over  {I rSub { size 8{R} } } } ,j rSub { size 8{R} }  \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id19120696">thời gian này tự động tăng lên khi khoảng cách từ chỗ nối bảo vệ đến điểm hư hỏng tăng lên. Bảo vệ đặt gần chỗ hư hỏng nhất có thời gian làm việc bé nhất</para>
+      <para id="id19120708">Nếu nối rơle tổng trở của bảo vệ khoảng cách (BVKC) vào hiệu các dòng pha và điện áp dây tương ứng (ví du, 2 pha A,B) thì khi ngắn mạch 2 pha A, B ta có:</para>
+      <para id="id19120718">Dòng vào rơle:</para>
+      <para id="id19120723">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>R</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:msub>
+                          <m:mi>n</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>I</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>A</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>B</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{R} } = {  {1}  over  {n rSub { size 8{I} } } }  \( I rSub { size 8{A} } -I rSub { size 8{B} }  \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id18972759">Ap đặt vào rơle:</para>
+      <para id="id18331885">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>U</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>R</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:msub>
+                          <m:mi>n</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>U</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>U</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>A</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>U</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>B</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:msub>
+                          <m:mi>n</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>U</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>A</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>B</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:msub>
+                      <m:mi>Z</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mi>l</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{U rSub { size 8{R} } = {  {1}  over  {n rSub { size 8{U} } } }  \( U rSub { size 8{A} } -U rSub { size 8{B} }  \) = {  {1}  over  {n rSub { size 8{U} } } }  \( I rSub { size 8{A} } -I rSub { size 8{B} }  \) Z rSub { size 8{1} } l} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id17588910">Như vậy : 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {U rSub { size 8{R} } }  over  {I rSub { size 8{R} } } } =Z rSub { size 8{1} }  "." l} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id18329215">Trong đó :</para>
+      <para id="id18329220">Z1 : tổng trở thứ tự thuận của 1 km đường dây.</para>
+      <para id="id18329242">nI, nU : tỷ số biến đổi của BI và BU cung cấp cho bảo vệ.</para>
+      <para id="id18340675">IA, IB : dòng chạy qua cuộn sơ cấp của BI đặt ở pha A, B.</para>
+      <para id="id18908079">UA, UB : áp pha A, B tại chỗ nối bảo vệ (chỗ nối BU).</para>
+      <para id="id17910468">l : khoảng cách từ chổ đặt bảo vệ đến điểm ngắn mạch</para>
+      <para id="id17910479">Khi ấy:</para>
+      <para id="id17910484">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>t</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>f</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mfrac>
+                      <m:msub>
+                        <m:mi>U</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>R</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>R</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mfrac>
+                    <m:mi>,</m:mi>
+                    <m:msub>
+                      <m:mi>j</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>R</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>f</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msub>
+                      <m:mi>Z</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mtext>.</m:mtext>
+                    <m:mi>l</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:msub>
+                      <m:mi>j</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>R</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{t=f \(  {  {U rSub { size 8{R} } }  over  {I rSub { size 8{R} } } } ,j rSub { size 8{R} }  \) =f \( Z rSub { size 8{1} }  "." l,j rSub { size 8{R} }  \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id18315300">Ban đầu để đơn giản, coi bảo vệ có thời gian làm việc không phụ thuộc vào góc R:</para>
+      <para id="id18315324">t = f (Z1.l) (6.1)</para>
+      <para id="id18775065">Như vậy thời gian làm việc t của bảo vệ không phụ thuộc vào giá trị của áp và dòng đưa vào bảo vệ mà chỉ phụ thuộc vào khoảng cách từ chổ nối bảo vệ đến điểm hư hỏng.</para>
+    </section>
+    <section id="id-418739788755">
+      <title>Đặc tính thời gian:</title>
+      <para id="id18775085">Là quan hệ giữa thời gian tác động của bảo vệ với khoảng cách hay tổng trở đến chổ hư hỏng.</para>
+      <para id="id18972518">Hiện nay thường dùng bảo vệ có đặc tính thời gian hình bậc thang (nhiều cấp). Số vùng và số cấp thời gian thường  3 để sơ đồ bảo vệ được đơn giản (hình 6.1).</para>
+      <table id="id18972542" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          Vùng I có thời gian tác động t­­I (tI xác định bởi thời gian khởi động của các rơle, nếu không yêu cầu chỉnh định khỏi thời gian tác động của chống sét ống). Khi xét đến sai số của bộ phận khoảng cách, cũng như do một số yếu tố khác, vùng I được chọn khoảng 80% đến 85% chiều dài đoạn được bảo vệ.Vùng II có thời gian tác động tII , thời gian tII của tất cả các bảo vệ đều bằng nhau và để đảm bảo chon lọc tII phải lớn hơn một bậc t so với thời gian làm việc của bảo vệ chính đặt ở các phần tử kề.</entry>
+              <entry>
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Hình 6.1 : Đặc tính thời gian nhiều cấp của bảo vệ khoảng cách</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id18987043">Chiều dài của vùng II phải có giá trị thế nào để đảm bảo bảo vệ tác động chắc chắn với thời gian tII khi ngắn mạch ở cuối đoạn được bảo vệ. Khi thời gian tII được chọn theo cách như trên thì chiều dài của vùng II bị giới hạn bởi yêu cầu chọn lọc của các bảo vệ. Xét đến các sai số đã nêu và tính đến chiều dài của vùng I, vùng II chiếm khoảng 30% đến 40% chiều dài đoạn kề.</para>
+      <list id="id18519946" list-type="bulleted">
+        <item>Vùng III có thời gian tác động tIII dùng làm dự trữ cho các đoạn tiếp theo và bọc lấy toàn bộ những đoạn nầy. Thời gian tIII của các bảo vệ được chọn theo nguyên tắc bậc thang ngược chiều. </item>
+      </list>
+      <para id="id19004621">Khi ngắn mạch qua điện trở trung gian rqđ thời gian tác động của các vùng có thể tăng lên. Ví du, ngắn mạch ở vùng I qua rqđ, bảo vệ khoảng cách có thể làm việc với thời gian của cấp II hoặc cấp III (các đường nét chấm trên hình 6.1).</para>
+      <para id="id18905546">Sau đây xét một ví dụ cụ thể về đặc tính thời gian làm việc hình bậc thang có 3 cấp của bảo vệ khoảng cách (hình 6.2).</para>
+      <para id="id18905555">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      <para id="id18919674">Hình 6.2 : Bảo vệ khoảng cách trong mạng hở có nguồn cung cấp từ 2 phía</para>
+      <para id="id18919688">a) Sơ đồ mạng được được bảo vệ</para>
+      <para id="id18919694">b) Đặc tính thời gian nhiều cấp</para>
+      <para id="id18919700">Khi xảy ra ngắn mạch ở điểm N, các bảo vệ 3 và 4 của đường dây hư hỏng BC ở gần điểm ngắn mạch nhất (có khoảng cách l3 và l4) sẽ tác động với thời gian bé nhất tI. Các bảo vệ 1 và 6 cũng khởi động nhưng chúng ở xa điểm ngắn mạch hơn (l1 &gt; l3 và l6 &gt; l4) nên chúng chỉ có thể tác động như là một bảo vệ dự trữ trong trường hợp đoạn BC không được cắt ra bởi các bảo vệ 3 và 4.</para>
+      <para id="id18640234">Các bảo vệ 2 và 5 cũng cách điểm ngắn mạch một khoảng l3 và l4 (giống như bảo vệ 3 và 4), muốn chúng không tác động thì các bảo vệ này cũng như tất cả các bảo vệ khác phải có tính định hướng, bảo vệ chỉ tác động khi hướng công suất ngắn mạch đi từ thanh góp về phía đường dây được bảo vệ. Tính định hướng tác động của bảo vệ được đảm bảo nhờ bộ phận định hướng công suất riêng biệt hoặc là nhờ một bộ phận chung vừa xác định khoảng cách đên điểm ngắn mạch vừa xác định hướng của dòng công suất ngắn mạch.</para>
+    </section>
+    <section id="id-927172132457">
+      <title>Sơ đồ bảo vệ khoảng cách:</title>
+      <para id="id18989926">Trong trường hợp chung, bảo vệ khoảng cách có các bộ phận chính như sau:</para>
+      <para id="id18989933">* Bộ phận khởi động: có nhiệm vụ :</para>
+      <para id="id18989954">- Khởi động bảo vệ vào thời điểm phát sinh hư hỏng.</para>
+      <para id="id18919743">- Kết hợp với các bộ phận khác làm bậc bảo vệ cuối cùng.</para>
+      <para id="id18919750">Bộ phận khởi động thường được thực hiện nhờ rơle dòng cực đại hoặc rơle tổng trở cực tiểu.</para>
+      <para id="id18919759">* Bộ phận khoảng cách : đo khoảng cách từ chổ nối bảo vệ đến điểm hư hỏng, thực hiện bằng rơle tổng trở.</para>
+      <para id="id18919784">* Bộ phận tạo thời gian: tạo thời gian làm việc tương ứng với khoảng cách đến điểm hư hỏng, được thực hiện bằng một số rơle thời gian khi bảo vệ có đặc tính thời gian nhiều cấp.</para>
+      <para id="id17484335">* Bộ phận định hướng công suất: để ngăn ngừa bảo vệ tác động khi hướng công suất ngắn mạch từ đường dây được bảo vệ đi vào thanh góp của trạm, được thực hiện bằng rơle định hướng công suất riêng biệt hoặc kết hợp trong bộ phận khởi động và khoảng cách, nếu các bộ phận này thực hiện bằng rơle tổng trở có hướng.</para>
+      <para id="id18640260">Trên hình 6.3 là sơ đồ nguyên lí một pha của bảo vệ khoảng cách có đặc tính thời gian nhiều cấp, có bộ phận khởi động dòng điện, không có các phần tử nào thực hiện chung nhiệm vụ của một số bộ phận.</para>
+      <para id="id18640274">Bộ phận khởi động dùng rơle dòng 3RI, bộ phận định hướng công suất - 4RW, bộ phận khoảng cách - cấp I: 5RZ, cấp II: 6RZ, và bộ phận tạo thời gian - cấp I: 8RGT, cấp II: 10RT, cấp III: 7RT.</para>
+      <para id="id18640286">Khi ngắn mạch trong vùng bảo vệ, 3RI và 4RW sẽ khởi động và khép tiếp điểm của chúng, cực (+) của nguồn thao tác được đưa đến tiếp điểm của 5RZ, 6RZ và đến cuộn dây của 7RT. </para>
+      <para id="id18332353">Nếu ngắn mạch xảy ra trong phạm vi vùng I, các rơle 5RZ, 8RGT sẽ khởi động và qua rơle 9Th sẽ đưa xung đi cắt 1MC với thời gian tI. Nếu xảy ra hư hỏng ở xa hơn trong vùng II, rơle 5RZ không khởi động, các rơle 6RZ và 10RT tạo thời gian tII của cấp thứ II sẽ khởi động và cho xung đi cắt 1MC qua rơle 11Th. Khi ngắn mạch xa hơn nữa trong vùng III, các rơle 5RZ và 6RZ sẽ không khởi động, 1MC bị cắt với thời gian tIII tạo nên bởi 7RT qua 12Th. Như vậy, trong sơ đồ đang xét bộ phận khoảng cách không kiểm soát vùng III và khi ngắn mạch trong vùng đó bảo vệ (theo hình 6.3) sẽ làm việc như là một bảo vệ dòng cực đại có hướng.</para>
+      <para id="id19100244">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      <para id="id18986979">Hình 6.3 : Sơ đồ nguyên lí 1 pha của bảo vệ khoảng cách</para>
+    </section>
+    <section id="id-573876793127">
+      <title>Tổng trở trên các cực của bộ phận khoảng cách:</title>
+      <para id="id18987003">Để thuận tiện cho tính toán và phân tích sự làm việc của các bộ phận khoảng cách, người ta đưa ra khái niệm về tổng trở trên các cực rơle.</para>
+      <para id="id18987010">Tổng trở giả tưởng này trong trường hợp chung không có ý nghĩa vật lí, nó chính là tỷ số giữa áp UR và dòng IR đưa vào rơle. Thực tế, khái niệm này được áp dụng rộng rãi do khi chọn đúng UR &amp; IR (ví du, áp dư của nhánh ngắn mạch và dòng gây nên áp dư đó) thì tổng trở giả tưởng trên các cực của rơle sẽ tỷ lệ với khoảng cách từ thanh góp của trạm có đặt bảo vệ đến điểm ngắn mạch trên đường dây.</para>
+      <table id="id18331964" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Tương tự như quan hệ vật lí đặc trưng bởi tam giác điện áp rơi, người ta phân ra (hình 6.4) tổng trở giả tưởng ZR = UR/IR , điện trở giả tưởng tác dụng rR = UR/IR cosR và phản kháng xR =UR/IR sinR . Tùy thuộc vào việc thực hiện bộ phận khoảng cách mà người ta dùng một trong các đại lượng giả tưởng nói trên.</entry>
+              <entry>
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Hình 6.4 : Đồ thị vectơ áp và dòng đưa vào các cực của bộ phận khoảng cách</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id19121188">Các bộ phận khoảng cách và khởi động luôn luôn dùng các rơle thứ cấp mà áp và dòng đưa đến chúng thông qua các máy biến đổi đo lường. Liên hệ giữa tổng trở sơ và thứ cấp, ví dụ đối với rơle tổng trơ, như sau :</para>
+      <para id="id19121202"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>U</m:mi><m:msub><m:mi>R</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:msub><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>I</m:mi><m:msub><m:mi>R</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:msub></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:msub><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>n</m:mi><m:mi>U</m:mi></m:msub></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>.</m:mtext><m:mfrac><m:msub><m:mi>U</m:mi><m:msub><m:mi>R</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mi>S</m:mi></m:mrow></m:mstyle></m:msub></m:msub><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>I</m:mi><m:msub><m:mi>R</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mi>S</m:mi></m:mrow></m:mstyle></m:msub></m:msub></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:msub><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>n</m:mi><m:mi>U</m:mi></m:msub></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>Z</m:mi><m:msub><m:mi>R</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mi>S</m:mi></m:mrow></m:mstyle></m:msub></m:msub></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{R rSub { size 6{T} } } } = {  {U rSub {R rSub { size 6{T} } } }  over  { size 12{I rSub {R rSub { size 6{T} } } } } }  size 12{ {}= {  {n rSub {I} }  over  { size 12{n rSub {U} } } } } size 12{ "."  {  {U rSub {R rSub { size 6{S} } } }  over  { size 12{I rSub {R rSub { size 6{S} } } } } } } size 12{ {}= {  {n rSub {I} }  over  { size 12{n rSub {U} } } } } size 12{Z rSub {R rSub { size 6{S} } } }} {}</m:annotation></m:semantics></m:math> (6.2)</para>
+      <para id="id18964053">Khi nI = nU thì 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>Z</m:mi><m:msub><m:mi>R</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mi>S</m:mi></m:mrow></m:mstyle></m:msub></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{R rSub { size 6{T} } } } =Z rSub {R rSub { size 6{S} } } } {}</m:annotation></m:semantics></m:math>. Để đơn giản, coi tổng trở thứ cấp bằng tổng trở sơ cấp, tức là coi các hệ số biến đổi nI và nU bằng nhau (coi nI = nU = 1).</para>
+    </section>
+    <section id="id-228106307188">
+      <title>Sử dụng mặt phẳng phức tổng trở để phân tích sự làm việc của rơle tổng trở :</title>
+      <para id="id18145764">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      <para id="id18611799">Hình 6.5 : Biểu diễn trong mặt phẳng phức tổng trở</para>
+      <para id="id18611813">a) tổng trở ở đầu cực rơle b) đường dây được bảo vệ</para>
+      <para id="id18611824">Việc nghiên cứu sự làm việc của rơle tổng trở nối vào một điện áp và một dòng điện được tiến hành rất tiện lợi trong mặt phẳng phức tổng trở ZR = (UR/IR).ejR (hình 6.5a). Góc R được tính từ trục (+) theo hướng ngược chiều kim đồng hồ, lúc đó vector IR xem như là gắn chặt trên trục (+). Hình chiếu của vector ZR lên trục j là thành phần phản kháng xR = ZRsinR và lên trục (+) là thành phần tác dụng rR = ZRcosR.</para>
+      <para id="id17851708">Đường dây BC được bảo vệ có tổng trở mang tính cảm, biễu diễn trong phần tư thứ 1 bằng số phức ZlBC =Z1.lBC.ej
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mrow/><m:mstyle fontsize="8pt"><m:mrow><m:mi>l</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {} rSub { size 8{l} } } {}</m:annotation></m:semantics></m:math>. Rơle tổng trơ đang xét đặt ở đầu đường dây BC về phía trạm B được xem như nằm ở gốc tọa độ (hình 6.5 b). Đường dây CD có tổng trở ZlCD =Z1.lCD.ej
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mrow/><m:mstyle fontsize="8pt"><m:mrow><m:mi>l</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {} rSub { size 8{l} } } {}</m:annotation></m:semantics></m:math>nằm ở phần tư thứ 1 trên đường kéo dài của số phức ZlBC ,còn đường dây AB có tổng trở ZlAB =Z1.lAB.ej
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mrow/><m:mstyle fontsize="8pt"><m:mrow><m:mi>l</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {} rSub { size 8{l} } } {}</m:annotation></m:semantics></m:math> nằm ở phần tư thứ 3 trên đường kéo dài về phía ngược lại.</para>
+      <para id="id18760418">Vùng I cuả bảo vệ đường dây BC được đặc trưng bởi tổng trở  0,85 ZlBC, khi không có những yếu tố làm sai lệch nhiều đến sự làm việc của bảo vệ thì rơle tổng trở cần có đặc tính khởi động bọc lấy số phức 0,85 ZlBC như vùng gạch chéo trên hình 6.5b. Thực tế để đảm bảo sự làm việc chắc chắn của bảo vệ, vùng khởi động của rơle tổng trở được mở rộng đáng kể (tất nhiên vị trí xác định điểm cuối của vùng bảo vệ thì không thể mở rộng).</para>
+      <para id="id18760458">Đặc tính khởi động ZKĐ= f(R) biễu diễn trong mặt phẳng phức là đường cong bọc lấy vùng khởi động. Theo dạng đặc tính khởi động người ta phân ra một số loại rơle tổng trở sau :</para>
+      <section id="id-845416378568">
+        <title>Rơle tổng trở vô hướng: </title>
+        <para id="id18343837">ZKĐ = k = const (6.3)</para>
+        <para id="id18343851">Đặc tính của rơle là vòng tròn có tâm ở gốc tọa độ (hình 6.6 a). Trị số tổng trở khởi động của rơle này không phụ thuộc góc R giữa UR và IR .</para>
+      </section>
+      <section id="id-35752313296">
+        <title>Rơle tổng trở có hướng có đặc tính vòng tròn:</title>
+        <para id="id18248110">ZKĐ = kcos(R + ) (6.4)</para>
+        <para id="id18317085">Đặc tính của rơle là vòng tròn đi qua gốc tọa độ (hình 6.6 b). Rơle sẽ có độ nhạy lớn nhất đặc trưng bằng ZKĐmax = k khi  = -R. Thường chọn  = - l do vậy khi xảy ra ngắn mạch trực tiếp trên đường dây, tương ứng với R = l, bảo vệ sẽ có độ nhạy lớn nhất.</para>
+        <para id="id17830959">Rơle định hướng công suất được xem như là rơle tổng trở có hướng có đặc tính vòng tròn với bán kính bằng vô cùng (hình 6.6c). Đặc tính như vậy là đường thẳng qua gốc tọa độ và tạo với trục (+) một góc (90o - ).</para>
+        <para id="id17529120">Nhược điểm của rơle tổng trở có hướng và rơle định hướng công suất là tồn tại vùng chết không những khi ngắn mạch ba pha mà cả khi ngắn mạch hai pha. Nguyên do là để rơle tổng trở làm việc đúng và để nhận được ZR tỷ lệ với khoảng cách đến chổ ngắn mạch, người ta đưa vào rơle dòng các pha hư hỏng và áp dư của các nhánh hư hỏng, nếu ngắn mạch trực tiếp ở gần chỗ đặt bảo vệ thì áp đưa vào rơle có thể tiến đến 0.</para>
+        <para id="id17529156">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id18839352">Hình 6.6 : Đặc tính khởi động của rơle tổng trở trong mặt phẳng phức </para>
+        <para id="id18839366">a) vô hướng b) có hướng c) định hướng công suất</para>
+        <para id="id18559090">d) hỗn hợp e) kết hợp rơle tổng trở có hướng và hỗn hợp</para>
+        <para id="id18559104">f ) phản kháng</para>
+      </section>
+      <section id="id-403458465075">
+        <title>Rơle hỗn hợp (tác dụng - phản kháng):</title>
+        <para id="id18559122"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Kå</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mi>α</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{ ital "Kå"} } =k {  {1}  over  {"cos" \( j rSub { size 8{R} } +α \) } } } {}</m:annotation></m:semantics></m:math> (6.5)</para>
+        <para id="id18110568">Đặc tính của rơle là các đường thẳng cách gốc tọa độ một khoảng bằng k (đường 1 và 2 - hình 6.6d ). Đường 1 ứng với giá trị  nằm trong khoảng (- , -/2), đường 2 - trong khoảng (0 , /2). Góc độ nhạy bé nhất của rơle là R = - . Đặc tính của rơle cắt các trục (+) và (+j) một khoảng tương ứng bằng</para>
+        <para id="id17528640">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mi>k</m:mi>
+                        <m:mrow>
+                          <m:mtext>cos</m:mtext>
+                          <m:mi>α</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>v</m:mi>
+                      <m:mover accent="true">
+                        <m:mi>a</m:mi>
+                        <m:mo stretchy="false">ˉ</m:mo>
+                      </m:mover>
+                      <m:mfrac>
+                        <m:mi>k</m:mi>
+                        <m:mrow>
+                          <m:mtext>sin</m:mtext>
+                          <m:mi>α</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {  {k}  over  {"cos"α} } v { bar  {a}} {  {k}  over  {"sin"α} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id17569973">Rơle loại này thường không sử dụng độc lập để làm bộ phận đo khoảng cách. Có thể dùng nó cho bảo vệ đường dây dài tải nặng để cắt bớt một phần vùng khởi động, ví dụ như cắt bớt một phần vùng khởi động của rơle tổng trở có hướng (hình 6.6 e).</para>
+      </section>
+      <section id="id-755518439217">
+        <title>Rơle tổng trở phản kháng: </title>
+        <para id="id17569996">XKĐ = k = const (6.6)</para>
+        <para id="id18220898">Đặc tính của rơle là đường thẳng song song với trục (+) (hình 6.6 f). Đây là trường hợp riêng của rơle hỗn hợp khi  = - /2.</para>
+        <para id="id18220926">Rơle tổng trở có thể là cực đại hoặc cực tiểu. Loại rơle tổng trở cực tiểu thích hợp hơn để làm bộ phận khởi động và khoảng cách.</para>
+        <para id="id18220936">Chế độ làm việc của đường dây được bảo vệ có thể đặc trưng bằng tổng trở phức ZR trên đầu cực rơle tổng trở. Số phức ZR này được biểu diễn ở một vị trí xác định trên mặt phẳng phức tổng trở. Vì vậy phân tích sự làm việc của rơle tổng trở nối vào một áp và một dòng có thể thực hiện bằng phương pháp đồ thị khi so sánh vùng có chứa ZR với vùng khởi động của bảo vệ.</para>
+      </section>
+    </section>
+    <section id="id-371733659939">
+      <title>Sơ đồ nối rơle tổng trở vào áp dây và hiệu dòng pha :</title>
+      <para id="id18366772">Tổ hợp các dòng và áp ở đầu cực của 3 rơle tổng trở nối theo sơ đồ hình 6.9 được đưa ra trong bảng 6.1</para>
+      <para id="id18366781">Khi N(3) tai điểm N (hình 6.10) cách chổ đặt bảo vệ một khoảng l, ta có :</para>
+      <para id="id18366800">IR(3) = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:msup><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup><m:mi>,</m:mi><m:msup><m:mrow/><m:mrow/></m:msup><m:mrow><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow><m:mtext>.</m:mtext><m:msup><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup><m:mtext>.</m:mtext><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mi>l</m:mi><m:mi>,</m:mi><m:msup><m:mrow/><m:mrow/></m:msup><m:mrow><m:mrow><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>Z</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>.</m:mtext><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {3} I rSup { size 8{ \( 3 \) } } , {}  rSup {} U rSub { size 8{R}   rSup { size 8{ \( 3 \) } } } = sqrt {3}  "." I rSup { size 8{ \( 3 \) } }  "." Z rSub { size 8{1} }  "." l, {}  rSup {} Z rSub { size 8{R}   rSup { size 8{ \( 3 \) } } } = {  {U rSub { size 8{R}   rSup { size 8{ \( 3 \) } } } }  over  {I rSub { size 8{R}   rSup { size 8{ \( 3 \) } } } } } =Z rSub {1}  size 12{ "." l}} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id18233274">Trong đó: Z1 - tổng trở thứ tự thuận của 1 Km đường dây quy về phía thứ cấp của các máy biến đổi đo lường theo (6.2).</para>
+      <para id="id18839391">Khi N(2) , ví dụ B và C, chỉ có rơle 2RZ nhận điện áp của nhánh ngắn mạch là làm việc đúng. Đối với nó :</para>
+      <para id="id18839414">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi fontstyle="italic">R2</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>2</m:mn>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msubsup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mn>2I</m:mn>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>2</m:mn>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mi>,</m:mi>
+                    <m:mover>
+                      <m:mrow/>
+                      <m:mrow/>
+                    </m:mover>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msubsup>
+                          <m:mi>U</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi fontstyle="italic">R2</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mn>2</m:mn>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msubsup>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msubsup>
+                          <m:mi>U</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>bc</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mn>2</m:mn>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msubsup>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mn>2I</m:mn>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>2</m:mn>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                    <m:msub>
+                      <m:mi>Z</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mi>l</m:mi>
+                    <m:mover>
+                      <m:mrow/>
+                      <m:mrow/>
+                    </m:mover>
+                    <m:mi>,</m:mi>
+                    <m:mover>
+                      <m:mrow/>
+                      <m:mrow/>
+                    </m:mover>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi fontstyle="italic">R2</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>2</m:mn>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msubsup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>l</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msubsup>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>R</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>3</m:mn>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msubsup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{R2} }  rSup { size 8{ \( 2 \) } } =2I rSup { size 8{ \( 2 \) } } , {}  cSup {} U rSub { size 8{R2} }  rSup { size 8{ \( 2 \) } } =U rSub { size 8{ ital "bc"} }  rSup { size 8{ \( 2 \) } } =2I rSup { size 8{ \( 2 \) } } Z rSub { size 8{1} } l {}  cSup {} , {}  cSup {} Z rSub { size 8{R2} }  rSup { size 8{ \( 2 \) } } =Z rSub { size 8{1} } l=Z rSub { size 8{R} }  rSup { size 8{ \( 3 \) } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id17944789">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      <para id="id17431645">Hình 6.9 : Sơ đồ nối rơle tổng trở vào áp dây và hiệu dòng pha</para>
+      <para id="id18899685">a) khi các BI nối  b) khi dùng BI trung gian không bảo hòa</para>
+      <para id="id18899708">Bảng 6.1</para>
+      <table id="id18899713" summary="">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry>Rơle</entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mover>
+                              <m:mi>I</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>.</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mover>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>R</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {I}  cSup { size 8{ "." } }  rSub { size 8{R} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mover>
+                              <m:mi>U</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>.</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mover>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>R</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {U}  cSup { size 8{ "." } }  rSub { size 8{R} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>1RZ</entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mover>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>a</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msub>
+                              <m:mover>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>b</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {I}  cSup { size 8{ "." } }  rSub { size 8{a} } - {I}  cSup { size 8{ "." } }  rSub { size 8{b} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mover>
+                              <m:mi>U</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>.</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mover>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>ab</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {U}  cSup { size 8{ "." } }  rSub { size 8{ ital "ab"} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>2RZ</entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mover>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>b</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msub>
+                              <m:mover>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>c</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {I}  cSup { size 8{ "." } }  rSub { size 8{b} } - {I}  cSup { size 8{ "." } }  rSub { size 8{c} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mover>
+                              <m:mi>U</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>.</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mover>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>bc</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {U}  cSup { size 8{ "." } }  rSub { size 8{ ital "bc"} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>3RZ</entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mover>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>c</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msub>
+                              <m:mover>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>a</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {I}  cSup { size 8{ "." } }  rSub { size 8{c} } - {I}  cSup { size 8{ "." } }  rSub { size 8{a} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mover>
+                              <m:mi>U</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>.</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mover>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>ca</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {U}  cSup { size 8{ "." } }  rSub { size 8{ ital "ca"} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table id="id18286300" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Đưa vào đầu cực các rơle 1RZ và 3RZ là dòng điện I(2) và điện áp lớn hơn Ubc(2) . Vì vậy, tổng trở trên các cực của rơle 1RZ và 3RZ tăng lên và bảo vệ sẽ không tác động nhầm.Khi ngắn mạch 2 pha chạm đất (ví dụ B và C) trong mạng có dòng chạm đất lớn, cũng chỉ có 2RZ làm việc đúng. Đối với nó:</entry>
+              <entry>
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Hình 6.10 : Ngắn mạch trên đường dâyđược bảo vệ</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id18449984">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:msubsup>
+                      <m:mi>U</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi fontstyle="italic">R2</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mn>1,1</m:mn>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msubsup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mrow>
+                        <m:msubsup>
+                          <m:mover>
+                            <m:mi>U</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>b</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mn>1,1</m:mn>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msubsup>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msubsup>
+                          <m:mover>
+                            <m:mi>U</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>c</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mn>1,1</m:mn>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msubsup>
+                      </m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{U rSub { size 8{R2} }  rSup { size 8{ \( 1,1 \) } } = lline  {U}  cSup { size 8{ "." } }  rSub { size 8{b} }  rSup { size 8{ \( 1,1 \) } } - {U}  cSup { size 8{ "." } }  rSub { size 8{c} }  rSup { size 8{ \( 1,1 \) } }  rline } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id18332409">trong đó : 
+<m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msubsup><m:mover><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup><m:mo stretchy="false">=</m:mo><m:msubsup><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup></m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>L</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:msubsup><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup></m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>M</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:msubsup><m:mover><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup><m:mo stretchy="false">=</m:mo><m:msubsup><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup></m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>L</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:msubsup><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup></m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>M</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mi>l</m:mi><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ {U}  cSup { size 8{ "." } }  rSub { size 8{b} }  rSup { size 8{ \( 1,1 \) } } = {I}  cSup { size 8{ "." } }  rSub { size 8{b} }  rSup { size 8{ \( 1,1 \) } }  "." Z rSub { size 8{L} }  "." l+ {I}  cSup { size 8{ "." } }  rSub { size 8{c} }  rSup { size 8{ \( 1,1 \) } }  "." Z rSub { size 8{M} }  "." l}  {} # 
+ {U}  cSup { size 8{ "." } }  rSub { size 8{c} }  rSup { size 8{ \( 1,1 \) } } = {I}  cSup { size 8{ "." } }  rSub { size 8{c} }  rSup { size 8{ \( 1,1 \) } }  "." Z rSub { size 8{L} }  "." l+ {I}  cSup { size 8{ "." } }  rSub { size 8{b} }  rSup { size 8{ \( 1,1 \) } }  "." Z rSub { size 8{M} }  "." l {} 
+} } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id18494469">Khi thay ZL - ZM = Z1, ta có : </para>
+      <para id="id18079834">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msubsup>
+                          <m:mi>Z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi fontstyle="italic">R2</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mn>1,1</m:mn>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msubsup>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:msubsup>
+                            <m:mi>U</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi fontstyle="italic">R2</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mn>1,1</m:mn>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msubsup>
+                          <m:msubsup>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi fontstyle="italic">R2</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mn>1,1</m:mn>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msubsup>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mo stretchy="false">∣</m:mo>
+                          <m:mrow>
+                            <m:msubsup>
+                              <m:mover>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>b</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">(</m:mo>
+                                    <m:mn>1,1</m:mn>
+                                    <m:mo stretchy="false">)</m:mo>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msubsup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msubsup>
+                              <m:mover>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>c</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">(</m:mo>
+                                    <m:mn>1,1</m:mn>
+                                    <m:mo stretchy="false">)</m:mo>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msubsup>
+                          </m:mrow>
+                          <m:mo stretchy="false">∣</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">∣</m:mo>
+                          <m:mrow>
+                            <m:msubsup>
+                              <m:mover>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>b</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">(</m:mo>
+                                    <m:mn>1,1</m:mn>
+                                    <m:mo stretchy="false">)</m:mo>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msubsup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msubsup>
+                              <m:mover>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>c</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">(</m:mo>
+                                    <m:mn>1,1</m:mn>
+                                    <m:mo stretchy="false">)</m:mo>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msubsup>
+                          </m:mrow>
+                          <m:mo stretchy="false">∣</m:mo>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:msub>
+                      <m:mi>Z</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mrow>
+                      <m:mi>l</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>l</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msubsup>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>R</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>3</m:mn>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msubsup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{R2} }  rSup { size 8{ \( 1,1 \) } } = {  {U rSub { size 8{R2} }  rSup { size 8{ \( 1,1 \) } } }  over  {I rSub { size 8{R2} }  rSup { size 8{ \( 1,1 \) } } } } = {  { lline  {I}  cSup { size 8{ "." } }  rSub { size 8{b} }  rSup { size 8{ \( 1,1 \) } } - {I}  cSup { size 8{ "." } }  rSub { size 8{c} }  rSup { size 8{ \( 1,1 \) } }  rline }  over  { lline  {I}  cSup { size 8{ "." } }  rSub { size 8{b} }  rSup { size 8{ \( 1,1 \) } } - {I}  cSup { size 8{ "." } }  rSub { size 8{c} }  rSup { size 8{ \( 1,1 \) } }  rline } } Z rSub { size 8{1} } l=Z rSub { size 8{1} } l=Z rSub { size 8{R} }  rSup { size 8{ \( 3 \) } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id18246212">Như vậy, sơ đồ đang xét đảm bảo tổng trở ZR giống nhau đối với tất cả các dạng ngắn mạch nhiều pha ở một điểm. Sơ đồ nối rơle vào hiệu dòng pha còn được thực hiện qua máy biến dòng trung gian không bảo hòa có 2 cuộn sơ (hình 6.9b).</para>
+      <para id="id18246238">Nhược điểm chủ yếu của sơ đồ là phải dùng 3 rơle tổng trở chỉ để chống ngắn mạch nhiều pha ở một điểm. Để khắc phục, người ta dùng chỉ 1 rơle tổng trở và thiết bị tự động chuyển mạch áp và dòng đối với các dạng ngắn mạch khác nhau.</para>
+    </section>
+    <section id="id-759953640165">
+      <title>Sơ đồ nối rơle tổng trở vào áp pha và dòng pha có bù thành phần thứ tự không - Sơ đồ bù dòng :</title>
+      <para id="id18220967">Tổ hợp các dòng và áp ở đầu cực ba rơle tổng trở cho trong bảng 6.2. Khi N(1) chạm đất, ví dụ pha A, tại điểm N của đường dây (hình 6.10), chỉ có rơle 1RZ (hình 6.11) nối vào áp của nhánh ngắn mạch Ua là tác động đúng. Với:</para>
+      <para id="id17555965">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mover>
+                        <m:mi>U</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mtext>.</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mover>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>a</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>U</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>U</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msub>
+                        <m:mover>
+                          <m:mi>U</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>.</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {U}  cSup { size 8{ "." } }  rSub { size 8{a} } = {U}  cSup { size 8{ "." } }  rSub { size 8{1} } + {U}  cSup { size 8{ "." } }  rSub { size 8{2} } + {U}  cSup { size 8{ "." } }  rSub { size 8{0} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id16690854">Ap của một thứ tự bất kỳ được xác định bằng tổng của áp ở điểm ngắn mạch N và áp rơi trên chiều dài l, vídụ:</para>
+      <para id="id17840248">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mover>
+                          <m:mi>U</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>.</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>U</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>0N</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:msub>
+                      <m:mi>Z</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mi>l</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {U}  cSup { size 8{ "." } }  rSub { size 8{0} } = {U}  cSup { size 8{ "." } }  rSub { size 8{0N} } + {I}  cSup { size 8{ "." } }  rSub { size 8{0} } Z rSub { size 8{0} } l} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id18730561">Vì vậy: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mover><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mover><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mn>1N</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mover><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mn>2N</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mover><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mn>0N</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {U}  cSup { size 8{ "." } }  rSub { size 8{a} } = {U}  cSup { size 8{ "." } }  rSub { size 8{1N} } + {I}  cSup { size 8{ "." } }  rSub { size 8{1} } Z rSub { size 8{1} } l+ {U}  cSup { size 8{ "." } }  rSub { size 8{2N} } + {I}  cSup { size 8{ "." } }  rSub { size 8{2} } Z rSub { size 8{2} } l+ {U}  cSup { size 8{ "." } }  rSub { size 8{0N} } + {I}  cSup { size 8{ "." } }  rSub { size 8{0} } Z rSub { size 8{0} } l} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id12881081">Tổng 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mover><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msub><m:mover><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mn>1N</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mover><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mn>2N</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mover><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mn>0N</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {U}  cSup { size 8{ "." } }  rSub { size 8{N} } = {U}  cSup { size 8{ "." } }  rSub { size 8{1N} } + {U}  cSup { size 8{ "." } }  rSub { size 8{2N} } + {U}  cSup { size 8{ "." } }  rSub { size 8{0N} } =0} {}</m:annotation></m:semantics></m:math> vì đó là áp tại điểm hư hỏng. Đối với đường dây thì Z1 = Z2 . Do vậy :</para>
+      <para id="id17527352">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mover>
+                                  <m:mi>U</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mtext>.</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>a</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:msub>
+                                <m:mover>
+                                  <m:mi>I</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mtext>.</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                            <m:msub>
+                              <m:mi>Z</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mrow>
+                              <m:mi>l</m:mi>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msub>
+                                <m:mover>
+                                  <m:mi>I</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mtext>.</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                            <m:msub>
+                              <m:mi>Z</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mrow>
+                              <m:mi>l</m:mi>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msub>
+                                <m:mover>
+                                  <m:mi>I</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mtext>.</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>0</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                            <m:msub>
+                              <m:mi>Z</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>0</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mi>l</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow/>
+                      <m:msub>
+                        <m:mover>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>.</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mi>l</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mi>l</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mi>l</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mover>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>.</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mi>l</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mi>l</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow/>
+                      <m:msub>
+                        <m:mover>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>.</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mi>l</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>l</m:mi>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ {U}  cSup { size 8{ "." } }  rSub { size 8{a} } = {I}  cSup { size 8{ "." } }  rSub { size 8{1} } Z rSub { size 8{1} } l+ {I}  cSup { size 8{ "." } }  rSub { size 8{2} } Z rSub { size 8{1} } l+ {I}  cSup { size 8{ "." } }  rSub { size 8{0} } Z rSub { size 8{0} } l}  {} # 
+= {I}  cSup { size 8{ "." } }  rSub { size 8{1} } Z rSub { size 8{1} } l+ {I}  cSup { size 8{ "." } }  rSub { size 8{2} } Z rSub { size 8{1} } l+ {I}  cSup { size 8{ "." } }  rSub { size 8{0} } Z rSub { size 8{0} } l+ \(  {I}  cSup { size 8{ "." } }  rSub { size 8{0} } Z rSub { size 8{1} } l- {I}  cSup { size 8{ "." } }  rSub { size 8{0} } Z rSub { size 8{1} } l \)  {} # 
+= {I}  cSup { size 8{ "." } }  rSub { size 8{a} } Z rSub { size 8{1} } l+ {I}  cSup { size 8{ "." } }  rSub { size 8{0} }  \( Z rSub { size 8{0} } -Z rSub { size 8{1} }  \) l "."  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id18899632">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      <para id="id18781959">Hình 6.11 : Sơ đồ nối rơle tổng trở vào áp pha và dòng pha </para>
+      <para id="id18781973">có bù thành phần dòng điện thứ tự không</para>
+      <para id="id18068975">Bảng 6.2</para>
+      <table id="id18068983" summary="">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry>Rơle</entry>
+              <entry>IR</entry>
+              <entry>UR</entry>
+            </row>
+            <row>
+              <entry>1RZ</entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mover>
+                                  <m:mi>I</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mtext>.</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>a</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mi>k</m:mi>
+                            </m:mrow>
+                            <m:mtext>.</m:mtext>
+                            <m:msub>
+                              <m:mover>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>0</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {I}  cSup { size 8{ "." } }  rSub { size 8{a} } +k "."  {I}  cSup { size 8{ "." } }  rSub { size 8{0} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mover>
+                              <m:mi>U</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>.</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mover>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>a</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {U}  cSup { size 8{ "." } }  rSub { size 8{a} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>2RZ</entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mover>
+                                  <m:mi>I</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mtext>.</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>b</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mi>k</m:mi>
+                            </m:mrow>
+                            <m:mtext>.</m:mtext>
+                            <m:msub>
+                              <m:mover>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>0</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {I}  cSup { size 8{ "." } }  rSub { size 8{b} } +k "."  {I}  cSup { size 8{ "." } }  rSub { size 8{0} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mover>
+                              <m:mi>U</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>.</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mover>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>b</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {U}  cSup { size 8{ "." } }  rSub { size 8{b} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>3RZ</entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mover>
+                                  <m:mi>I</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mtext>.</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>c</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mi>k</m:mi>
+                            </m:mrow>
+                            <m:mtext>.</m:mtext>
+                            <m:msub>
+                              <m:mover>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>0</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {I}  cSup { size 8{ "." } }  rSub { size 8{c} } +k "."  {I}  cSup { size 8{ "." } }  rSub { size 8{0} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mover>
+                              <m:mi>U</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>.</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mover>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>c</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {U}  cSup { size 8{ "." } }  rSub { size 8{c} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id18345979">Nếu chon hệ số bù 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mover><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mover><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mover><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {k}  cSup { size 8{ "." } } = {  { {Z}  cSup { size 8{ "." } }  rSub { size 8{0} } - {Z}  cSup { size 8{ "." } }  rSub { size 8{1} } }  over  { {Z}  cSup { size 8{ "." } }  rSub { size 8{1} } } } } {}</m:annotation></m:semantics></m:math>thì tổng trở trên các cực của rơle 1RZ sẽ là:</para>
+      <para id="id18614982">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msubsup>
+                          <m:mi>Z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi fontstyle="italic">R1</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mn>1</m:mn>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msubsup>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mo stretchy="false">∣</m:mo>
+                            <m:msub>
+                              <m:mover>
+                                <m:mi>U</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>a</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">∣</m:mo>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">∣</m:mo>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:msub>
+                                  <m:mover>
+                                    <m:mi>I</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mtext>.</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:mover>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mi>a</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mover>
+                                  <m:mi>k</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mtext>.</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                              </m:mrow>
+                              <m:msub>
+                                <m:mover>
+                                  <m:mi>I</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mtext>.</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>0</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                            <m:mo stretchy="false">∣</m:mo>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mo stretchy="false">∣</m:mo>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mover>
+                                  <m:mi>I</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mtext>.</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>a</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mover>
+                                    <m:msub>
+                                      <m:mi>Z</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>0</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msub>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mtext>.</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:mover>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mover>
+                                    <m:msub>
+                                      <m:mi>Z</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>1</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msub>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mtext>.</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:mover>
+                                </m:mrow>
+                                <m:mover>
+                                  <m:msub>
+                                    <m:mi>Z</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mtext>.</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:msub>
+                              <m:mover>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>0</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">∣</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">∣</m:mo>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mover>
+                                  <m:mi>I</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mtext>.</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>a</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mover>
+                                <m:mi>k</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                            </m:mrow>
+                            <m:msub>
+                              <m:mover>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>0</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">∣</m:mo>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:msub>
+                      <m:mi>Z</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mrow>
+                      <m:mi>l</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mi>l</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{R1} }  rSup { size 8{ \( 1 \) } } = {  { lline  {U}  cSup { size 8{ "." } }  rSub { size 8{a} }  rline }  over  { lline  {I}  cSup { size 8{ "." } }  rSub { size 8{a} } + {k}  cSup { size 8{ "." } }  {I}  cSup { size 8{ "." } }  rSub { size 8{0} }  rline } } = {  { lline  {I}  cSup { size 8{ "." } }  rSub { size 8{a} } + {  { {Z rSub { size 8{0} } }  cSup { size 8{ "." } } - {Z rSub { size 8{1} } }  cSup { size 8{ "." } } }  over  { {Z rSub { size 8{1} } }  cSup { size 8{ "." } } } }  {I}  cSup { size 8{ "." } }  rSub { size 8{0} }  rline }  over  { lline  {I}  cSup { size 8{ "." } }  rSub { size 8{a} } + {k}  cSup { size 8{ "." } }  {I}  cSup { size 8{ "." } }  rSub { size 8{0} }  rline } }  "." Z rSub { size 8{1} } l=Z rSub { size 8{1} } l} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id18703417">Tổng trở trên các cực của rơle tổng trở 2RZ , 3RZ của các pha không hư hỏng tăng lên, vì vậy bảo vệ sẽ không tác động nhầm. </para>
+      <para id="id18218212">Góc tổng trở Z0 và Z1 là không như nhau, do vậy trong trường hợp tổng quát hệ số k là một số phức. Để thuận tiện, người ta bỏ qua sự khác biệt của góc tổng trở Z1, Z0 và chọn k = (Z0-Z1)/Z1 hay k =(x0-x1)/x1. Trường hợp này tương ứng với sơ đồ hình 6.11, rơle tổng trở được cung cấp bằng dòng điện qua BI trung gian không bão hòa. Ví dụ : lấy Z0  3,5Z1 (đối với đường dây trên không có dây chống sét), ta sẽ có k = 2,5. Để tạo nên lực từ hóa tổng tỷ lệ với Ip + kI0, quan hệ của số vòng Wp và W0 của hai cuộn sơ có dòng Ip và 3I0 cần phải tương ứng với biểu thức : </para>
+      <para id="id18405750">Wp : W0 = 1 : k/3  1 : 0,83.</para>
+      <para id="id17831242">Sơ đồ có thể tác động đúng không những khi ngắn mạch một pha mà cả khi ngắn mạch hai pha chạm đất và khi chạm đất kép ở các phần tử có I0  0 trong mạng có dòng chạm đất bé.</para>
+      <para id="id18400056">Để kết luận, cần lưu ý rằng khi loại trừ sự bù dòng khỏi sơ đồ đã xét trên, tức là IR là dòng pha thì : ZR = Z1.l + (I0/IR).(Z0 - Z1).l . Lúc đó tổng trở ZR phụ thuộc không những vào khoảng cách l mà còn vào tỷ số I0/Ip. Tỷ số này có thể thay đổi trong phạm vi rộng khi thay đổi chế độ làm việc của hệ thống. Chính điều đó làm cho hạn chế khả năng ứng dụng của sơ đồ.</para>
+    </section>
+    <section id="id-37716798331">
+      <title>Sơ đồ sử dụng một rơle tổng trở có chuyển mạch ở mạch điện áp để tác động khi ngắn mạch nhiều pha :</title>
+      <para id="id17483292">Sơ đồ được thực hiện nhờ rơle tổng trở 1RZ nối vào hiệu dòng hai pha (theo hình 6.12, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {I}  cSup { size 8{ "." } }  rSub { size 8{R} } = {I}  cSup { size 8{ "." } }  rSub { size 8{a} } - {I}  cSup { size 8{ "." } }  rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>) và điện áp tỷ lệ hoặc bằng áp dư của nhánh ngắn mạch khi ngắn mạch giữa các pha. Các bộ phận khởi động dòng 2RI và 3RI nối vào dòng pha làm nhiệm vụ xác định dạng ngắn mạch và tự chuyển mạch điện áp.</para>
+      <para id="id18090088">Khi N(3) hay
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msubsup><m:mi>N</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{ ital "AC"} }  rSup { size 8{ \( 2 \) } } } {}</m:annotation></m:semantics></m:math>, rơle 2RI và 3RI khởi động đưa áp Uac đến rơle 1RZ. Vì vậy:</para>
+      <para id="id16223582">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:msubsup>
+                                  <m:mi>Z</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mi>R</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mrow>
+                                        <m:mo stretchy="false">(</m:mo>
+                                        <m:mn>3</m:mn>
+                                        <m:mo stretchy="false">)</m:mo>
+                                      </m:mrow>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msubsup>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:msqrt>
+                                      <m:mn>3</m:mn>
+                                    </m:msqrt>
+                                    <m:msup>
+                                      <m:mi>I</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mrow>
+                                            <m:mo stretchy="false">(</m:mo>
+                                            <m:mn>3</m:mn>
+                                            <m:mo stretchy="false">)</m:mo>
+                                          </m:mrow>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                    <m:msub>
+                                      <m:mi>Z</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>1</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msub>
+                                    <m:mi>l</m:mi>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:msqrt>
+                                      <m:mn>3</m:mn>
+                                    </m:msqrt>
+                                    <m:msup>
+                                      <m:mi>I</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mrow>
+                                            <m:mo stretchy="false">(</m:mo>
+                                            <m:mn>3</m:mn>
+                                            <m:mo stretchy="false">)</m:mo>
+                                          </m:mrow>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                  </m:mrow>
+                                </m:mfrac>
+                              </m:mrow>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:msub>
+                                <m:mi>Z</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                            <m:mi>l</m:mi>
+                            <m:mtext>.</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msubsup>
+                            <m:mi>Z</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>Rac</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mn>2</m:mn>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msubsup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mn>2I</m:mn>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mo stretchy="false">(</m:mo>
+                                      <m:mn>2</m:mn>
+                                      <m:mo stretchy="false">)</m:mo>
+                                    </m:mrow>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:msub>
+                                <m:mi>Z</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mi>l</m:mi>
+                            </m:mrow>
+                            <m:msup>
+                              <m:mn>2I</m:mn>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">(</m:mo>
+                                    <m:mn>2</m:mn>
+                                    <m:mo stretchy="false">)</m:mo>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mi>l</m:mi>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{Z rSub { size 8{R} }  rSup { size 8{ \( 3 \) } } = {  { sqrt {3} I rSup { size 8{ \( 3 \) } } Z rSub { size 8{1} } l}  over  { sqrt {3} I rSup { size 8{ \( 3 \) } } } } =Z rSub { size 8{1} } l "." }  {} # 
+Z rSub { size 8{ ital "Rac"} }  rSup { size 8{ \( 2 \) } } = {  {2I rSup { size 8{ \( 2 \) } } Z rSub { size 8{1} } l}  over  {2I rSup { size 8{ \( 2 \) } } } } =Z rSub { size 8{1} } l "."  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id9239280">Khi 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msubsup><m:mi>N</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup><m:mi>,</m:mi><m:msubsup><m:mi>N</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{ ital "AB"} }  rSup { size 8{ \( 2 \) } } ,N rSub { size 8{ ital "BC"} }  rSup { size 8{ \( 2 \) } } } {}</m:annotation></m:semantics></m:math> đưa đến 1RZ là dòng 1 pha, tương ứng là 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mrow><m:mover><m:mrow/><m:mrow/></m:mover><m:mo stretchy="false">−</m:mo><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {I}  cSup { size 8{ "." } }  rSub { size 8{a} } , {}  cSup {} - {I}  cSup { size 8{ "." } }  rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id18920896">Để ZR có được giá trị tỷ lệ với khoảng cách l, áp đưa đến rơle phải giảm 2 lần nhờ điện trở phụ (hình 6.12a) hoặc biến áp tự ngẫu (hình 6.12b). Sơ đồ hình 6.12b cần thiết đối với những rơle tổng trở làm việc theo cả giá trị và góc lệch pha giữa UR và IR (ví dụ rơle tổng trở có hướng, hình 6.6b).</para>
+      <para id="id18920941">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      <para id="id18961598">Hình 6.12 : Sơ đồ nối một rơle tổng trở có chuyển mạch ở mạch điện áp</para>
+      <para id="id18961613">để tác động khi ngắn mạch giữa các pha.</para>
+      <para id="id18961618">a. dùng điện trở phụb. dùng biến áp tự ngẫu</para>
+      <para id="id18413898">Như vậy, khi 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msubsup><m:mi>N</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{ ital "AB"} }  rSup { size 8{ \( 2 \) } } } {}</m:annotation></m:semantics></m:math> ta có:</para>
+      <para id="id18317301">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msubsup>
+                          <m:mi>Z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>Rab</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mn>2</m:mn>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msubsup>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mn>0,5</m:mn>
+                            <m:msubsup>
+                              <m:mi>U</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>ab</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">(</m:mo>
+                                    <m:mn>2</m:mn>
+                                    <m:mo stretchy="false">)</m:mo>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msubsup>
+                          </m:mrow>
+                          <m:msubsup>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>a</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mn>2</m:mn>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msubsup>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>0,5</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msubsup>
+                            <m:mn>2I</m:mn>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>a</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mn>2</m:mn>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msubsup>
+                          <m:msub>
+                            <m:mi>Z</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mi>l</m:mi>
+                        </m:mrow>
+                        <m:msubsup>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mn>2</m:mn>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msubsup>
+                      </m:mfrac>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mi>l</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{ ital "Rab"} }  rSup { size 8{ \( 2 \) } } = {  {0,5U rSub { size 8{ ital "ab"} }  rSup { size 8{ \( 2 \) } } }  over  {I rSub { size 8{a} }  rSup { size 8{ \( 2 \) } } } } =0,5 {  {2I rSub { size 8{a} }  rSup { size 8{ \( 2 \) } } Z rSub { size 8{1} } l}  over  {I rSub { size 8{a} }  rSup { size 8{ \( 2 \) } } } } =Z rSub { size 8{1} } l} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id18315253">Như vậy, có thể đảm bảo ZR như nhau đối với tất cả những dạng ngắn mạch giữa các pha. Tuy nhiên , khi 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msubsup><m:mi>N</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{ ital "AB"} }  rSup { size 8{ \( 2 \) } } } {}</m:annotation></m:semantics></m:math> hoặc 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msubsup><m:mi>N</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{ ital "BC"} }  rSup { size 8{ \( 2 \) } } } {}</m:annotation></m:semantics></m:math> thì dòng phụ tải qua pha không hư hỏng (tương ứng là dòng pha C hoặc A) sẽ ảnh hưởng đến sự làm việc của rơle.</para>
+      <para id="id17842866">Trị số ZR­ cũng có thể sai lệch do bộ phận khởi động làm việc không đúng (chỉ có một rơle RI khởi động) trong trường hợp dòng ngắn mạch gần với dòng khởi động của chúng. Lúc đó, tổng trở ZR có thể giảm nhiều do đưa tới rơle tổng trở một điện áp giảm thấp (trường hợp giới hạn giảm hai lần).</para>
+      <para id="id18252189">Ưu điểm của sơ đồ là tương đối đơn giản và chỉ dùng một rơle tổng trở. Tuy nhiên, xét đến những nhược điểm nêu trên và nhiều nhược điểm khác, sơ đồ chỉ hạn chế áp dụng, chẳng hạn như, cho bảo vệ chống ngắn mạch nhiều pha đường dây cụt. </para>
+    </section>
+    <section id="id-731479874563">
+      <title>Các yếu tố ảnh hưởng đến sự làm việc của bảo vệ khoảng cách</title>
+      <section id="id-949720006814">
+        <title>Ảnh hưởngcủa điện trở quá độ đến đến sự làm việc của bộ phận khoảng cách :</title>
+        <para id="id18252224">Anh hưởng của điện trở quá độ rqđ đến sự làm việc của bộ phận khoảng cách được xét đối với mạng hở có nguồn cấp từ hai phía (hình 6.13)</para>
+        <para id="id18077725">Ở đầu cực rơle tổng trở đặt ở đường dây AB về phía trạm A (ví du, nối với áp dây và hiệu dòng pha) khi N(2) qua rqđ ở đầu đường dây BC sẽ có tổng trở bằng :</para>
+        <para id="id18077754"><m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>RA</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mover><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>d</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>d</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NAB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>l</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>q</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NAB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>l</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NAB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>q</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:msup><m:mrow/><m:mrow/></m:msup><m:mrow><m:mover><m:mrow/><m:mrow/></m:mover><m:mo stretchy="false">=</m:mo><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>l</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NAB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>q</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">jα</m:mi></m:mrow></m:mstyle></m:msup><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{Z rSub { size 8{ ital "RA"} } = {  { {U}  cSup { size 8{ "." } }  rSub { size 8{d} } }  over  { {I}  cSup { size 8{ "." } }  rSub { size 8{d} } } } = {  { {I}  cSup { size 8{ "." } }  rSub { size 8{ ital "NAB"} } Z rSub { size 8{1} } l rSub { size 8{ ital "AB"} } + {I}  cSup { size 8{ "." } }  rSub { size 8{N} } r rSub { size 8{ ital "q"} } }  over  { {I}  cSup { size 8{ "." } }  rSub { size 8{ ital "NAB"} } } } =Z rSub { size 8{1} } l rSub { size 8{ ital "AB"} } + {  { {I}  cSup { size 8{ "." } }  rSub { size 8{N} } }  over  { {I}  cSup { size 8{ "." } }  rSub { size 8{ ital "NAB"} } } } r rSub { size 8{ ital "q"} } }  {} # 
+ {}  rSup {}  {}  cSup {} =Z rSub { size 8{1} } l rSub { size 8{ ital "AB"} } + {  {I rSub { size 8{N} } }  over  {I rSub { size 8{ ital "NAB"} } } } r rSub { size 8{ ital "q"} } e rSup { size 8{jα} }  {} 
+} } {}</m:annotation></m:semantics></m:math> (6.13)</para>
+        <para id="id17828538">trong đó:  - góc lệch pha giữa dòng IN ở điểm hư hỏng và dòng INAB.</para>
+        <para id="id17828570">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <table id="id18496903" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Hình 6.13 : Ảnh hưởng của điện trở quá độ đến sự làm việc của rơle tổng trở.a) sơ đồ mạngb) tổng trở ở đầu cực rơle</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id17944513">Tương tự đối với rơle tổng trở nối vào đường dây BC về phía trạm C khi hư hỏng ở cùng điểm đó :</para>
+        <para id="id17944521">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>RC</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>l</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>BC</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mover>
+                              <m:mi>I</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>.</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mover>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>N</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mover>
+                              <m:mi>I</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>.</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mover>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>NBC</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>r</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>q</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>l</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>BC</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>N</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>NBC</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>r</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>q</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:msup>
+                        <m:mi>e</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi fontstyle="italic">jβ</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{ ital "RC"} } =Z rSub { size 8{1} } l rSub { size 8{ ital "BC"} } + {  { {I}  cSup { size 8{ "." } }  rSub { size 8{N} } }  over  { {I}  cSup { size 8{ "." } }  rSub { size 8{ ital "NBC"} } } } r rSub { size 8{ ital "q"} } =Z rSub { size 8{1} } l rSub { size 8{ ital "BC"} } + {  {I rSub { size 8{N} } }  over  {I rSub { size 8{ ital "NBC"} } } } r rSub { size 8{ ital "q"} } e rSup { size 8{jβ} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id18973124"> - góc lệch pha giữa dòng IN và dòng INBC trong đường dây BC, nếu  dương và IN vượt trước INBC , thì góc  sẽ âm vì IN chậm sau INAB .</para>
+        <para id="id18289629">Tổng trở ở đầu cực rơle của đường dây BC đặt về phía trạm B, dù khoảng cách từ nó đến điểm ngắn mạch bằng 0, vẫn có một giá trị hữu hạn:</para>
+        <para id="id18810097">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>RB</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mover>
+                              <m:mi>I</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>.</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mover>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>N</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mover>
+                              <m:mi>I</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>.</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mover>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>NAB</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>r</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>q</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{ ital "RB"} } = {  { {I}  cSup { size 8{ "." } }  rSub { size 8{N} } }  over  { {I}  cSup { size 8{ "." } }  rSub { size 8{ ital "NAB"} } } } r rSub { size 8{ ital "q"} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id18220756">Các biểu thức nói trên cho thấy điện trở qúa độ rqđ trong trường hợp chung làm sai lệch sự làm việc của các rơle tổng trở, tổng trở ZR ở đầu cực của chúng sẽ không còn tỷ lệ với khoảng cách l đến điểm hư hỏng.</para>
+        <para id="id16712631">Tổng trở ở đầu cực rơle tăng lên do rqđ làm cho điểm ngắn mạch như là lùi xa hơn và bảo vệ có thể tác động với thời gian lớn hơn của cấp sau, ví dụ cấp II thay vì cấp I. Như vậy, do ảnh hưởng của rqđ bảo vệ khoảng cách sẽ có thể tác động chậm hơn nhưng vẫn không mất tính chọn lọc.</para>
+      </section>
+      <section id="id-143114742555">
+        <title>Anh hưởng của trạm trung gian:</title>
+        <para id="id16712667">Trên hình 6.17a là một phần của mạng điện, xét ngắn mạch xảy ra ở đoạn BD cách thanh góp B một khỏang l. Qua các đoạn AB và CB có dòng IAB và ICB. Dòng ngắn mạch trên đoạn hư hỏng BD là:</para>
+        <para id="id18822098">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mover>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>.</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>BD</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>AB</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>CB</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {I}  cSup { size 8{ "." } }  rSub { size 8{ ital "BD"} } = {I}  cSup { size 8{ "." } }  rSub { size 8{ ital "AB"} } + {I}  cSup { size 8{ "." } }  rSub { size 8{ ital "CB"} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id18383741">Khi ngắn mạch nhiều pha, tổng trở ở đầu cực rơle tổng trở đặt về phía trạm A của đường dây AB là :</para>
+        <para id="id18383750"><m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>RA</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mrow><m:msub><m:mi>l</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BD</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mi>l</m:mi></m:mrow><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mrow><m:msub><m:mi>l</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BD</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:msup><m:mrow/><m:mrow/></m:msup><m:mrow><m:mover><m:mrow/><m:mrow/></m:mover><m:mo stretchy="false">=</m:mo><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mrow><m:msub><m:mi>l</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mover><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>I</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mi>l</m:mi><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{Z rSub { size 8{ ital "RA"} } = {  { {I}  cSup { size 8{ "." } }  rSub { size 8{ ital "AB"} }  "." Z rSub { size 8{1} }  "." l rSub { size 8{ ital "AB"} } + {I}  cSup { size 8{ "." } }  rSub { size 8{ ital "BD"} }  "." Z rSub { size 8{1} }  "." l}  over  { {I}  cSup { size 8{ "." } }  rSub { size 8{ ital "AB"} } } } =Z rSub { size 8{1} }  "." l rSub { size 8{ ital "AB"} } + {  { {I}  cSup { size 8{ "." } }  rSub { size 8{ ital "BD"} } }  over  { {I}  cSup { size 8{ "." } }  rSub { size 8{ ital "AB"} } } }  "." Z rSub { size 8{1} }  "." l}  {} # 
+ {}  rSup {}  {}  cSup {} =Z rSub { size 8{1} }  "." l rSub { size 8{ ital "AB"} } + {  {1}  over  { {K}  cSup { size 8{ "." } }  rSub { size 8{I} } } }  "." Z rSub { size 8{1} }  "." l {} 
+} } {}</m:annotation></m:semantics></m:math> (6.14)</para>
+        <para id="id18768786">trong đó: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mover><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>I</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mover><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mstyle></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BD</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {K}  cSup { size 8{ "." } }  rSub { size 8{I} } = {I}  cSup { size 8{ "." } }  rSub { size 8{ ital "AB"} } / {I}  cSup { size 8{ "." } }  rSub { size 8{ ital "BD"} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id17839991">Như vậy, tổng trở ở đầu cực rơle A được xác định không những bằng vị trí của điểm hư hỏng, mà còn bằng hệ số phân bố dòng, hệ số này đặc trưng cho phần dòng của đoạn hư hỏng đi qua đoạn không hư hỏng.</para>
+        <para id="id17931278">Trong tính toán thực tế, thường bỏ qua góc lệch pha giữa các dòng và coi KI là số thực. Lúc ấy, nếu KI &lt;1 thì tổng trở ZRA sẽ tăng lên, nghĩa là rơle tại trạm A sẽ đo được một tổng trở lớn hơn tổng trở thực tế và bảo vệ sẽ không tác động nhầm. Tuy nhiên nếu KI &gt;1, ví dụ khi đường dây đơn nối với hai đường dây song song (hình 6.17b), bảo vệ A có thể tác động nhầm; để đảm bảo tác động chọn lọc của bảo vệ A trong trường hợp này, tổng trở khởi động của rơle tổng trở cấp II cần được tính chọn có xét đến sự giảm thấp của ZRA do ảnh hưởng của trạm trung gian.</para>
+        <para id="id18905501">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id18905528">Hình 6.17 : Anh hưởng của hệ số phân bố dòng KI đến</para>
+        <para id="id17549663">sự làm việc của rơle tổng trở đặt tại trạm A.</para>
+        <para id="id17549669">a) KI &lt; 1  b) KI &gt; 1</para>
+      </section>
+      <section id="id-967755044784">
+        <title>Anh hưởng của tổ nối dây máy biến áp:</title>
+        <para id="id18242451">Khi giữa chỗ nối bảo vệ và điểm ngắn mạch có thêm các máy biến áp có tổ nối dây Y/Y (hay máy biến áp tự ngẫu), rơle tổng trở sẽ làm việc đúng, chỉ khác là giá trị ZR ở đầu cực rơle là tổng của tổng trở các đoạn đường dây và các máy biến áp tương ứng.</para>
+        <para id="id18242478">Vấn đề đáng quan tâm ở đây là trường hợp các máy bién áp có tổ nối dây Y/ hoặc /Y, chúng sẽ có ảnh hưởng lớn đến sự làm việc của các rơle tổng trở khi xảy ra ngắn mạch hai pha.</para>
+        <para id="id19004665">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id19004692">Hình 6.18 : Anh hưởng của máy biến áp có tổ nối dây Y/ </para>
+        <para id="id18947723">đến sự làm việc của rơle tổng trở.</para>
+        <para id="id18947728">Khi ngắn mạch giữa các pha A và C sau máy biến áp nối Y/ -11 (hình 6.18), ta có thể tính được tổng trở ở đầu cực các rơle nối vào dòng và áp giữa các pha đặt trên đường dây về phía nguồn cung cấp như sau :</para>
+        <para id="id18947753">ZRab =  (dòng các pha A,B bằng nhau, Iab = 0)</para>
+        <para id="id17528312">ZRbc = Z1l + ZB - j
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2H</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { sqrt {3} }  over  {3} }  \( Z rSub { size 8{2H} } +Z rSub { size 8{1} } l+Z rSub { size 8{B} }  \) } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id18250257">ZRca = Z1l + ZB + j
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2H</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { sqrt {3} }  over  {3} }  \( Z rSub { size 8{2H} } +Z rSub { size 8{1} } l+Z rSub { size 8{B} }  \) } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id18768725">trong đó :Z2H - tổng trở thứ tự ngịch của nguồn cung cấp</para>
+        <para id="id18759919">ZB - tổng trở của máy biến áp</para>
+        <para id="id18759940">Z1l - tổng trở đường dây (coi Z1 = Z2).</para>
+        <para id="id18410289">Các biểu thức trên cho thấy, rơle tổng trở của bảo vệ đường dây có ZR tăng lên (so với Z1l + ZB­) và bảo vệ sẽ không tác động nhầm. </para>
+      </section>
+      <section id="id-547507769473">
+        <title>Ảnh hưởng của sai số BI và BU:</title>
+        <para id="id18410335">Sai số của BI là do mạch từ BI bị bảo hòa, làm giảm dòng thứ cấp so với giá trị xác định theo tỷ số biến đổi định mức. Điều đó làm giảm chiều dài vùng bảo vệ. Vì vậy, BI được kiểm tra theo đường cong sai số 10% đối với giá trị cực đại của dòng điện khi ngắn mạch ở cuối vùng bảo vệ thứ nhất.</para>
+        <para id="id18397887">Sai số về áp được quyết định bởi độ chính xác của bản thân BU cũng như do áp rơi trên các dây nối. Thường dùng các BU có công suất khá lớn, sai số của chúng nằm trong phạm vi cho phép. Tuy nhiên, nếu từ BU đến chổ đặt bảo vệ có khoảng cách lớn thì thường phải dùng các dây dẫn phụ tiết diện lớn để giảm tổn thất điện áp trong chúng.</para>
+      </section>
+    </section>
+    <section id="id-1237425569">
+      <title>Đánh giá và lãnh vực ứng dụng của bảo vệ khoảng cách :</title>
+      <section id="id-625944663882">
+        <title>Tính chọn lọc :</title>
+        <para id="id18397919">Theo nguyên tắc tác động của mình, bảo vệ đảm bảo cắt chọn lọc hư hỏng trong các mạng có hình dáng bất kỳ với số nguồn cung cấp tùy ý.</para>
+      </section>
+      <section id="id-899212313177">
+        <title>Tác động nhanh :</title>
+        <para id="id18397924">Tác động không thời gian chỉ được thực hiện đối với cấp I của bảo vệ, bao bọc không quá 85% chiều dài phần tử được bảo vệ. Khi tính đến tác động của các bảo vệ về hai phía của đường dây, sẽ có không ít hơn 30% chiều dài của đường dây mà khi hư hỏng xảy ra trong đó được cắt về một trong hai phía với thời gian của cấp II (thường là vào khoảng 0,5 sec). Thời gian cắt ngắn mạch kéo dài như vậy, dù là ngắn mạch ở xa thanh góp của trạm, đôi khi là không cho phép. Để đánh giá khả năng cho phép cắt ngắn mạch với thời gian làm việc của cấp II, có thể sử dụng tiêu chuẩn điện áp dư Udư trên thanh góp của trạm. Cắt với thời gian cấp II được coi là cho phép, nếu trong tình trạng cắt không đồng thời ngắn mạch 3 pha (hình 6.27) ở đầu vùng II của bảo vệ có : </para>
+        <para id="id17674435">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msubsup>
+                          <m:mi>U</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>dñ</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mn>3</m:mn>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msubsup>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>0,</m:mn>
+                      </m:mrow>
+                      <m:mtext>85</m:mtext>
+                      <m:mtext>.</m:mtext>
+                      <m:msqrt>
+                        <m:mn>3</m:mn>
+                      </m:msqrt>
+                      <m:mtext>.</m:mtext>
+                      <m:msub>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mtext>.</m:mtext>
+                      <m:mi>l</m:mi>
+                      <m:mtext>.</m:mtext>
+                      <m:msubsup>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>N</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>3</m:mn>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msubsup>
+                      <m:mn>³0,6</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:msub>
+                        <m:mi>U</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>m</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{U rSub { size 8{ ital "dñ"} }  rSup { size 8{ \( 3 \) } } =0,"85" "."  sqrt {3}  "." Z rSub { size 8{1} }  "." l "." I rSub { size 8{N} }  rSup { size 8{ \( 3 \) } } ³0,6 "." U rSub { size 8{ ital "m"} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+      </section>
+      <section id="id-963491585687">
+        <title>Độ nhạy :</title>
+        <para id="id18761012">Độ nhạy của bảo vệ trước hết được xác định bởi các bộ phận khởi động của nó. Trong đa số trường hợp, độ nhạy đối với ngắn mạch trên đoạn được bảo vệ là đảm bảo được. Tuy nhiên, độ nhạy của bảo vệ khi làm nhiệm vụ dự trữ cho các hư hỏng ở đoạn kề có thể không đạt yêu cầu.</para>
+        <para id="id18761029">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id17701688">Hình 6.27 : Điều kiện tính toán để kiểm tra điện áp dư </para>
+        <para id="id17701702">khi có ngắn mạch trong mạng điện</para>
+      </section>
+      <section id="id-0755608167505">
+        <title>Tính đảm bảo :</title>
+        <para id="id17701716">Ngay cả những sơ đồ bảo vệ hiện đại đều bao gồm một số lượng đáng kể các bộ phận phức tạp cần thiết cho việc khởi động nhằm để bảo vệ làm việc đúng đắn. Điều đó sẽ làm phức tạp sự vận hành các bảo vệ và có thể làm mất khả năng làm việc đúng đắn của bảo vệ.</para>
+        <para id="id17701735">Mặc dù có một số nhược điểm đã phân tích ở trên, nguyên tắc khoảng cách vẫn được sử dụng rộng rãi trong thực tế để thực hiện các bảo vệ chống ngắn mạch nhiều pha. Điều này được giải thích là do chỉ có sử dụng nguyên tắc này mới có thể thực hiện được các bảo vệ cắt chọn lọc các đoạn đường dây và thanh góp của các trạm kề khi ngắn mạch nhiều pha trong các mạng có hình dáng bất kỳ. Bảo vệ khoảng cách cũng được dùng làm dự trữ khi sử dụng các bảo vệ dọc (như bảo vệ so lệch dọc, bảo vệ tần số cao) làm nhiệm vụ bảo vệ chính tác động không thời gian trên toàn bộ chiều dài của phần tử được bảo vệ.</para>
+      </section>
+    </section>
+  </content>
+</document>

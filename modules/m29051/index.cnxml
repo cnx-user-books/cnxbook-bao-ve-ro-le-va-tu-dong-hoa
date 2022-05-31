@@ -1,0 +1,109 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Bảo vệ chống chạm đất</title>
+  <metadata>
+  <md:content-id>m29051</md:content-id><md:title>Bảo vệ chống chạm đất</md:title>
+  <md:abstract>Bảo vệ chống chạm đất</md:abstract>
+  <md:uuid>5f5fdbcf-7379-42ce-9d87-ab23e95b895e</md:uuid>
+</metadata>
+  <content>
+    <section id="id-133366700446">
+      <title>Bảo vệ dòng thứ tự không Trong mạng có dòng chạm đất lớn:</title>
+      <para id="id17143273">Bảo vệ dòng thứ tự không được thực hiện nhờ một rơle RI nối vào bộ lọc dòng thứ tự không LIo .</para>
+      <table id="id13536455" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry><media id="id1167144974356" alt=""><image src="../../media/graphics1-0035.png" mime-type="image/png"/></media>Hình 4.1 : Sơ đồ nối rơle vào bộ lọc dòng thứ tự không gồm 3BI</entry>
+              <entry><media id="id1167147014958" alt=""><image src="../../media/graphics2-1378.png" mime-type="image/png"/></media>Hình 4.2 : Kết hợp sơ đồ bộ lọc - rơle dòng thứ tự không với sơ đồ sao khuyết</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <section id="id-540333192468">
+        <title>Dòng qua rơle:</title>
+        <para id="id15977777">Khi chiều của các dòng điện đã chấp nhận như trong sơ đồ hình 4.1 và 4.2, dòng điện qua rơle RI bằng:</para>
+        <figure id="id13648477">
+          <media id="id1167150179690" alt=""><image src="graphics3.wmf" mime-type="image/wmf" height="31" width="135"/></media>
+        </figure>
+        <para id="id13695709">Dòng thứ của BI tương ứng với sơ đồ thay thế (hình 2.13) là:</para>
+        <figure id="id16170976">
+          <media id="id1167144957705" alt=""><image src="graphics4.wmf" mime-type="image/wmf" height="51" width="185"/></media>
+        </figure>
+        <para id="id5760587">Ví dụ: <figure id="id4216976"><media id="id1167153478180" alt=""><image src="graphics5.wmf" mime-type="image/wmf" height="47" width="129"/></media></figure></para>
+        <para id="id13321767">Vì vậy: <figure id="id12782422"><media id="id1167143373906" alt=""><image src="graphics6.wmf" mime-type="image/wmf" height="47" width="303"/></media></figure></para>
+        <para id="id12391124">Tổng dòng từ hóa của 3 máy biến dòng quy đổi về phía thứ cấp của chúng được gọi là dòng không cân bằng thứ cấp của bộ lọc:</para>
+        <para id="id4290529"><figure id="id13532653"><media id="id1167146797451" alt=""><image src="graphics7.wmf" mime-type="image/wmf" height="47" width="196"/></media></figure> (4.1)</para>
+        <para id="id12736407">Tổng: <figure id="id12228819"><media id="id1167143566378" alt=""><image src="graphics8.wmf" mime-type="image/wmf" height="47" width="251"/></media></figure></para>
+        <para id="id13218384">Vậy: <figure id="id13438899"><media id="id1167144964387" alt=""><image src="graphics9.wmf" mime-type="image/wmf" height="58" width="118"/></media></figure> (4.2)</para>
+        <para id="id5567375">Như vậy bảo vệ chỉ tác động đối với các dạng ngắn mạch có tạo nên dòng Io (ngắn mạch chạm đất).</para>
+        <para id="id8355881">Đối với các bộ lọc dùng BI lí tưởng có I = 0 thì IKCBT = 0. Tuy nhiên thực tế các BI luôn luôn có dòng từ hóa và dòng từ hóa ở các pha là khác nhau mặc dù dòng sơ của các pha có trị số bằng nhau, vì vậy IKCBT  0.</para>
+      </section>
+      <section id="id-304691031296">
+        <title>Dòng khởi động của bảo vệ:</title>
+        <para id="id16521960">Trong tình trạng làm việc bình thường hoặc khi ngắn mạch giữa các pha (không chạm đất) thì dòng thứ tự không I0 = 0. Do vậy để bảo vệ không tác động khi ngắn mạch giữa các pha ngoài vùng bảo vệ cần chọn:</para>
+        <para id="id18497045">IKĐ = kat . IKCBStt (4.4)</para>
+        <para id="id17151120">Dòng IKCBStt được tính toán đối với trường hợp ngắn mạch ngoài không chạm đất và cho dòng lớn nhất.</para>
+        <para id="id5460649">Đồng thời để phối hợp độ nhạy giữa các bảo vệ thứ tự không thì dòng khởi động của bảo vệ đoạn sau (gần nguồn hơn) phải chọn lớn hơn bảo vệ đoạn trước một ít. </para>
+        <para id="id4244274">Dòng khởi động của bảo vệ thứ tự không thường bé hơn nhiều so với dòng làm việc cực đại của đường dây nên độ nhạy khá cao.</para>
+      </section>
+      <section id="id-173177769145">
+        <title>Thời gian làm việc:</title>
+        <para id="id13849493">Bảo vệ dòng thứ tự không có đặc tính thời gian độc lập, được chọn theo nguyên tắc bậc thang. Xét ví dụ đối với mạng hở có một nguồn cung cấp và có trung tính được nối đất chỉ một điểm ở đầu nguồn (hình 4.3).</para>
+        <para id="id13830844">Bảo vệ 2a ở các trạm B, C có thể được chỉnh định không thời gian (thực tế t2a  0,1 giây) và thời gian tác động của các bảo vệ đường dây là:</para>
+        <para id="id16229266">t3a = t2a + t ;t4a = t3a + t</para>
+        <para id="id12404206">Trên đồ thị hình 4.3 cũng vẽ đặc tính thời gian của các bảo vệ 1  4 làm nhiệm vụ chống ngắn mạch nhiều pha trong mạng.</para>
+        <para id="id12338721">Từ hình 4.3 và những điều đã trình bày trên đây ta có thể thấy được ưu điểm chính của bảo vệ dòng thứ tự không so với bảo vệ nối vào dòng pha toàn phần là thời gian làm việc bé và độ nhạy cao.</para>
+        <figure id="id12958002">
+          <media id="id1167140046579" alt=""><image src="../../media/graphics10-f5eb.png" mime-type="image/png" height="325" width="486"/></media>
+        </figure>
+        <para id="id5467876">Hình 4.3 : Đặc tính thời gian của bảo vệ dòng TTK và của bảo vệ </para>
+        <para id="id12404024">nối vào dòng pha trong mạng có trung tính nối đất trực tiếp</para>
+      </section>
+    </section>
+    <section id="id-663379588923">
+      <title>Bảo vệ dòng thứ tự không Trong mạng có dòng chạm đất bé:</title>
+      <para id="id10539934">Trong các mạng có dòng điện chạm đất bé (trung tính không nối đất hoặc nối đất qua cuộn dập hồ quang) giá trị dòng điện chạm đất một pha thường không quá vài chục Ampere. Ví dụ như ở mạng cáp, để chạm đất một pha không chuyển thành ngắn mạch nhiều pha thì chạm đất lớn nhất cho phép vào khoảng 2030A. Những bảo vệ dùng rơle nối vào dòng điện pha toàn phần không thể làm việc với dòng điện sơ cấp bé như vậy, vì thế người ta dùng các bảo vệ nối qua bộ lọc dòng điện thứ tự không.</para>
+      <para id="id14561549">Bảo vệ được đặt ở đầu đường dây AB về phía trạm A trong mạng có trung tính cách đất (hình 4.15).</para>
+      <section id="id-786918109355">
+        <title>Dòng khởi động:</title>
+        <para id="id14608549">Dòng khởi động của bảo vệ được xác định theo điều kiện chọn lọc: Bảo vệ không được tác động khi chạm đất ngoài hướng được bảo vệ. </para>
+        <figure id="id3000275">
+          <media id="id1167144521337" alt=""><image src="../../media/graphics11-dc35.png" mime-type="image/png" height="120" width="329"/></media>
+        </figure>
+        <para id="id16213373">Hình 4.15 : Chạm đất 1 pha trong mạng có trung tính cách đất </para>
+        <para id="id14764585">Ví dụ khi pha C của đường dây AC bị chạm đất tại điểm N’ (hình 4.14), qua bảo vệ đặt trên đường dây AB có dòng 3I0CD do điện dung COD giữa pha của đường dây được bảo vệ đối với đất. Đồ thị dòng điện dung trong các pha của đường dây AB và thành phần thứ tự không của chúng như trên hình 4.16. Để bảo vệ không tác động cần chọn:</para>
+        <para id="id17125929">IKĐ  kat . 3IoCD <figure id="id8130830"><media id="id1167143618858" alt=""><image src="graphics12.wmf" mime-type="image/wmf" height="26" width="14"/></media></figure> (4.7)</para>
+        <para id="id13102101">kat: hệ số an toàn, có kể đến ảnh hưởng của dòng dung quá độ vào thời điểm đầu chạm đất (có thể lớn hơn giá trị ổn định rất nhiều). Đối với bảo vệ tác động không thời gian cần phải chọn kat = 4  5, bảo vệ tác động có thời gian có thể chọn kat bé hơn.</para>
+        <para id="id13372636">Tuy nhiên chạm đất thường lặp đi lặp lại và rơle phải chịu tác động của những xung dòng điện liên tiếp, cho nên dù bảo vệ tác động có thời gian cũng không thể chọn kat thấp hơn 2  2,5.</para>
+      </section>
+      <section id="id-742590444094">
+        <title>Thời gian làm việc: </title>
+        <para id="id13780817">Khi bảo vệ tác động báo tín hiệu thì không cần chọn thời gian làm việc theo điều kiện chọn lọc, bảo vệ thường làm việc không thời gian. Có một số bảo vệ theo điều kiện an toàn cần phải tác động không có thời gian đi cắt chạm đất, còn lại nói chung bảo vệ tác động đi cắt với thời gian được chọn theo nguyên tắc bậc thang.</para>
+      </section>
+      <section id="id-53537172498">
+        <title>Độ nhạy:</title>
+        <para id="id10960168">Khi chạm đất trong vùng bảo vệ, ví dụ tại điểm N” trên pha C của đường dây AB (hình 4.15), để bảo vệ có thể tác động cần phải thực hiện điều kiện:</para>
+        <para id="id10962583">IBV  IKĐ</para>
+        <para id="id8242025">Trong đó : IBV - là dòng điện đi qua bảo vê.</para>
+        <para id="id16012484">Dòng qua bảo vệ IBV sinh ra là do điện dung các pha của phần không hư hỏng trong hệ thống (đó chính là điện dung đẳng trị C0đt):</para>
+        <para id="id16959675">IBV = 3I0Cđt = 3<figure id="id8561833"><media id="id1167144698352" alt=""><image src="graphics13.wmf" mime-type="image/wmf" height="17" width="18"/></media></figure>C0đt.Up</para>
+        <para id="id14857987">Điện dung tổng Co của các pha trong toàn hệ thống đối với đất là:</para>
+        <para id="id8944078">Co = C0đt + C0D</para>
+        <para id="id8835079">do vậy: IBV = 3(Co - C0D).Up (4.8)</para>
+        <para id="id7338462">Vị trí điểm chạm đất N” trên đường dây được bảo vệ không ảnh hưởng đến trị số dòng IBV, vì trở kháng và cảm kháng của đường dây rất nhỏ so với dung kháng.</para>
+        <para id="id8497120">Độ nhạy của bảo vê được đặc trưng bằng hệ số độ nhạy:</para>
+        <figure id="id7473642">
+          <media id="id1167140317850" alt=""><image src="graphics14.wmf" mime-type="image/wmf" height="50" width="217"/></media>
+        </figure>
+        <para id="id7485180">Khi chạm đất qua điện trở trung gian cần phải có Kn  1,25  1.5.</para>
+        <figure id="id7277046">
+          <media id="id1167144605194" alt=""><image src="../../media/graphics15-9f8c.png" mime-type="image/png" height="110" width="350"/></media>
+        </figure>
+        <para id="id8770508">Hình 4.19 : Bố trí các bảo vệ chống chạm đất</para>
+        <para id="id15873148">Để nhanh chóng phát hiện phần tử bị chạm đất nên đặt bảo vệ báo tín hiệu ở tất cả các đầu đường dây (hình 4.19). Khi xuất hiện chạm đất (ví dụ ở điểm N) bằng cách kiểm tra dần tín hiệu của các bảo vệ từ đầu nguồn A đến trạm C có thể xác định được đoạn đường dây bị chạm đất.</para>
+      </section>
+    </section>
+  </content>
+</document>

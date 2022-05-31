@@ -1,0 +1,185 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Tự động đóng nguồn dự trữ (TĐL)</title>
+  <metadata>
+  <md:content-id>m30587</md:content-id><md:title>Tự động đóng nguồn dự trữ (TĐL)</md:title>
+  <md:abstract>Tự động đóng nguồn dự trữ</md:abstract>
+  <md:uuid>5eac5dc4-c5c0-4820-ada4-a53ee148249b</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-0408036706522">
+      <title>Ý NGHĨA CỦA TĐD:</title>
+      <para id="id6624635">Sơ đồ nối điện của hệ thống điện cần đảm bảo độ tin cậy cung cấp cho các hộ tiêu thụ điện. Sơ đồ cung cấp từ hai hay nhiều nguồn điện đảm bảo độ tin cậy cao, vì cắt sự cố một nguồn không làm cho hộ tiêu thụ bị mất điện.</para>
+      <para id="id18809570">Dù việc cung cấp cho hộ tiêu thụ từ nhiều phía có ưu điểm rõ ràng như vậy nhưng phần lớn các trạm có hai nguồn cung cấp trở lên đều làm việc theo sơ đồ một nguồn cung cấp. Tự dùng của nhà máy điện là một ví dụ.</para>
+      <para id="id18809584">Cách thực hiện sơ đồ như trên sẽ ít tin cậy nhưng đơn giản hơn và trong nhiều trường hợp làm giảm dòng ngắn mạch, giảm tổn thất điện năng trong MBA, đơn giản bảo vệ rơle... Khi phát triển mạng điện, việc cung cấp từ một phía thường là giải pháp được lựa chọn vì những thiết bị điện và bảo vệ đã đặt trước đó không cho phép thực hiện sự làm việc song song của các nguồn cung cấp.</para>
+      <table id="id18809613" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Nhược điểm của việc cung cấp từ một phía là cắt sự cố nguồn làm việc sẽ làm ngừng cung cấp cho hộ tiêu thụ. Khắc phục bằng cách đóng nhanh nguồn dự trữ hay đóng máy cắt mà ở đó thực hiện việc phân chia mạng điện. Để thực hiện thao tác này người ta sử dụng thiết bị tự động đóng nguồn dự trữ (TĐD).</entry>
+              <entry><media id="id7971401" alt=""><image src="../../media/graphics1-0405.png" mime-type="image/png"/></media> Hình 8.1 : Các nguyên tắc thực hiện TĐD</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="id-948668603417">
+      <title>Yêu cầu cơ bản đối với thiết bị TĐD:</title>
+      <list id="id18344469" list-type="enumerated">
+        <item>Tất cả các thiết bị TĐD cần phải thỏa mãn những yêu cầu cơ bản sau đây:</item>
+      </list>
+      <section id="id-962500110158">
+        <title>Sơ đồ TĐD không được tác động trước khi máy cắt của nguồn làm việc bị cắt ra để tránh đóng nguồn dự trữ vào khi nguồn làm việc chưa bị cắt ra. Ví dụ trong sơ đồ hình 8.1a, khi ngắn mạch trên đường dây AC thì bảo vệ đường dây chỉ cắt 1MC còn 2MC vẫn đóng, nếu TĐD tác động đóng đường dây dự trữ BC thì có thể ngắn mạch sẽ lại xuất hiện.</title>
+        <para id="id18344483">
+          <!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that added as a byproduct of the word importer.-->
+        </para>
+      </section>
+      <section id="id-568348918223">
+        <title>Sơ đồ TĐD phải tác động khi mất điện áp trên thanh góp hộ tiêu thụ vì bất cứ lí do gì, chẳng hạn như khi cắt sự cố, cắt nhầm hay cắt tự phát máy cắt của nguồn làm việc, cũng như khi mất điện áp trên thanh góp của nguồn làm việc. Cũng cho phép đóng nguồn dự trữ khi ngắn mạch trên thanh góp của hộ tiêu thụ.</title>
+        <para id="id18344508">
+          <!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that added as a byproduct of the word importer.-->
+        </para>
+      </section>
+      <section id="id-991850224879">
+        <title>Thiết bị TĐD chỉ được tác động một lần để tránh đóng nguồn dự trữ nhiều lần vào ngắn mạch tồn tại.</title>
+        <para id="id18683516">Ví dụ, nếu ngắn mạch trên thanh góp C (hình 8.1a) thì khi TĐD đóng 4MC, thiết bị bảo vệ rơle lại tác động cắt 4MC, điều đó chứng tỏ ngắn mạch vẫn còn tồn tại, do vậy không nên cho TĐD tác động lần thứ 2. </para>
+      </section>
+      <section id="id-803050987017">
+        <title>Để giảm thời gian ngừng cung cấp điện, việc đóng nguồn dự trữ cần phải nhanh nhất có thể được ngay sau khi cắt nguồn làm việc.</title>
+        <list id="id18683540" list-type="enumerated">
+          <item>Thời gian mất điện tmđ phụ thuộc vào các yếu tố sau:</item>
+        </list>
+        <list id="id18683556" list-type="enumerated">
+          <item>a) tmđ &lt; ttkđ</item>
+        </list>
+        <list id="id18769514" list-type="enumerated">
+          <item>ttkđ : khoảng thời gian lớn nhất từ lúc mất điện đến khi đóng nguồn dự trữ mà các động cơ nối vào thanh góp hộ tiêu thụ còn có thể tự khởi động.</item>
+        </list>
+        <list id="id18769537" list-type="enumerated">
+          <item>b) tmđ &gt; tkhử ion </item>
+        </list>
+        <list id="id5474089" list-type="enumerated">
+          <item>tkhử ion : thời gian cần thiết để khử môi trường bị ion hóa do hồ quang tại chổ ngắn mạch (trường hợp ngắn mạch trên thanh góp C - hình 8.1a)</item>
+        </list>
+      </section>
+      <section id="id-926415512767">
+        <title>Để tăng tốc độ cắt nguồn dự trữ khi ngắn mạch tồn tại, cần tăng tốc độ tác động của bảo vệ nguồn dự trữ sau khi thiết bị TĐD tác động. Điều này đặc biệt quan trọng khi hộ tiêu thụ bị mất nguồn cung cấp được thiết bị TĐD nối với nguồn dự trữ đang mang tải. Cắt nhanh ngắn mạch lúc này là cần thiết để ngăn ngừa việc phá hủy sự làm việc bình thường của nguồn dự trữ đang làm việc với các hộ tiêu thụ khác.</title>
+        <para id="id5474110">
+          <!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that added as a byproduct of the word importer.-->
+        </para>
+      </section>
+    </section>
+    <section id="id-269712790462">
+      <title>TĐD đường dây:</title>
+      <section id="id-959788871082">
+        <title>Sơ đồ:</title>
+        <list id="id17923024" list-type="enumerated">
+          <item>Trong chế độ vận hành bình thường, đường dây AC làm việc (1MC, 2MC đóng), đường dây BC dự trữ (3MC đóng, 4MC mở). Rơle RGT có điện (hình 8.7), tiếp điểm của nó đóng. Nếu vì một lí do nào đó thanh góp C mất điện (ví dụ do ngắn mạch trên đường dây AC, do thao tác nhầm....), tiếp điểm của các rơle RU&lt;, RU&gt; sẽ đóng mạch rơle thời gian RT (đường dây dự trữ BC đang có điện). Sau một thời gian chậm trễ do yêu cầu chọn lọc của bảo vệ rơle, tiếp điểm RT đóng lại. Cuộn cắt CC của máy cắt có điện, máy cắt 2MC mở ra. Tiếp điểm phụ 2MC3 đóng, cho dòng điện chạy qua cuộn đóng CĐ của máy cắt 4MC và đường dây dự trữ BC được đóng vào để cung cấp cho các hộ tiêu thụ.</item>
+        </list>
+      </section>
+      <section id="id-852108683412">
+        <title>Tính toán tham số của các phần tử trong sơ đồ:</title>
+        <section id="id-141690462925">
+          <title>Thời gian của rơle RT:</title>
+          <list id="id18384783" list-type="enumerated">
+            <item>Khi ngắn mạch tại điểm N1 hoặc N2 (hình 8.8), điện áp dư trên thanh góp C có thể giảm xuống rất thấp làm cho các rơle điện áp RU&lt; khởi động. Muốn TĐD tránh tác động trong trường hợp này cần phải chọn thời gian của rơle RT lớn hơn thời gian làm việc của các bảo vệ đặt tại máy cắt 7MC và 9MC:</item>
+          </list>
+          <list id="id18384809" list-type="enumerated">
+            <item>tRT = tBVA +  t (8.1)</item>
+          </list>
+          <list id="id18384839" list-type="enumerated">
+            <item>tRT = tBVC +  t (8.2)</item>
+          </list>
+          <list id="id17304644" list-type="enumerated">
+            <item>trong đó:</item>
+          </list>
+          <list id="id17304653" list-type="enumerated">
+            <item>tBVA, tBVC : thời gian làm việc lớn nhất của các bảo vệ phần tử nối vào thanh góp A và thanh góp C.</item>
+          </list>
+          <list id="id17304676" list-type="enumerated">
+            <item> t : bậc chọn lọc về thời gian, bằng (0,3  0,5 sec).</item>
+          </list>
+          <para id="id18824971">Thời gian của rơle RT được chọn bằng trị số lớn hơn khi tính theo các biểu thức (8.1) và (8.2). Tuy nhiên, thời gian này càng nhỏ thì thời gian ngừng cung cấp điện cho các hộ tiêu thụ càng bé, vì vậy khi tính chọn cần phải đặt điều kiện thế nào để thời gian của rơle RT là nhỏ nhất có thể được.</para>
+          <figure id="id18824988">
+            <media id="id5966394" alt=""><image src="graphics2.wmf" mime-type="image/wmf" height="508" width="582"/></media>
+          </figure>
+          <para id="id18825012">Hình 8.7 : Sơ đồ thiết bị TĐD đường dây</para>
+        </section>
+        <section id="id-765582480249">
+          <title>Thời gian của rơle RGT:</title>
+          <list id="id18760354" list-type="enumerated">
+            <item>Để đảm bảo thiết bị TĐD tác động đóng máy cắt 4MC chỉ một lần, cần chọn:</item>
+          </list>
+          <list id="id18760364" list-type="enumerated">
+            <item>tRGT = tĐ(4MC) + tdự trữ (8.3)</item>
+          </list>
+          <list id="id18760395" list-type="enumerated">
+            <item>trong đó:</item>
+          </list>
+          <list id="id18760404" list-type="enumerated">
+            <item>tĐ(4MC) : thời gian đóng của máy cắt 4MC.</item>
+          </list>
+          <list id="id18623257" list-type="enumerated">
+            <item>tdự trữ : thời gian dự trữ.</item>
+          </list>
+          <list id="id18623272" list-type="enumerated">
+            <item>Nếu thiết bị TĐD tác động đóng nguồn dự trữ vào ngắn mạch tồn tại và thiết bị bảo vệ rơle cắt nó ra, thì rơle RGT sẽ ngăn ngừa việc đóng trở lại vào ngắn mạch một lần nữa trong trường hợp thời gian của rơle RGT chọn theo (8.3) thỏa mãn điều kiện:</item>
+          </list>
+          <list id="id18623291" list-type="enumerated">
+            <item>tRGT = tĐ(4MC) + tBV + tC(4MC) (8.4)</item>
+          </list>
+          <list id="id18763117" list-type="enumerated">
+            <item>tBV : thời gian làm việc của bảo vệ đặt tại máy cắt 4MC của mạch dự trữ.</item>
+          </list>
+          <list id="id18763134" list-type="enumerated">
+            <item>tC(4MC) : thời gian cắt của máy cắt 4MC.</item>
+          </list>
+        </section>
+        <section id="id-434549254517">
+          <title>Điện áp khởi động của rơle điện áp giảm RU&lt;:</title>
+          <table id="id18763159" summary="">
+            <tgroup cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          Điện áp khởi động của rơle điện áp giảm RU&lt; được chọn theo 2 điều kiện:
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          a) Rơle RU&lt; phải khởi động khi mất điện ở thanh góp C (hình 8.7), nhưng không được khởi động khi ngắn mạch sau các kháng điện đường dây (điểm N2 -hình 8.8) hoặc sau các máy biến áp (điểm N3) nối vào thanh góp C:UKĐRU&lt; = <media id="id2618701" alt=""><image src="graphics3.wmf" mime-type="image/wmf"/></media> (8.5)Trong đó:Unmin :Điện áp dư bé nhất trên thanh góp C khi ngắn mạch ở điểm N1 hoặc N2kat : hệ số an toàn, vào khoảng 1,2  1,3nU : hệ số biến đổi của máy biến điện áp 1BU (hình 8.7)</entry>
+                  <entry><media id="id7482058" alt=""><image src="../../media/graphics4-d91b.png" mime-type="image/png"/></media>Hình 8.8 : Sơ đồ nối điện để tính toán tham số của TĐD</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id17555198">b) Rơle RU&lt; không được khởi động khi tự khởi động các động cơ điện nối vào thanh góp C sau khi khôi phục nguồn cung cấp:</para>
+          <para id="id17555208">UKĐRU&lt; = <figure id="id17481301"><media id="id1165924716935" alt=""><image src="graphics5.wmf" mime-type="image/wmf" height="47" width="68"/></media></figure> (8.6)</para>
+          <para id="id17481331">Utkđ : điện áp nhỏ nhất trên thanh góp C khi các động cơ điện tự khởi động</para>
+        </section>
+        <section id="id-793549260097">
+          <title>Điện áp khởi động của rơle điện áp tăng RU&gt;:</title>
+          <para id="id17481353">Rơle RU&gt; không được trở về khi trên mạch dự trữ có điện áp cao hơn điện áp làm việc cực tiểu Ulv min (Ulv min là điện áp nhỏ nhất mà các động cơ còn có thể tự khởi động được):</para>
+          <para id="id18858500">UKĐRU&gt; = <figure id="id18858511"><media id="id1165928127466" alt=""><image src="graphics6.wmf" mime-type="image/wmf" height="47" width="96"/></media></figure> (8.7)</para>
+          <para id="id18858541">Trong đó:</para>
+          <para id="id18858546">nU : hệ số biến đổi của máy biến điện áp 2BU (hình 8.7)</para>
+        </section>
+      </section>
+    </section>
+    <section id="id-92500417612">
+      <title>TĐD ở trạm biến áp:</title>
+      <para id="id18536705">Ở các trạm biến áp người ta sử dụng các loại TĐD khác nhau như TĐD máy biến áp, TĐD máy cắt phân đoạn, TĐD máy cắt nối...</para>
+      <para id="id18536712">Trên hình 8.9 là sơ đồ TĐD máy cắt phân đoạn. Bình thường cả hai máy biến áp làm việc, máy cắt 5MC mở. Giả thiết máy biến áp B2 bị hư hỏng, thiết bị bảo vệ rơle tác động cắt máy cắt 3MC và 4 MC, sau đó thiết bị TĐD sẽ khởi động và đóng máy cắt 5MC. Lúc này máy biến áp B1 sẽ làm nhiệm vụ cung cấp cho phụ tải 1 và phụ tải 2 ở cả hai phân đoạn.</para>
+      <figure id="id18536729">
+        <media id="id1306387" alt=""><image src="../../media/graphics7-a22c.png" mime-type="image/png" height="419" width="445"/></media>
+      </figure>
+      <para id="id18683161">Hình 8.9: Sơ đồ TĐD máy cắt phân đoạn</para>
+      <para id="id18683174">Lưu ý là nếu máy biến áp B1 được thiết kế chỉ đủ để cung cấp cho phụ tải phân đoạn I thì trong thiết bị TĐD cần phải có thêm mạch đưa tín hiệu đi cắt bớt những phụ tải kém quan trọng ở cả hai phân đoạn trước khi đóng máy cắt 5MC.</para>
+      <para id="id18683189">Trong sơ đồ, mạch điện mở máy cắt 4MC được nối qua tiếp điểm phụ của 3MC nhằm tạo sự liên động để khi mở máy cắt 3MC sẽ đồng thời mở luôn cả máy cắt 4MC. </para>
+      <para id="id18683200">Để cắt nhanh máy cắt phân đoạn khi ngắn mạch tồn tại trên thanh góp hạ áp của trạm, trong sơ đồ TĐD cần có thêm bộ phận tăng tốc độ tác động của bảo vệ máy cắt phân đoạn sau TĐD (không vẽ bộ phận này trên hình 8.9).</para>
+      <para id="id18683209">Khác với sơ đồ TĐD đường dây đã xét trước đây (hình 8.7), trong sơ đồ TĐD máy cắt phân đoạn không có bộ phận khởi động điện áp giảm vì không cần thiết trong trường hợp này. Cả 2 máy biến áp đều được cung cấp từ một thanh góp cao áp chung của trạm, khi mất điện trên thanh góp này tác động của thiết bị TĐD là vô ích.</para>
+    </section>
+  </content>
+</document>

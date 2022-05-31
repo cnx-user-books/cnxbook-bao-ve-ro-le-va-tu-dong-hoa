@@ -1,0 +1,109 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Tự động điều chỉnh tần số</title>
+  <metadata>
+  <md:content-id>m30584</md:content-id><md:title>Tự động điều chỉnh tần số</md:title>
+  <md:abstract>Tự động điều chỉnh tần số</md:abstract>
+  <md:uuid>17a8e50c-c2e0-4e47-9dd5-8a308dac4e5b</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-811485930937">
+      <title>Khái niêm chung:</title>
+      <para id="id18763445">Tần số là một trong những tiêu chuẩn để đánh giá chất lượng điện năng. Tốc độ quay và năng suất làm việc của các động cơ đồng bộ và không đồng bộ phụ thuộc vào tần số của dòng xoay chiều. Khi tần số giảm thì năng suất của chúng cũng bị giảm thấp. Tấn số tăng cao dẫn đến sự tiêu hao năng lượng quá mức. Do vậy và do một số nguyên nhân khác, tần số luôn được giữ ở định mức. Đối với hệ thống điện Việt nam, trị số định mức của tần số được quy định là 50Hz. Độ lệch cho phép khỏi trị số định mức là  0,1Hz. </para>
+      <para id="id12498202">Việc sản xuất và tiêu thụ công suất tác dụng xảy ra đồng thời. Vì vậy trong chế độ làm việc bình thường, công suất PF do máy phát của các nhà máy điện phát ra phải bằng tổng công suất do các phụ tải tiêu thụ Ptt và công suất tổn thất Pth trên đường dây truyền tải và các phần tử khác của mạng điện, nghĩa là tuân theo điều kiện cân bằng công suất tác dụng :</para>
+      <para id="id18557920">PF = Ptt + Pth = PPT</para>
+      <para id="id18236535">với PPT - phụ tải tổng của các máy phát.</para>
+      <para id="id17933436">Khi có sự cân bằng công suất thì tần số được giữ không đổi. Nhưng vào mỗi thời điểm tùy thuộc số lượng hộ tiêu thụ được nối vào và tải của chúng, phụ tải của hệ thống điện liên tục thay đổi làm phá hủy sự cân bằng công suất và làm tần số luôn biến động. Để duy trì tần số định mức trong hệ thống điện yêu cầu phải thay đổi công suất tác dụng một cách tương ứng và kịp thời.</para>
+      <para id="id17933440">Như vậy vấn đề điều chỉnh tần số liên quan chặt chẽ với điều chỉnh và phân phối công suất tác dụng giữa các tổ máy phát và giữa các nhà máy điện. Tần số được điều chỉnh bằng cách thay đổi lượng hơi hoặc nước đưa vào tuốc-bin. Khi thay đổi lượng hơi hoặc nước vào tuốc-bin, công suất tác dụng của máy phát cũng thay đổi.</para>
+    </section>
+    <section id="id-570456369515">
+      <title>Bộ điều chỉnh tốc độ quay tuốc-bin sơ cấp:</title>
+      <para id="id18951026">Vào thời kỳ đầu phát triển hệ thống năng lượng, nhiệm vụ duy trì tần số được giao cho bộ điều chỉnh tốc độ quay kiểu ly tâm đặt tại tuốc-bin của các nhà máy thủy điện và nhà máy nhiệt điện. Bộ điều chỉnh này cũng được gọi là bộ điều chỉnh sơ cấp. Sơ đồ cấu trúc của một trong những loại bộ điều chỉnh sơ cấp như trên hình 12.1.</para>
+      <para id="id18290956">Cơ cấu đo lường là con lắc ly tâm 1 quay cùng với tuốc-bin. Khi tần số giảm, tốc độ quay của tuốc-bin giảm, quả cầu của con lắc hạ xuống và khớp nối của nó từ vị trí A chuyển đến A1. Tay đòn AC xoay quanh C làm khớp nối B chuyển đến vị trí B1, tay đòn GE quay quanh G làm khớp nối E chuyển đến vị trí E1 và piston bình 2 di chuyển xuống dưới, dầu áp suất cao đi vào phía dưới piston bình 3, piston được nâng lên làm tăng lượng hơi (hoặc nước) đi vào tuốc-bin, khớp nối B chuyển đến vị trí B1 và khi tốc độ quay tăng lên, khớp nối từ A1 chuyển đến vị trí A2, đồng thời tay đòn AC xoay quanh C1 nâng khớp nối B và các điểm D, E về vị trí cũ làm kín bình 3 và chấm dứt quá trình điều chỉnh.</para>
+      <figure id="id18449876">
+        <media id="id1171895579947" alt=""><image src="../../media/graphics1-73fe.png" mime-type="image/png" height="368" width="484"/></media>
+      </figure>
+      <para id="id18450305">Hình 12.1: Sơ đồ nguyên lí cấu tạo và tác động </para>
+      <para id="id18233283">của bộ điều chỉnh tốc độ tuốc-bin</para>
+      <para id="id18287956">Vị trí mới của piston 3 và của khớp nối ở A2 tương ứng với tốc độ quay nhỏ hơn của tuốc-bin. Như vậy tần số không trở về giá trị ban đầu. Bộ điều chỉnh như vậy gọi là bộ điều chỉnh có đặc tính phụ thuộc.</para>
+      <para id="id17702230">Để khôi phục tốc độ quay định mức, cũng như để điều khiển tuốc-bin bằng tay người ta dùng cơ cấu 4, nhờ nó thay đổi vị trí điểm G. Chẳng hạn như khi dịch chuyển điểm G lên trên, GE quay quanh D và hạ piston 2 xuống, lúc này bình 3 tăng lượng hơi (nước) vào tuốc-bin và tần số tăng lên.</para>
+      <para id="id17843662">Có thể điều khiển xa cơ cấu 4 nhờ động cơ 5.</para>
+    </section>
+    <section id="id-692268694908">
+      <title>Điều chỉnh và phân phối công suất tác dụng giữa các máy phát làm việc song song:</title>
+      <para id="id18071677">Bộ điều chỉnh tốc độ quay sơ cấp, cũng như thiết bị điều chỉnh tần số thứ cấp (sẽ xét dưới đây trong mục IV) có thể có 2 dạng đặc tính điều chỉnh: độc lập và phụ thuộc.</para>
+      <para id="id13613246">Bộ điều chỉnh có đặc tính độc lập duy trì tốc độ quay n hay tần số f của hệ thống không đổi khi phụ tải của máy phát thay đổi từ không tải đến định mức. Nhược điểm của dạng điều chỉnh này là không thể cho một số máy phát làm việc song song vì sự phân phối phụ tải giữa chúng không xác định. Nếu 2 máy phát có đặc tính điều chỉnh độc lập làm việc song song với nhau, thì ở tần số định mức mỗi máy sẽ có một phụ tải nhất định nào đó, còn khi tần số giảm xuống cả 2 bộ điều chỉnh đều tác động tăng tải cho máy phát của mình nhằm để khôi phục tần số. Trong trường hợp này, các máy phát được tăng tải hoàn toàn tùy tiện và thậm chí một máy phát có bộ điều chỉnh nhạy hơn sẽ nhận hết tất cả phần phụ tải tăng thêm, còn máy phát kia không được tăng tải, hoặc chỉ bắt đầu tăng tải khi nào phụ tải của máy phát thứ nhất đạt giá trị cực đại mà tần số vẫn không được khôi phục.</para>
+      <para id="id19107489">Việc áp dụng bộ điều chỉnh tốc độ quay có đặc tính phụ thuộc cho các máy phát làm việc song song sẽ đảm bảo sự làm việc ổn định của chúng và sự phân phối phụ tải định trước.</para>
+      <para id="id18218521">Hệ số phụ thuộc đặc trưng cho độ dốc của đặc tính điều chỉnh (hình 12.2):</para>
+      <para id="id7226605"><figure id="id13301457"><media id="id1171895608586" alt=""><image src="graphics2.wmf" mime-type="image/wmf" height="43" width="93"/></media></figure> (12.1)</para>
+      <para id="id18087142">biểu diễn hệ số phụ thuộc trong đơn vị tương đối (đối với tần số định mức fđm và công suất định mức Pđm của máy phát), ta có:</para>
+      <para id="id18095494"><figure id="id18095497"><media id="id1171895400670" alt=""><image src="graphics3.wmf" mime-type="image/wmf" height="92" width="172"/></media></figure> (12.2)</para>
+      <para id="id10537825">hay : <figure id="id18407686"><media id="id1171895400701" alt=""><image src="graphics4.wmf" mime-type="image/wmf" height="47" width="131"/></media></figure> (12.3)</para>
+      <para id="id16700145">Nếu các máy phát làm việc song song có đặc tính điều chỉnh phụ thuộc thì độ thay đổi công suất tác dụng tổng sẽ được phân phối giữa chúng tỷ lệ nghịch với hệ số phụ thuộc của mỗi máy (hình 12.2).</para>
+      <para id="id16700149">Thay đổi độ dốc của đặc tính có thể đảm bảo phần đóng góp cần thiết của máy phát trong việc điều chỉnh phụ tải của nhà máy điện. Nhược điểm của dạng điều chỉnh theo đặc tính phụ thuộc là không thể duy trì không đổi tần số của hệ thống.</para>
+      <figure id="id18737680">
+        <media id="id1171895543976" alt=""><image src="../../media/graphics5-2313.png" mime-type="image/png" height="219" width="331"/></media>
+      </figure>
+      <para id="id18770961">Hình 12.2 : Sự phân phối công suất tác dụng giữa các máy phát</para>
+      <para id="id18093829">làm việc song song</para>
+    </section>
+    <section id="id-274559967703">
+      <title>Tự động giảm tải theo tần số (TGT):</title>
+      <section id="id-70717733116">
+        <title>Ý nghĩa và các nguyên tắc chính thực hiện TGT:</title>
+        <para id="id18701655">Khi xảy ra sự thiếu hụt công suất tác dụng làm giảm thấp tần số trong hệ thống điện, nếu còn công suất tác dụng dự trữ thì hệ thống điều chỉnh tần số và công suất đã xét ở trên sẽ hoạt động để duy trì được mức tần số định trước. Tuy nhiên, sau khi huy động toàn bộ công suất tác dụng dự trữ có thể có trong hệ thống điện nếu tần số vẫn không được khôi phục, thì biện pháp duy nhất có thể áp dụng lúc ấy là cắt bớt một số phụ tải ít quan trọng nhất. Thao tác đó được thực hiện nhờ một thiết bị tự động hóa có tên gọi là thiết bị tự động giảm tải theo tần số (TGT). Cần lưu ý rằng, tác động của TGT luôn luôn liên quan đến những thiệt hại về kinh tế. Dầu vậy, TGT vẫn được áp dụng rộng rãi trong hệ thống điện.</para>
+        <para id="id17985353">Mức độ giảm thấp tần số không những phụ thuộc vào lượng công suất thiếu hụt, mà còn phụ thuộc vào tính chất của phụ tải. Các dụng cụ chiếu sáng và các thiết bị khác có phụ tải thuần tác dụng thuộc về nhóm các hộ tiêu thụ có công suất tiêu thụ không phụ thuộc vào tần số, khi tần số giảm công suất tiêu thụ vẫn giữ không đổi. Một nhóm các hộ tiêu thụ khác như động cơ điện xoay chiều có công suất tiêu thụ giảm khi tần số giảm. Phụ tải của các hộ tiêu thụ thuộc nhóm thứ 2 được coi là có khả năng tự điều chỉnh vì khi tần số giảm thấp đồng thời công suất tiêu thụ của chúng cũng bị giảm xuống.</para>
+        <para id="id18591941">Khi thực hiện tự động giảm tải theo tần số cần tính đến tất cả các trường hợp thực tế có thể dẫn đến việc cắt sự cố công suất phát và phân chia hệ thống điện thành các phần bị</para>
+        <table id="id17943572" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>thiếu hụt công suất tác dụng. Công suất thiếu hụt càng lớn thì công suất phụ tải cần cắt ra càng lớn. Để tổng công suất phụ tải bị cắt ra do thiết bị tự động giảm tải theo tần số TGT gần bằng với công suất tác dụng thiếu hụt, thiết bị TGT cần được thực hiện để cắt tải theo từng đợt, tần số khởi động của mỗi đợt cắt tải là khác nhau.Hình 12.9 là đường cong biễu diễn quá trình thay đổi tần số khi đột ngột xuất hiện thiếu hụt công suất tác dụng. Nếu trong hệ thống không có thiết bị TGT, do tác dụng tự điều chỉnh của phụ tải và tác động của bộ điều chỉnh tốc độ quay tuốc-bin nên tần số sẽ ổn định ở một giá trị xác lập nào đó (đường I). Để khôi phục tần số về giá trị định mức, cần cắt tải bằng tay.</entry>
+                <entry><media id="id1171895492503" alt=""><image src="../../media/graphics6-b4d5.png" mime-type="image/png"/></media>Hình 12.9 : Sự thay đổi tần số khi thiếu hụt công suất tác dụngI. khi không có TGT II. khi có TGT</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id17697118">Quá trình thay đổi tần số khi có thiết bị TGT sẽ diễn ra theo đường II. Giả sử thiết bị TGT có 3 đợt cắt tải với tần số khởi động của đợt là: 48; 47,5; 47 Hz. Khi tần số giảm xuống đến 48Hz (điểm 1) thì đợt 1 tác động cắt một phần phụ tải, nhờ vậy giảm được tốc độ giảm thấp tần số. Khi tần số tiếp tục giảm xuống đến 47,5Hz (điểm 2) thì đợt 2 tác động cắt thêm một số phụ tải, sự thiếu hụt công suất và tốc độ giảm thấp tần số được giảm nhiều hơn. Ở tần số 47 Hz (điểm 3), đợt 3 tác động cắt một công suất phụ tải không những đủ để chấm dứt tình trạng giảm tần số mà còn đủ để khôi phục tần số đến hay gần đến giá trị định mức. Cần lưu ý là nếu lượng công suất thiếu hụt ít, thì có thể chỉ có đợt 1 hoặc chỉ có đợt 1 và đợt 2 tác động.</para>
+        <para id="id18835185">Ngoài các đợt tác động chính, thiết bị tự động giảm tải theo tần số cần phải có một đợt tác động đặc biệt để ngăn ngừa hiện tượng “tần số treo lơ lửng”. Hiện tượng này có thể sinh ra sau khi các đợt chính tác động nhưng tần số vẫn không trở về giá trị gần định mức mà duy trì ở một giá trị nào đó thấp hơn định mức. Tần số khởi động của đợt tác động đặc biệt vào khoảng 47,5 đến 48 Hz.</para>
+        <para id="id18769387">Tác động của thiết bị TGT phải phối hợp với các loại thiết bị tự động hóa khác trong hệ thống điện. Ví dụ như, để thiết bị TGT tác động có kết quả, các hộ tiêu thụ đã bị cắt ra khi tần số giảm thấp không được đóng lại bởi thiết bị TĐL hoặc TĐD.</para>
+      </section>
+      <section id="id-210061578733">
+        <title>Ngăn ngừa TGT tác động nhầm khi tần số giảm ngắn hạn:</title>
+        <para id="id16455249">Khi mất liên lạc với hệ thống (cắt cả 2 đường dây nối với hệ thống hoặc cắt máy biến áp B1 trong sơ đồ hình 12.10), các hộ tiêu thụ điện nối vào phân đoạn I thanh góp hạ áp của trạm sẽ bị mất điện. Sau một thời gian ngắn nhờ tác động của các thiết bị tự động hóa như TĐL đường dây hoặc TĐD máy cắt phân đoạn, nguồn cung cấp lại được khôi phục cho các hộ tiêu thụ. Tuy nhiên, trong khoảng thời gian đó các hộ tiêu thụ của trạm có thể bị cắt ra bởi tác động nhầm của thiết bị TGT. Tình huống này xảy ra là do sau khi mất nguồn cung cấp, điện áp trên thanh góp trạm có máy bù đồng bộ hoặc động cơ không bị mất ngay mà duy trì trong một thời gian nào đó do quán tính.</para>
+        <table id="id17854972" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>Các động cơ không đồng bộ có thể duy trì điện áp trên thanh góp trạm vào khoảng 40  50% điện áp định mức trong vòng 1 giây, còn máy bù và động cơ đồng bộ duy trì điện áp cao hơn trong khoảng vài giây. Tốc độ quay của các máy bù và động cơ đồng bộ lúc này bị giảm thấp, nên tần số của điện áp duy trì cũng bị giảm xuống và TGT nối vào điện áp đó có thể tác động nhầm cắt các hộ tiêu thụ trước khi TĐL và TĐD kịp tác động.Thực tế để ngăn ngừa tác động nhầm trong trường hợp này, người ta đặt một bộ khóa liên động vào sơ đồ thiết bị TGT. Rơle tần số Rf (hình 12.10) của thiết bị TGT sẽ bị khống chế tác động bởi rơle định hướng công suất tác dụng RW (làm nhiệm vụ của bộ khóa liên động). Khi còn liên lạc với hệ thống, trạm sẽ tiêu thụ công suất tác dụng và rơle RW cho phép thiết bị TGT làm việc khi cần thiết. Sau khi mất nguồn cung cấp, sẽ không có công suất tác dụng đi qua máy biến áp</entry>
+                <entry><media id="id1171895419901" alt=""><image src="../../media/graphics7-3cf4.png" mime-type="image/png"/></media>Hình 12.10 : Ngăn ngừa tác động nhầm của TGT khi các hộ tiêu thụ tạm thời bị mất điện</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id17840808">hoặc công suất tác dụng sẽ hướng về phía thanh góp cao áp của trạm, rơle RW khóa rơle Rf và ngăn ngừa tác động nhầm của thiết bị TGT.</para>
+        <para id="id17840812">Khi không đặt bộ khóa liên động, người ta cũng có thể sửa chữa tác động nhầm của thiết bị TGT bằng cách áp dụng biện pháp TĐL sau tác động của TGT.</para>
+      </section>
+      <section id="id-11036992374">
+        <title>Tự động đóng trở lại sau TGT (TĐLT):</title>
+        <para id="id12803808">Thiết bị tự động đóng trở lại theo tần số (TĐLT) là thiết bị tự động hóa cần thiết để tăng nhanh tốc độ khôi phục nguồn cung cấp cho các phụ tải đã bị cắt ra do thiết bị TGT.</para>
+        <para id="id15580418">Thiết bị TĐLT tác động ở tần số 49,5  50 Hz, cũng được thực hiện bao gồm một số đợt, thời gian tác động của đợt đầu tiên khoảng 10 đến 20 sec. Khoảng thời gian nhỏ nhất giữa các đợt kề nhau là 5 sec. Công suất phụ tải của các đợt TĐLT thường được phân chia đồng đều. Thứ tự đóng các phụ tải bằng thiết bị TĐLT ngược với thứ tự cắt các phụ tải do tác động của thiết bị TGT.</para>
+        <para id="id18221562">Để ngăn ngừa khả năng tần số giảm thấp trở lại sau khi thiết bị TĐLT làm việc (có thể làm cho thiết bị TGT khởi động một lần nữa), trong sơ đồ TĐLT cần phải đảm bảo chỉ tác động một lần. Cũng cần phải loại trừ khả năng chuyển mạch các hộ tiêu thụ sang một nguồn cung cấp khác nhờ thiết bị TĐD sau khi chúng đã bị cắt ra bởi thiết bị TGT, đồng thời khi tần số khôi phục cần phải đóng trở lại những hộ tiêu thụ đó nhanh nhất có thể được.</para>
+        <para id="id18344028">Hình 12.11 là sơ đồ một đợt TGT có kèm TĐLT. Trong sơ đồ sử dụng một rơle tần số Rf có tần số khởi động tự động thay đổi.</para>
+        <para id="id17545712">
+          <figure id="id16691578">
+            <media id="id1171895491487" alt=""><image src="../../media/graphics8-b315.png" mime-type="image/png" height="377" width="541"/></media>
+          </figure>
+        </para>
+        <para id="id16718817">Hình 12.11 : Sơ đồ kết hợp thiết bị TGT và TĐLT</para>
+        <para id="id18450600">Khi tần số f giảm đến giá trị tần số khởi động của rơle Rf (tương ứng với trị số đặt của thiết bị TGT), tiếp điểm của Rf khép lại, rơle 1RT bắt đầu tính thời gian, sau khoảng thời gian t1RT các rơle 1RG, 2RG tác động cắt bớt một số phụ tải. Tiếp điểm 1RG4 đóng làm cho bộ phận đo lường của rơle tần số Rf có giá trị đặt tương ứng với tần số khởi động của thiết bị TĐLT. Lúc này tiếp điểm của rơle Rf chỉ mở ra khi tần số của hệ thống khôi phục đến trị số đặt mới vào khoảng 49,5  50 Hz. Tiếp điểm 1RG2 đóng mạch cuộn dây rơle 3RG, tiếp điểm 3RG1 đóng lại để tự giữ, tiếp điểm 3RG2 đóng lại nhưng rơle 2RT lúc này chưa tác động được do tiếp điểm 1RG3 đã mở.</para>
+        <para id="id17854887">Khi tần số khôi phục trở lại giá trị định mức hoặc gần định mức, tiếp điểm Rf và sau đó tiếp điểm 1RT mởra. Các rơle trung gian 1RG và 2RG trở về, tiếp điểm 1RG3 đóng làm cho rơle 2RT khởi động, sau một thời gian tiếp điểm 2RT2 đóng mạch cuộn dây rơle trung gian 4RG. Tiếp điểm 4RG1 đóng lại để tự giữ, tiếp điểm 4RG2 và 4RG3 đóng đưa xung đi đóng máy cắt của các hộ tiêu thụ đã bị cắt ra bởi thiết bị TGT.</para>
+        <para id="id18251931">Sơ đồ sẽ trở về trạng thái ban đầu sau khi tiếp điểm 2RT3 đóng lại. Rơle 3RG trở về và mở tiếp điểm 3RG2 trong mạch cuộn dây rơle 2RT. Các rơle tín hiệu 1Th và 2Th để báo tín hiệu về trạng thái khởi động của thiết bị TGT và TĐLT.</para>
+      </section>
+    </section>
+  </content>
+</document>

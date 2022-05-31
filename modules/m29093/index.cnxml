@@ -1,0 +1,180 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Bảo vệ dòng so lệch</title>
+  <metadata>
+  <md:content-id>m29093</md:content-id><md:title>Bảo vệ dòng so lệch</md:title>
+  <md:abstract>Bảo vệ dòng so lệch</md:abstract>
+  <md:uuid>1a84973b-9a73-43cc-a593-f3cf42533aee</md:uuid>
+</metadata>
+  <content>
+    <table id="id18066151" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Nguyên tắc làm việc:Bảo vệ dòng so lệch là loại bảo vệ dựa trên nguyên tắc so sánh trực tiếp dòng điện ở hai đầu phần tử được bảo vệ.Các máy biến dòng BI được đặt ở hai đầu phần tử được bảo vệ và có tỷ số biến đổi nI như nhau (hình 5.1). Quy ước hướng dương của tất cả các dòng điện theo chiều mũi tên như trên sơ đồ hình 4.1, ta có : <media id="id1167144941487" alt=""><image src="graphics1.wmf" mime-type="image/wmf"/></media> (5.1)Dòng vào rơle bằng hiệu hình học dòng điện của hai BI, chính vì vậy bảo vệ có tên gọi là bảo vệ dòng so lệch.</entry>
+            <entry><media id="id1167144791607" alt=""><image src="../../media/graphics2-7afb.png" mime-type="image/png"/></media>Hình 5.1 : Sơ đồ nguyên lí 1 pha của bảo vệ dòng so lệch</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id14674152">a) Trong tình trạng làm việc bình thường hoặc khi ngắn mạch ngoài (ở điểm N’): Trường hợp lí tưởng (các BI không có sai số, bỏ qua dòng dung và dòng rò của đường dây được bảo vệ) thì:</para>
+    <figure id="id15714516">
+      <media id="id1167145741710" alt=""><image src="graphics3.wmf" mime-type="image/wmf" height="31" width="346"/></media>
+    </figure>
+    <para id="id8669676">và bảo vệ sẽ không tác động.</para>
+    <para id="id17702409">b) Khi ngắn mạch trong (ở điểm N”): dòng IIS và IIIS khác nhau cả trị số và góc pha. Khi hướng dòng quy ước như trên thì dòng ở chỗ hư hỏng là:</para>
+    <figure id="id16744050">
+      <media id="id1167143342257" alt=""><image src="graphics4.wmf" mime-type="image/wmf" height="58" width="279"/></media>
+    </figure>
+    <para id="id18398374">Nếu dòng IR vào rơle lớn hơn dòng khởi động IKĐR của rơle, thì rơle khởi động và cắt phần tử bị hư hỏng.</para>
+    <para id="id7893320">Khi nguồn cung cấp là từ một phía (IIIS = 0), lúc đó chỉ có dòng IIT, dòng IR = IIT và bảo vệ cũng sẽ khởi động nếu IR &gt; IkĐR.</para>
+    <para id="id18612828">Như vậy theo nguyên tắc tác động thì bảo vệ có tính chọn lọc tuyệt đối và để đảm bảo tính chọn lọc không cần phối hợp về thời gian. Vùng tác động của bảo vệ được giới hạn giữa hai BI đặt ở 2 đầu phần tử được bảo vệ.</para>
+    <section id="id-311693132536">
+      <title>Dòng không cân bằng:</title>
+      <para id="id17424538">Khi khảo sát nguyên tắc tác động của bảo vệ dòng so lệch ta đã giả thiết trong tình trạng làm việc bình thường hoặc khi ngắn mạch ngoài, lí tưởng ta có IIT = IIIT. Tuy nhiên trong thực tế :</para>
+      <figure id="id11076297">
+        <media id="id1167142907282" alt=""><image src="graphics5.wmf" mime-type="image/wmf" height="33" width="246"/></media>
+      </figure>
+      <para id="id13544876">Như vậy, dòng trong rơle (khi không có ngắn mạch trong vùng bảo vệ, dòng trong rơle được gọi là dòng không cân bằng IKCB) bằng:</para>
+      <para id="id16712539"><figure id="id16712542"><media id="id1167144602886" alt=""><image src="graphics6.wmf" mime-type="image/wmf" height="33" width="219"/></media></figure> (5.2)</para>
+      <para id="id16695345">Ngay cả khi kết cấu của hai BI giống nhau, dòng từ hóa I’II và I’I của chúng thực tế là không bằng nhau. Vì vậy dòng không cân bằng có một giá trị nhất định nào đó.</para>
+      <table id="id15714542" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Vẫn chưa có những phương pháp phù hợp với thực tế và đủ chính xác để tính toán dòng không cân bằng quá độ. Vì vậy để đánh giá đôi khi người ta phải sử dụng những số liệu theo kinh nghiệm. Trên hình 5.3b là quan hệ iKCB = f(t), khảo sát đồ thị đó và những số liệu khác người ta nhận thấy rằng :
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          iKCB quá độ có thể lớn hơn nhiều lần trị số xác lập của nó và đạt đến trị số thậm chí lớn hơn cả dòng làm viêc cực đại.iKCB đạt đến trị số cực đại không phải vào thời điểm đầu của ngắn mạch mà hơi chậm hơn một ít.trị số iKCB xác lập sau ngắn mạch có thể lớn hơn rất nhiều so với trước ngắn mạch do ảnh hưởng của từ dư trong lõi thép.thời gian tồn tại trị số iKCB lớn không quá vài phần mười giây. </entry>
+              <entry>Hình 5.3 : Đồ thị biểu diễn quan hệ theo thời gian của trị số tức thời của dòng ngắn mạch ngoài (a) và dòng không cân bằng trong mạch rơle của bảo vệ so lệch (b)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="id-728137888653">
+      <title>Dòng khởi động và độ nhạy:</title>
+      <section id="id-274568589454">
+        <title>Dòng điện khởi động:</title>
+        <para id="id18236022">Để đảm bảo cho bảo vệ so lệch làm việc đúng khi ngắn mạch ngoài, dòng khởi động của rơle cần phải chỉnh định tránh khỏi trị số tính toán của dòng không cân bằng:</para>
+        <para id="id8661506">IKĐR  kat.IKCBmaxtt    (5.3)</para>
+        <para id="id13532887">IKCBmaxtt : trị hiệu dụng của dòng không cân bằng cực đại tính toán tương ứng với dòng ngắn mạch ngoài cực đại.</para>
+        <para id="id17834949">Tương ứng dòng khởi động của bảo vê là:</para>
+        <para id="id17834955">IKĐ  kat.IKCBSmaxtt    (5.4)</para>
+        <para id="id3649857">trong đó IKCBSmaxtt là dòng không cân bằng phía sơ cấp của BI tương ứng với IKCBmaxtt và được tính toán như sau:</para>
+        <para id="id13295471">IKCBSmaxtt = fimax.kđn.kkck. IN ngmax (5.5)</para>
+        <para id="id16526521">với: fimax - sai số cực đại cho phép của BI, fimax = 10%.</para>
+        <para id="id17944249">kđn - hệ số đồng nhất của các BI, (kđn = 0  1), kđn = 0 khi các BI hoàn toàn giống nhau và dòng điện qua cuộn sơ cấp của chúng bằng nhau, kđn = 1 khi các BI khác nhau nhiều nhất, một BI làm việc không có sai số (hoặc sai số rất bé) còn BI kia có sai số cực đại.</para>
+        <para id="id18961377">kkck - hệ số kể đến thành phần không chu kỳ trong dòng điện ngắn mạch.</para>
+        <para id="id16737558">IN ngmax - thành phần chu kỳ của dòng điện ngắn mạch ngoài lớn nhất.</para>
+      </section>
+      <section id="id-0795930268332">
+        <title>Độ nhạy:</title>
+        <para id="id17828288">Độ nhạy của bảo vệ được đánh giá thông qua hệ số độ nhạy:</para>
+        <para id="id17828293"><figure id="id17828296"><media id="id1167143499883" alt=""><image src="graphics7.wmf" mime-type="image/wmf" height="47" width="85"/></media></figure> (5.6)</para>
+        <para id="id18947865">INmin : dòng nhỏ nhất có thể có tại chỗ ngắn mạch khi ngắn mạch trực tiếp trong vùng bảo vệ.</para>
+        <para id="id18835028">Yêu cầu độ nhạy của bảo vệ dòng so lệch Kn  2</para>
+      </section>
+    </section>
+    <section id="id-618975914871">
+      <title>Các biện pháp nâng cao độ nhạy:</title>
+      <table id="id18760241" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          Cho bảo vệ làm việc với thời gian khoảng 0,3 đến 0,5 sec để tránh khỏi những trị số quá độ lớn của dòng không cân bằng. 
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          Nối nối tiếp với cuộn dây rơle một điện trở phụ (hình 5.4). Tăng điện trở mạch so lệch sẽ làm giảm thấp dòng không cân bằng cũng như dòng ngắn mạch thứ cấp (khi hư hỏng trong vùng bảo vệ). Tuy nhiênmức độ giảm thấp này không như nhau do tính chất khác nhau của dòng không cân bằng quá độ và của dòng ngắn mạch. Mức độ giảm dòng không cân bằng nhiều hơn do trong nó có chứa thành phần không chu kỳ nhiều hơn. Do sơ đồ rất đơn giản nên biện pháp này được sử dụng để thực hiện bảo vệ cho một số phần tử trong hệ thống điện.Nối rơle qua máy biến dòng bão hòa trung gian (BIG).Dùng rơle có hãm. </entry>
+              <entry><media id="id1167155088908" alt=""><image src="../../media/graphics8-6467.png" mime-type="image/png"/></media>Hình 5.4 : Bảo vệ dòng so lệch dùng điện trở phụ trong mạch rơle</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="id-269562798736">
+      <title>Bảo vệ so lệch dùng rơle nối qua BIG:</title>
+      <para id="id12195132">Sơ đồ nguyên lí của bảo vệ có rơle nối qua BIG trên hình 5.5a. Hoạt động của sơ đồ dựa trên cơ sở là trong dòng không cân bằng quá độ khi ngắn mạch ngoài (hình 5.3) thường có chứa thành phần không chu kỳ đáng kể làm dịch chuyển đồ thị biểu diễn trị tức thời của dòng iKCB về 1 phía của trục thời gian.</para>
+      <para id="id17530836">Thông số của BI bão hòa được lựa chọn thế nào để nó biến đổi rất kém thành phần không chu kỳ chứa trong iKCB đi qua cuộn sơ của nó. Dùng sơ đồ thay thế của BI để phân tích, có thể thấy rằng phần lớn thành phần không chu kỳ đi qua nhánh từ hóa làm bão hòa mạch từ (giảm Z). Trong điều kiện đó thành phần chu kỳ của iKCB chủ yếu khép mạch qua nhánh từ hóa mà không đi vào rơle.</para>
+      <para id="id17836135">Điều kiện làm việc của BIG rất phức tạp bởi vì quan hệ phi tuyến khi biến đổi qua BI chính xếp chồng với quan hệ phi tuyến khi biến đổi iKCB qua BIG. Phần tiếp theo ta sẽ khảo sát đồ thị vòng từ trễ của BIG và sự thay đổi trị tức thời của dòng theo thời gian (hình 5.5).</para>
+      <figure id="id3648158">
+        <media id="id1167144954953" alt=""><image src="../../media/graphics9-345f.png" mime-type="image/png" height="270" width="165"/></media>
+      </figure>
+      <para id="id18370853">a) b) c)</para>
+      <para id="id16678931">Hình 5.5 : Bảo vệ dòng so lệch dùng rơle nối qua BI bão hòa trung gian </para>
+      <para id="id17675088">a) sơ đồ nguyên lí của bảo vệ </para>
+      <para id="id17675093">b) hoạt động của sơ đồ khi ngắn mạch trong vùng bảo vệ </para>
+      <para id="id7488541">c) hoạt động của sơ đồ khi ngắn mạch ngoài</para>
+    </section>
+    <section id="id-571978369273">
+      <title>Bảo vệ dùng rơle so lệch có hãm:</title>
+      <para id="id16743974">Dòng so lệch thứ hay còn gọi là dòng làm việc bằng hiệu các dòng thứ ILV = ISLT = IIT - IIIT và dòng hãm bằng 1/2 tổng dòng thứ IH = 0,5*(IIT + IIIT). Khi ngắn mạch ngoài, trị tuyệt đối của hiệu dòng luôn luôn nhỏ hơn 1/2 tổng dòng thứ, tức là:</para>
+      <figure id="id17570308">
+        <media id="id1167146031317" alt=""><image src="graphics10.wmf" mime-type="image/wmf" height="47" width="161"/></media>
+      </figure>
+      <para id="id16521790">hay : ILV &lt; IH (5.7)</para>
+      <para id="id6058376">Khi ngắn mạch trong, trị tuyệt đối của hiệu có thể xem là lớn hơn 1/2 tổng:</para>
+      <figure id="id16737589">
+        <media id="id1167140034537" alt=""><image src="graphics11.wmf" mime-type="image/wmf" height="47" width="161"/></media>
+      </figure>
+      <para id="id18960436">hay : ILV &gt; IH (5.8)</para>
+      <para id="id5443069">Khi ngắn mạch trong và có nguồn cung cấp chỉ từ một phía thì IIIT = 0 ; ILV = IIT ; IH = 0,5IIT.</para>
+      <para id="id18947913">Biểu thức (5.7) và (5.8) có thể được coi là cơ sở để thực hiện rơle có hãm. Các rơle này dựa vào việc so sánh 2 đại lượng:</para>
+      <para id="id7926034"><figure id="id7926037"><media id="id1167145752410" alt=""><image src="graphics12.wmf" mime-type="image/wmf" height="47" width="65"/></media></figure> và 0,5<figure id="id17978846"><media id="id1167143309828" alt=""><image src="graphics13.wmf" mime-type="image/wmf" height="47" width="65"/></media></figure></para>
+      <para id="id15164319">Sơ đồ nối BI với rơle như hình 5.7b qua BIG có tỉ số biến đổi nI = 1, cuộn sơ của BIG chia thành 2 phần bằng nhau, cuộn thứ có dòng hãm đưa vào bộ phận hãm của rơle; dòng so lệch cung cấp cho bộ phận làm việc của rơle được lấy từ điểm giữa của cuộn sơ BIG.</para>
+      <figure id="id17830324">
+        <media id="id1167145668766" alt=""><image src="../../media/graphics14-743b.png" mime-type="image/png" height="276" width="435"/></media>
+      </figure>
+      <para id="id18771342">Hình 5.7 : Bảo vệ dòng so lệch có hãm</para>
+      <para id="id3649810">a) Đồ thị véc tơ dòng thứ trong mạch bảo vệ </para>
+      <para id="id12222856">b) Sơ đồ nguyên lí một pha của bảo vệ </para>
+    </section>
+    <section id="id-634096837117">
+      <title>Đánh giá bảo vệ so lệch dọc:</title>
+      <section id="id-864036123183">
+        <title>Tính chọn lọc:</title>
+        <para id="id18951158">Theo nguyên tắc tác động, bảo vệ có tính chọn lọc tuyệt đối. Khi trong hệ thống điện có dao động hoặc xảy ra tình trạng không đồng bộ, dòng ở 2 đầu phần tử được bảo vệ luôn bằng nhau và không làm cho bảo vệ tác động mất chọn lọc. </para>
+      </section>
+      <section id="id-509219037899">
+        <title>Tác động nhanh:</title>
+        <para id="id17676505">Do bảo vệ có tính chọn lọc tuyệt đối nên không yêu cầu phải phối hợp về thời gian với bảo vệ các phần tử kề. Bảo vệ có thể được thực hiện để tác động không thời gian.</para>
+      </section>
+      <section id="id-0279597181826">
+        <title>Độ nhạy:</title>
+        <para id="id16205536">Bảo vệ có độ nhạy tương đối cao do dòng khởi động có thể chọn nhỏ hơn dòng làm việc của đường dây.</para>
+      </section>
+      <section id="id-684726809426">
+        <title>Tính đảm bảo:</title>
+        <para id="id16679088">Sơ đồ phần rơle của bảo vệ không phức tạp lắm và làm việc khá đảm bảo.</para>
+        <para id="id17676527">Nhược điểm chủ yếu của bảo vệ là có dây dẫn phụ . Khi đứt dây dẫn phụ có thể làm kéo dài thời gian ngừng hoạt động của bảo vệ, hoặc bảo vệ có thể tác động không đúng (nếu bộ phận kiểm tra đứt mạch thứ không làm việc).</para>
+        <para id="id18140325">Giá thành của bảo vệ được quyết định bởi giá thành của dây dẫn phụ và chi phí lắp đặt chúng, do vậy đường dây dài giá thành sẽ rất cao.</para>
+        <para id="id17306056">Từ những phân tích trên cho thấy chỉ nên đặt bảo vệ so lệch dọc cho những đường dây có chiều dài không lớn chủ yếu là trong mạng  110kV khi không thể áp dụng các bảo vệ khác đơn giản và tin cậy hơn. Lúc ấy nên dùng chung cáp làm dây dẫn phụ của bảo vệ, đồng thời để thực hiện điều khiển xa, đo lường xa, thông tin liên lạc...</para>
+        <para id="id17676535">Bảo vệ so lệch dọc được áp dụng rộng rãi để bảo vệ cho máy phát, máy biến áp, thanh góp, ... do không gặp phải những khó khăn về dây dẫn phụ.</para>
+      </section>
+    </section>
+    <section id="id-941118727453">
+      <title>Bảo vệ so lệch ngang có hướng:</title>
+      <para id="id16681250">Nguyên tắc tác động bảo vệ so lệch ngang dựa vào việc so sánh dòng trên 2 đường dây song song, trong chế độ làm việc bình thường hoặc khi ngắn mạch ngoài các dòng này có trị số bằng nhau và cùng hướng, còn khi phát sinh hư hỏng trên một đường dây thì chúng sẽ khác nhau.</para>
+      <para id="id17828372">Bảo vệ được dùng cho 2 đường dây song song nối vào thanh góp qua máy cắt riêng. Khi hư hỏng trên một đường dây, bảo vệ cần phải cắt chỉ đường dây đó và giữ nguyên đường dây không hư hỏng lại làm việc. Muốn vậy bảo vệ phải được đặt ở cả 2 đầu đường dây và có thêm bộ phận định hướng công suất để xác định đường dây bị hư hỏng.</para>
+      <para id="id14750710">Sơ đồ nguyên lí 1 pha của bảo vệ trên hình 5.9. Các máy biến dòng đặt trên 2 đường dây có tỷ số biến đổi nI như nhau, cuộn thứ của chúng nối với nhau thế nào để nhận được hiệu các dòng pha cùng tên. Rơle dòng 5RI làm nhiệm vụ của bộ phận khởi động, rơle 6RW tác động 2 phía là bộ phận định hướng công suất. Khi chiều dòng điện quy ước như trên hình 5.9, ta có dòng đưa vào các rơle này là IR = IIT - IIIT .</para>
+      <para id="id17428594">Ap đưa vào 6RW được lấy từ BU nối vào thanh góp trạm. Rơle 6RW sẽ tác động đi cắt đường dây có công suất ngắn mạch hướng từ thanh góp vào đường dây và khi ở cả 2 đường dây đều có công suất ngắn mạch hướng từ thanh góp vào đường dây thì 6RW sẽ tác động về phía đường dây có công suất lớn hơn.</para>
+      <para id="id17428598">Trong chế độ làm việc bình thường hoặc khi ngắn mạch ngoài, dòng IIT , IIIT bằng nhau và trùng pha. Dòng vào rơle IR = IIT - IIIT gần bằng 0 (IR = IKCB), nhỏ hơn dòng khởi động IKĐR của bộ phận khởi động 5RI và bảo vệ sẽ không tác động.</para>
+      <figure id="id13321233">
+        <media id="id1167147086350" alt=""><image src="../../media/graphics15-835d.png" mime-type="image/png" height="341" width="596"/></media>
+      </figure>
+      <para id="id18795244">Hình 5.9 : Bảo vệ so lệch ngang có hướng dùng cho 2 đường dây song song</para>
+      <para id="id18629214">Khi ngắn mạch trên đường dây I ở điểm N’ (hình 5.9), dòng II &gt; III . Về phía trạm A có IR = IIT - IIIT ; còn phía trạm B có IR = 2IIIT. Rơle 5RI ở cả 2 phía đều khởi động. Công suất ngắn mạch trên đường dây I phía A lớn hơn trên đường dây II; do vậy 6’RW khởi động về phía đường dây I và bảo vệ cắt máy cắt 1’MC. Về phía trạm B, công suất ngắn mạch trên đường dây I có dấu dương (hướng từ thanh góp vào đường dây), còn trên đường dây II - âm. Do đó 6”RW cũng khởi động về phía đường dây I và cắt máy cắt 1”MC. Như vậy bảo vệ đảm bảo cắt 2 phía của đường dây hư hỏng I.</para>
+      <para id="id16743956">Khi ngắn mạch trên đường dây ở gần thanh góp (điểm N”), dòng vào rơle phía trạm B là IR  0 và lúc đầu nó không khởi động. Tuy nhiên bảo vệ phía trạm A tác động do dòng vào rơle khá lớn. Sau khi cắt máy cắt 2’MC, phân bố dòng trên đường dây có thay đổi và chỉ đến lúc này bảo vệ phía trạm B mới tác động cắt 2”MC. Hiện tượng khởi động không đồng thời vừa nêu là không mong muốn vì làm tăng thời gian loại trừ hư hỏng ra khỏi mạng điện.</para>
+      <para id="id8698872">Nguồn thao tác được đưa vào bảo vệ qua các tiếp điểm phụ của 1MC và 2MC. Khi cắt một máy cắt thì tiếp điểm phụ của nó mở và tách bảo vệ ra. Cần thực hiện như vậy vì 2 lí do sau:</para>
+      <list id="id18821772" list-type="bulleted">
+        <item>Sau khi cắt 1 đường dây bảo vệ trở thành bảo vệ dòng cực đại không thời gian. Nếu không tách bảo vệ ra, nó có thể cắt không đúng đường dây còn lại khi xảy ra ngắn mạch ngoài.</item>
+        <item>Bảo vệ có thể cắt đường dây bị hư hỏng không đồng thời. Khi ngắn mạch tại điểm N”, máy cắt 2’MC cắt trước, sau đó toàn bộ dòng hư hỏng sẽ đi đến chỗ ngắn mạch qua đường dây I. Nếu không tách bảo vệ phía trạm A ra, nó có thể cắt không đúng 1’MC của đường dây I không hư hỏng.</item>
+      </list>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,370 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Khái niệm về bảo vệ Rơ le</title>
+  <metadata>
+  <md:content-id>m30224</md:content-id><md:title>Khái niệm về bảo vệ Rơ le</md:title>
+  <md:abstract>Các khái niệm bảo vệ rơle</md:abstract>
+  <md:uuid>02a33ea9-940b-4677-bf0d-1d7b388578e3</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-37885371985">
+      <title>Khái niệm chung</title>
+      <section id="id-941970193558">
+        <title>Nhiệm vụ của bảo vệ rơle:</title>
+        <para id="id8808217">Khi thiết kế và vận hành bất kỳ một hệ thống điện nào cần phải kể đến khả năng phát sinh hư hỏng và các tình trạng làm việc không bình thường trong hệ thống điện ấy. Ngắn mạch là loại sự cố có thể xảy ra và nguy hiểm nhất trong hệ thống điện . Hậu quả của ngắn mạch là:</para>
+        <list id="id12394352" list-type="enumerated">
+          <item>Trụt thấp điện áp ở một phần lớn của hệ thống điện</item>
+          <item>Phá hủy các phần tử bị sự cố bằng tia lửa điện</item>
+          <item>Phá hủy các phần tử có dòng ngắn mạch chạy qua do tác động nhiệt và cơ.</item>
+          <item>Phá hủy ổn định của hệ thống điện</item>
+        </list>
+        <para id="id13180933">Ngoài các loại hư hỏng, trong hệ thống điện còn có các tình trạng việc không bình thường. Một trong những tình trạng việc không bình thường là quá tải. Dòng điện quá tải làm tăng nhiệt độ các phần dẫn điện quá giới hạn cho phép làm cách điện của chúng bị già cỗi hoặc đôi khi bị phá hủy.</para>
+        <para id="id7433727">Để ngăn ngừa sự phát sinh sự cố và sự phát triển của chúng có thể thực hiện các biện pháp để cắt nhanh phần tử bị hư hỏng ra khỏi mạng điện, để loại trừ những tình trạng làm việc không bình thường có khả năng gây nguy hiểm cho thiết bị và hộ dùng điện.</para>
+        <para id="id4245520">Để đảm bảo sự làm việc liên tục của các phần không hư hỏng trong hệ thống điện cần có những thiết bị ghi nhận sự phát sinh của hư hỏng với thời gian bé nhất, phát hiện ra phần tử bị hư hỏng và cắt phần tử bị hư hỏng ra khỏi hệ thống điện. Thiết bị này được thực hiện nhờ những khí cụ tự động có tên gọi là rơle. Thiết bị bảo vệ được thực hiện nhờ những rơle được gọi là thiết bị bảo vệ rơle (BVRL).</para>
+        <para id="id16170673">Như vậy nhiệm vụ chính của thiết bị BVRL là tự động cắt phần tử hư hỏng ra khỏi hệ thống điện. Ngoài ra thiết bị BVRL còn ghi nhận và phát hiện những tình trạng làm việc không bình thường của các phần tử trong hệ thống điện, tùy mức độ mà BVRL có thể tác động đi báo tín hiệu hoặc đi cắt máy cắt. Những thiết bị BVRL phản ứng với tình trạng làm việc không bình thường thường thực hiện tác động sau một thời gian duy trì nhất định (không cần phải có tính tác động nhanh như ở các thiết bị BVRL chống hư hỏng).</para>
+      </section>
+      <section id="id-43140358173">
+        <title>Yêu cầu cơ bản của mạch bảo vệ: </title>
+        <section id="id-752020169984">
+          <title>Tính chọn lọc:</title>
+          <para id="id8184863">Tác động của bảo vệ đảm bảo chỉ cắt phần tử bị hư hỏng ra khỏi hệ thống điện được gọi là tác động chọn lọc. Khi có nguồn cung cấp dự trữ cho hộ tiêu thụ, tác động như vậy tạo khả năng cho hộ tiêu thụ tiếp tục được cung cấp điện. </para>
+          <para id="id8078749">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+          <para id="id12499087">Hình 1.1 : Cắt chọn lọc trong mạng có một nguồn cung cấp </para>
+          <para id="id8756132">Yêu cầu tác động chọn lọc cũng không loại trừ khả năng bảo vệ tác động như là bảo vệ dự trữ trong trường hợp hỏng hóc bảo vệ hoặc máy cắt của các phần tử lân cận.</para>
+          <para id="id7398866">Cần phân biệt 2 khái niệm chọn lọc:</para>
+          <list id="id8858869" list-type="bulleted">
+            <item>Chọn lọc tương đối: theo nguyên tắc tác động của mình, bảo vệ có thể làm việc như là bảo vệ dự trữ khi ngắn mạch phần tử lân cận.</item>
+            <item>Chọn lọc tuyệt đối: bảo vệ chỉ làm việc trong trường hợp ngắn mạch ở chính phần tử được bảo vệ.</item>
+          </list>
+        </section>
+        <section id="id-899756934278">
+          <title>Tác động nhanh:</title>
+          <para id="id13692931">Càng cắt nhanh phần tư ̉bị ngắn mạch sẽ càng hạn chế được mức độ phá hoại phần tử đó , càng giảm được thời gian trụt thấp điện áp ở các hộ tiêu thụ và càng có khả năng giữ được ổn định của hệ thống điện.</para>
+          <para id="id5187712">Để giảm thời gian cắt ngắn mạch cần phải giảm thời gian tác động của thiết bị bảo vệ rơ le. Tuy nhiên trong một số trường hợp để thực hiện yêu cầu tác động nhanh thì không thể thỏa mãn yêu cầu chọn lọc. Hai yêu cầu này đôi khi mâu thuẫn nhau, vì vậy tùy điều kiện cụ thể cần xem xét kỹ càng hơn về 2 yêu cầu này.</para>
+        </section>
+        <section id="id-525709073152">
+          <title>Độ nhạy:</title>
+          <para id="id7337815">Bảo vệ rơle cần phải đủ độ nhạy đối với những hư hỏng và tình trạng làm việc không bình thường có thể xuất hiện ở những phần tử được bảo vệ trong hệ thống điện.</para>
+          <para id="id14738493">Thường độ nhạy được đặc trưng bằng hệ số nhạy Kn. Đối với các bảo vệ làm việc theo các đại lượng tăng khi ngắn mạch (ví dụ, theo dòng), hệ số độ nhạy được xác định bằng tỷ số giữa đại lượng tác động tối thiểu (tức dòng ngắn mạch bé nhất) khi ngắn mạch trực tiếp ở cuối vùng bảo vệ và đại lượng đặt (tức dòng khởi động).</para>
+          <para id="id12788568">đại lượng tác động tối thiểu</para>
+          <para id="id8879863">Kn = --------------------------------------------------------------</para>
+          <para id="id12770760">đại lượng đặt</para>
+          <para id="id14413468">Thường yêu cầu Kn = 1,5  2.</para>
+        </section>
+        <section id="id-418364398204">
+          <title>Tính bảo đảm:</title>
+          <para id="id13459982">Bảo vệ phải luôn luôn sẵn sàng khởi động và tác động một cách chắc chắn trong tất cả các trường hợp ngắn mạch trong vùng bảo vệ và các tình trạng làm việc không bình thường đã định trước.</para>
+          <para id="id14764559">Mặc khác bảo vệ không được tác động khi ngắn mạch ngoài. Nếu bảo vệ có nhiệm vụ dự trữ cho các bảo vệ sau nó thì khi ngắn mạch trong vùng dự trữ bảo vệ này phải khởi động nhưng không được tác động khi bảo vệ chính đặt ở gần chỗ ngắn mạch hơn chưa tác động. Để tăng tính đảm bảo của bảo vệ cần:</para>
+          <list id="id17129310" list-type="bulleted">
+            <item>Dùng những rơle chất lượng cao.</item>
+            <item>Chọn sơ đồ bảo vệ đơn giản nhất (số lượng rơle, tiếp điểm ít)</item>
+            <item>Các bộ phận phụ (cực nối, dây dẫn) dùng trong sơ đồ phải chắc chắn, đảm bảo.</item>
+            <item>Thường xuyên kiểm tra sơ đồ bảo vệ.</item>
+          </list>
+        </section>
+      </section>
+    </section>
+    <section id="id-588118747436">
+      <title>Sơ đồ nối các máy biến dòng và rơle:</title>
+      <section id="id-612476693148">
+        <title>Sơ đồ các BI và rơle nối theo hình Y hoàn toàn: 
+I.a+I.b+I.c=3I.o=0 size 12{ {I}  cSup { size 8{ "." } }  rSub { size 8{a} } + {I}  cSup { size 8{ "." } }  rSub { size 8{b} } + {I}  cSup { size 8{ "." } }  rSub { size 8{c} } =3 {I}  cSup { size 8{ "." } }  rSub { size 8{o} } =0} {} </title>
+        <para id="id11758824">Dòng vào mỗi rơle bằng dòng pha (hình 1.2). Trong chế độ làm việc bình thường hoặc khi ngắn mạch 3 pha thì :</para>
+        <para id="id13244506">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mover>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>.</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>v</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mtext>=-</m:mtext>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>c</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>hay</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>v</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>b</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {I}  cSup { size 8{ "." } }  rSub { size 8{v} } "=-" \(  {I}  cSup { size 8{ "." } }  rSub { size 8{a} } + {I}  cSup { size 8{ "." } }  rSub { size 8{c} }  \)  ital "hay" {I}  cSup { size 8{ "." } }  rSub { size 8{v} } = {I}  cSup { size 8{ "." } }  rSub { size 8{b} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id16741613">trong dây trung tính (dây trở về) không có dòng. Nhưng dây trung tính vẫn cần thiết để đảm bảo sự làm việc đúng đắn của sơ đồ khi ngắn mạch chạm đất. Sơ đồ có thể làm việc đối với tất cả các dạng ngắn mạch . Tuy nhiên để chống ngắn mạch một pha N(1) thường dùng những sơ đồ hoàn hảo hơn có bộ lọc dòng thứ tự không LI0.</para>
+      </section>
+      <section id="id-739234856265">
+        <title>Sơ đồ các BI và rơle nối theo hình sao khuyết:</title>
+        <para id="id5279511">Dòng vào mỗi rơle bằng dòng pha. Dòng trong dây trở về bằng:</para>
+        <para id="id16119417">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+       (khi không có Io)</para>
+        <para id="id6018991">Dây trở về (hình 1.3) cần thiết ngay trong tình trạng làm việc bình thường để đảm bảo cho BI làm việc bình thường .Trong một số trường hợp ngắn mạch giữa các pha (có Ib  0) cũng như khi ngắn mạch nhiều pha chạm đất, dây trở về cần thiết để đảm bảo cho bảo vệ tác động đúng.</para>
+        <para id="id17303458">Khi ngắn mạch 1 pha ở pha không đặt BI sơ đồ không làm việc do vậy sơ đồ chỉ dùng chống ngắn mạch nhiều pha. </para>
+        <para id="id3328966">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mover>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>.</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>R</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mover>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>.</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>c</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {I}  cSup { size 8{ "." } }  rSub { size 8{R} } = {I}  cSup { size 8{ "." } }  rSub { size 8{a} } - {I}  cSup { size 8{ "." } }  rSub { size 8{c} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id5704759">Hình 1.2 : Sơ đồ sao hoàn toàn Hinh 1.3 : Sơ đồ sao khuyết</para>
+      </section>
+      <section id="id-694523906652">
+        <title>Sơ đồ 1 rơle nối vào hiệu dòng 2 pha (số8):</title>
+        <table id="id3648873" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>Dòng vào rơle là hiệu dòng 2 pha (hình 1.4) :
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {3} } {}</m:annotation></m:semantics></m:math>Trong tình trạng đối xứng thì IR = 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Ia . Giống như sơ đồ sao khuyết, sơ đồ số 8 không làm việc khi ngắn mạch một pha N(1) đúng vào pha không đặt máy biến dòng. Tất cả các sơ đồ nói trên đều phản ứng với N(3) và ngắn mạch giữa 2 pha bất kỳ (AB, BC, CA). Vì vậy để so sánh tương đối </entry>
+                <entry>
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Hình 1.4 : Sơ đồ số 8</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id12722968">giữa chúng người ta phải xét đến khả năng làm việc của bảo vệ trong một số trường hợp hư hỏng đặc biệt, hệ số độ nhạy, số lượng thiết bị cần thiết và mức độ phức tạp khi thực hiện sơ đồ.</para>
+      </section>
+      <section id="id-252895852407">
+        <title>Khả năng làm việc của các sơ đồ :</title>
+        <section id="id-542263394243">
+          <title>Khi chạm đất: </title>
+          <list id="id15108241" list-type="bulleted">
+            <item>Khi chạm đất 2 pha tại 2 điểm trong các mạng điện hở có dòng chạm đất bé, ví dụ điểm chạm đất thứ nhất NB trên pha B và điểm chạm đất thứ hai NC trên pha C (hình 1.5), nếu bảo vệ của các đường dây nối theo sơ đồ sao hoàn toàn và có thời gian làm việc như nhau thì chúng sẽ tác động, cả 2 đường dây đều bị cắt ra.</item>
+          </list>
+          <para id="id5081828">Nếu các bảo vệ nối theo sơ đồ Y khuyết hay số 8 (BI đặt ở 2 pha A &amp; C) thì chỉ có một đường dây bị cắt. </para>
+          <para id="id17932454">Để bảo vệ có thể tác động một cách hợp lí, BI phải đặt ở các pha cùng tên nhau (ví dụ A, C).</para>
+          <list id="id7348064" list-type="bulleted">
+            <item>Khi xuất hiện hư hỏng trên hai đoạn kề nhau của đường dây hình tia (hình 1.6), nếu các bảo vệ nối Y hoàn toàn thì đoạn xa nguồn hơn sẽ bị cắt vì có thời gian bé hơn. Nếu nối Y khuyết hay số 8 thì đoạn gần nguồn hơn bị cắt ra , điều đó không hợp lí.</item>
+          </list>
+          <para id="id17933369">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mn>2</m:mn>
+                          <m:msqrt>
+                            <m:mn>3</m:mn>
+                          </m:msqrt>
+                        </m:mfrac>
+                        <m:msubsup>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>N</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mn>2</m:mn>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msubsup>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ {  {2}  over  { sqrt {3} } } I rSub { size 8{N} }  rSup { size 8{ \( 2 \) } } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <table id="id13451934" summary="">
+            <tgroup cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>Hình 1.5 : Chạm đất kép trên các đường dây khác nhau</entry>
+                  <entry>Hình 1.6 : Chạm đất kép trên hai đoạn nối tiếp nhau của đường dây</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </section>
+        <section id="id-323348664255">
+          <title>Khi ngắn mạch hai pha sau máy biến áp nối Y/ hoặc /Y và ngắn mạch 1 pha sau máy biến áp nối Y/Y0 :</title>
+          <para id="id17226929">Khi ngắn mạch 2 pha sau máy biến áp nối Y/-11, sự phân bố dòng hư hỏng trong các pha như trên hình 1.7 (giả thiết máy biến áp có tỷ số biến đổi n­B = 1). Dòng của 1 pha (pha B, khi ngắn mạch 2 pha ở pha A,B) bằng
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mfrac><m:msubsup><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { sqrt {3} } } I rSub { size 8{N} }  rSup { size 8{ \( 2 \) } } } {}</m:annotation></m:semantics></m:math>, dòng ở hai pha kia (A và C) trùng pha nhau và bằng
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mfrac><m:msubsup><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { sqrt {3} } } I rSub { size 8{N} }  rSup { size 8{ \( 2 \) } } } {}</m:annotation></m:semantics></m:math>. Đối với máy biến áp nối /Y, phân bố dòng ở các pha cũng tương tự như vậy. </para>
+          <para id="id8851988">Phân tích sự làm việc của các bảo vệ trong trường hợp hư hỏng nói trên ta thấy:</para>
+          <list id="id12249113" list-type="bulleted">
+            <item>Bảo vệ nối theo sơ đồ sao hoàn toàn luôn luôn làm việc vì có dòng ngắn mạch lớn qua một trong các rơle của bảo vệ.</item>
+            <item>Bảo vệ nối theo sơ đồ hình sao khuyết với BI đặt ở các pha có dòng bằng 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+       thì có độ nhạy giảm đi 2 lần so với sơ đồ sao hoàn toàn.</item>
+            <item>Bảo vệ dùng 1 rơle nối vào hiệu dòng 2 pha trong trường hợp này sẽ không làm việc, bởi vì dòng trong nó IR = Ia - Ic = 0. Tất nhiên điều này xảy ra ở 1 trong 3 trường hợp N(2) có thể có sau máy biến áp đang xét.</item>
+          </list>
+          <para id="id10720959">Khi ngắn mạch 1 pha sau máy biến áp nối Y/Y0 ta cũng có quan hệ tương tự. </para>
+          <figure id="id12391477">
+            <media id="id1170117173822" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media>
+          </figure>
+          <para id="id15519800">Hình 1.7: Ngắn mạch giữa 2 pha sau máy biến áp có tổ nối dây Y/­-11</para>
+        </section>
+      </section>
+    </section>
+    <section id="id-785871066415">
+      <title>Các phần tử chính của bảo vệ:</title>
+      <para id="id17715547">Trường hợp chung thiết bị bảo vệ rơle bao gồm các phần tử cơ bản sau : các cơ cấu chính và phần logic.</para>
+      <para id="id13816268">Các cơ cấu chính kiểm tra tình trạng làm việc của đối tượng được bảo vệ, thường phản ứng với các đại lượng điện. Chúng thường khởi động không chậm trễ khi tình trạng làm việc đó bị phá hủy. Như vậy các cơ cấu chính có thể ở trong hai trạng thái: khởi động và không khởi động. Hai trạng thái đó của các cơ cấu chính tương ứng với những trị số nhất định của xung tác động lên phần logic của bảo vệ.</para>
+      <para id="id3658491">Khi bảo vệ làm việc phần logic nhận xung từ các cơ cấu chính, tác động theo tổ hợp và thứ tự của các xung. Kết quả của tác động này hoặc là làm cho bảo vệ khởi động kèm theo việc phát xung đi cắt máy cắt và báo tín hiệu hoăc là làm cho bảo vệ không khởi động.</para>
+    </section>
+  </content>
+</document>

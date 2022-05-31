@@ -1,0 +1,268 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Tự động hóa đồng bộ</title>
+  <metadata>
+  <md:content-id>m30225</md:content-id><md:title>Tự động hóa đồng bộ</md:title>
+  <md:abstract>Tự động hòa đồng bộ</md:abstract>
+  <md:uuid>22b0632a-bb90-4579-a556-22c7a6cfd49e</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-455685902865">
+      <title>Các phương pháp hòa đồng bộ: </title>
+      <para id="id18229184">Việc đóng các máy phát điện vào làm việc trong mạng có thể tạo nên dòng cân bằng lớn và dao động kéo dài. Tình trạng không mong muốn đó xảy ra là do:</para>
+      <para id="id18229195">* Tốc độ góc quay của máy phát được đóng vào khác với tốc độ góc quay đồng bộ của các máy phát đang làm việc trong hệ thống điện.</para>
+      <para id="id18229205">* Điện áp ở đầu cực của máy phát được đóng vào khác với điện áp trên thanh góp của nhà máy điện.</para>
+      <list id="id18229214" list-type="bulleted">
+        <item>Điều kiện để các máy phát điện đồng bộ có thể làm việc song song với nhau trong hệ thống điện là:</item>
+        <item>- rôto của các máy phát phải quay với một tốc độ gần như nhau.</item>
+        <item>- điện áp ở đầu cực các máy phát phải gần bằng nhau.</item>
+        <item>- góc lệch pha tương đối giữa các rôto không được vượt quá giới hạn cho phép.</item>
+      </list>
+      <para id="id18315370">Vì vậy để đóng máy phát điện đồng bộ vào làm việc song song với các máy phát khác của nhà máy điện hay hệ thống, cần phải sơ bộ làm cho chúng đồng bộ với nhau. Hòa đồng bộ là quá trình làm cân bằng tốc độ góc quay và điện áp của máy phát được đóng vào với tốc độ góc quay của các máy phát đang làm việc và điện áp trên thanh góp nhà máy điện, cũng như chọn thời điểm thích hợp đưa xung đi đóng máy cắt của máy phát.</para>
+      <para id="id18315402">Có 2 phương pháp hòa đồng bộ : hòa đồng bộ chính xác và hòa tự đồng bộ.</para>
+      <list id="id18315409" list-type="bulleted">
+        <item>Hòa đồng bộ chính xác :</item>
+      </list>
+      <para id="id18812832">Khi đóng máy phát bằng phương pháp hòa chính xác cần phải thực hiện những công việc sau :</para>
+      <para id="id18812840">- San bằng về trị số của điện áp máy phát được đóng vào UF và điện áp mạng UHT (UF UHT)</para>
+      <para id="id18812893">­- San bằng tốc độ góc quay của máy phát được đóng vào F và tốc độ góc quay của các máy phát trong hệ thống HT (F  HT).</para>
+      <para id="id18519580">- Làm cho góc pha của các véctơ điện áp máy phát và điện áp mạng trùng nhau vào lúc đóng máy cắt (Góc lệch pha giữa các véctơ điện áp máy phát và điện áp mạng   0)</para>
+      <list id="id18519602" list-type="bulleted">
+        <item>Như vậy trình tự thực hiện hòa đồng bộ chính xác như sau: Trước khi đóng một máy phát vào làm việc song song với các máy phát khác thì máy phát đó phải được kích từ trước, khi tốc độ quay và điện áp của máy phát đó xấp xỉ với tốc độ quay và điện áp của các máy phát khác cần chọn thời điểm thuận lợi để đóng máy phát sao cho lúc đó độ lệch điện áp giữa các máy phát gần bằng không, nhờ vậy dòng cân bằng lúc đóng máy sẽ nhỏ nhất.</item>
+      </list>
+      <list id="id18519618" list-type="bulleted">
+        <item>Hòa tự đồng bộ: </item>
+      </list>
+      <para id="id18949744">Khi đóng máy phát bằng phương pháp tự đồng bộ phải tuân theo những điều kiện sau :</para>
+      <para id="id18949752">- Máy phát không được kích từ (kích từ của máy phát đã được cắt ra bởi aptomat diệt từ ).</para>
+      <para id="id18949763">- Tốc độ góc quay của máy phát đóng vào phải gần bằng tốc độ góc quay của các máy phát đang làm việc trong hệ thống.</para>
+      <list id="id18949772" list-type="bulleted">
+        <item>Trình tự thực hiện: Trước khi đóng một máy phát vào làm việc song song với các máy phát khác thì máy phát đó chưa được kích từ, khi tốc độ quay của máy phát đó xấp xỉ với tốc độ quay của các máy phát khác thì máy phát đó được đóng vào, ngay sau đó dòng kích từ sẽ được đưa vào rôto và máy phát sẽ đươc kéo vào làm việc đồng bộ.</item>
+      </list>
+    </section>
+    <section id="id-865408361788">
+      <title>phương pháp hòa đồng bộ chính xác: </title>
+      <section id="id-101537780985">
+        <title>Điện áp phách và dòng cân bằng:</title>
+        <section id="id-000832321331778">
+          <title>Điện áp phách:</title>
+          <list id="id19077227" list-type="bulleted">
+            <item>Giả thiết điện áp ở đầu cực của máy phát và ở thanh góp của hệ thống là:</item>
+            <item>uF = U sin Ft và uHT = U sin HTt</item>
+          </list>
+          <para id="id19077283">Điện áp phách US = U là hiệu hình học của điện áp máy phát cần hòa và điện áp hệ thống, điện áp phách xuất hiện khi tốc độ góc quay của các vectơ điện áp này khác nhau (hình 10.1a).</para>
+          <figure id="id18096484">
+            <media id="id1171893886435" alt=""><image src="graphics1.wmf" mime-type="image/wmf" height="43" width="500"/></media>
+          </figure>
+          <para id="id18096507">trong đó :</para>
+          <para id="id18096512">S = F - HT : tốc độ góc trượt &lt;&lt; đb</para>
+          <para id="id16760549">tb = (F + HT)/ 2 : tốc độ góc trung bình  đb</para>
+          <para id="id16760610">Đặt  = S.t : góc lệch pha giữa các véctơ điện áp.</para>
+          <para id="id18393544">Khi costb.t = 1 thì:</para>
+          <para id="id18393559">uS = US = <figure id="id18393577"><media id="id5687555" alt=""><image src="graphics2.wmf" mime-type="image/wmf" height="43" width="294"/></media></figure> (10.1)</para>
+          <para id="id17516758">Đường cong US = 2Usin(/2) là đường bao các giá trị biên độ của điện áp phách, biến thiên theo tần số phách fS :</para>
+          <figure id="id17516788">
+            <media id="id7643381" alt=""><image src="graphics3.wmf" mime-type="image/wmf" height="47" width="257"/></media>
+          </figure>
+          <para id="id17516812">trong đó: TS là chu kỳ trượt, tức là thời gian của một chu kỳ thay đổi biên độ điện áp phách.</para>
+          <para id="id17959439">Hình 10.1: Điện áp phách</para>
+          <para id="id17959449">a) đồ thị vectơ b) sự thay đổi trị số tức thời của điện áp phách</para>
+          <para id="id17959460">c) sự thay đổi biên độ của điện áp phách</para>
+          <para id="id17959466">Theo dõi sự biến thiên của điện áp phách (hình 10.1), ta nhận thấy:</para>
+          <list id="id17959474" list-type="bulleted">
+            <item>* TS càng lớn thì tốc độ tương đối giữa hai máy phát càng nhỏ. Trên hình 10.1c là 2 chu kỳ thay đổi biên độ điện áp phách ứng với 2 giá trị tốc độ góc trượt S1 và S2 , trong đó S1 &gt; S2 .</item>
+            <item>* Lúc US = 0 là thời điểm hai vectơ điện áp uF và uHT chập nhau rất thuận lợi để đóng máy.</item>
+          </list>
+        </section>
+        <section id="id-496668463936">
+          <title>Dòng cân bằng:</title>
+          <list id="id17431071" list-type="bulleted">
+            <item>Dòng cân bằng là dòng chạy vòng qua các máy phát làm việc song song với nhau khi vectơ áp của chúng không bằng nhau.</item>
+          </list>
+          <para id="id17431092">Nếu hòa đồng bộ hai máy phát và khi sức điện động của chúng bằng nhau (E1 = E2 = E­”o) thì theo sơ đồ thay thế hình 10.2, dòng cân bằng sẽ được xác định bởi biểu thức:</para>
+          <figure id="id18764030">
+            <media id="id1171893094664" alt=""><image src="graphics4.wmf" mime-type="image/wmf" height="51" width="178"/></media>
+          </figure>
+          <figure id="id18764057">
+            <media id="id1171895870726" alt=""><image src="../../media/graphics5-78a7.png" mime-type="image/png" height="131" width="343"/></media>
+          </figure>
+          <para id="id18536754">Hình 10.2: Sơ đồ mạng và sơ đồ thay thế tính toán</para>
+          <para id="id18536768">dòng cân bằng khi hòa đồng bộ</para>
+          <para id="id18536774">Khi  = 180o thì: <figure id="id18536796"><media id="id1171895046843" alt=""><image src="graphics6.wmf" mime-type="image/wmf" height="51" width="143"/></media></figure></para>
+          <para id="id18536820">Nếu hòa máy phát vào hệ thống có công suất vô cùng lớn (tức x”d1 + x12  0) thì:</para>
+          <para id="id17908103"><figure id="id17908106"><media id="id8874461" alt=""><image src="graphics7.wmf" mime-type="image/wmf" height="51" width="163"/></media></figure> (10.2)</para>
+          <para id="id17908135">trong các biểu thức trên:</para>
+          <para id="id17908140">1,8 : hệ số kể đến thành phần không chu kỳ trong dòng siêu quá độ.</para>
+          <para id="id17908148">x”d1, x”d2 : điện kháng siêu quá độ của các máy phát.</para>
+          <para id="id17908165">x12 : điện kháng đường dây liên lạc giữa hai máy phát.</para>
+          <para id="id18280794">iN(3) : dòng ngắn mạch 3 pha tại đầu cực máy phát.</para>
+        </section>
+      </section>
+      <section id="id-689209338625">
+        <title>Thiết bị tự động hòa đồng bộ chính xác: </title>
+        <section id="id-431233732117">
+          <title>Nguyên tắc chung:</title>
+          <para id="id18280828">Các thiết bị hòa đồng bộ tự động bao gồm các bộ phận thực hiện việc tự động điều chỉnh tần số và điện áp của máy phát đóng vào so với tần số và điện áp của hệ thống và bộ phận kiểm tra việc thực hiện tất cả các điều kiện hòa đồng bộ.</para>
+          <para id="id18280842">Để đóng máy phát đúng vào thời điểm thuận lợi (điểm 1 trên hình 10.1c) cần phải đưa xung đến máy cắt trước thời điểm này, bởi vì máy cắt có thời gian đóng riêng. Thời gian đóng trước tđt phải bằng thời gian đóng của máy cắt tĐMC. Thời điểm đưa xung đến máy cắt tương ứng với điểm 2 trên hình 10.1c, lúc này điện áp phách khác 0, trị số của nó được xác định bằng vị trí của điểm 2’. Góc giữa các vectơ điện áp máy phát và hệ thống tương ứng với tđt gọi là góc đóng trước  đt.</para>
+          <para id="id19024380">đt = s. tđt (10.3)</para>
+          <para id="id19024420">Tùy thuộc vào việc thực hiện bộ phận đóng trước, người ta chia ra 2 loại thiết bị hòa đồng bộ :</para>
+          <para id="id19024428">* Thiết bị hòa đồng bộ có góc đóng trước không đổi (đt = const.), đưa xung đi đóng khi góc  đạt được một giá trị xác định không đổi.</para>
+          <para id="id17570189">* Thiết bị hòa đồng bộ có thời gian đóng trước không đổi (tđt = const.), đưa xung đi đóng với thời gian đóng trước không đổi, bằng thời gian đóng tĐMC của máy cắt.</para>
+          <para id="id17570211">Thiết bị hòa đồng bộ chính xác có thời gian đóng trước không đổi được áp dụng rộng rãi hơn.</para>
+        </section>
+        <section id="id-830323906945">
+          <title>Thiết bị hòa đồng bộ có thời gian đóng trước không đổi:</title>
+          <para id="id17570230">Ta xét một loại thiết bị hòa đồng bộ theo phương pháp hòa chính xác có thời gian đóng trước tđt = const., thiết bị gồm có 6 bộ phận chính (hình 10.3).</para>
+          <para id="id17570246">- Bộ phận nguồn: đảm bảo cung cấp cho các phần tử trong thiết bị hòa, đồng thời tạo nên điện áp phách US.</para>
+          <para id="id18703930">- Bộ phận đóng trước: đưa xung đi đóng máy cắt của máy phát trước thời điểm các vectơ UF và UHT chập nhau một khoảng thời gian tđt = const.</para>
+          <para id="id18703962">- Bộ phận kiểm tra độ lệch tần số của máy phát và hệ thống: đảm bảo cho tín hiệu của bộ phận đóng trước thông qua đi đóng máy cắt khi độ lệch tần số không vượt quá giá trị cho phép.</para>
+          <para id="id18703982">- Bộ phận kiểm tra độ lệch điện áp của máy phát và hệ thống: cho phép tín hiệu đi đóng máy cắt thông qua khi điện áp của máy phát và hệ thống không lệch quá giá trị cho phép.</para>
+          <para id="id18703999">- Bộ phận điều chỉnh tần số: thực hiện việc điều chỉnh tần số của máy phát cần hòa so với tần số của các máy phát đang làm việc bằng cách tác động đến cơ cấu điều khiển turbine.</para>
+          <para id="id18655604">- Bộ phận đóng: tạo nên một độ dài nhất định của xung đi đóng MC.</para>
+          <figure id="id18655619">
+            <media id="id1171892703291" alt=""><image src="../../media/graphics8-4bac.png" mime-type="image/png" height="307" width="434"/></media>
+          </figure>
+          <para id="id18655642">Hình 10.3: Sơ đồ cấu trúc của máy hòa đồng bộ có tđt = const.</para>
+          <para id="id18655665">Dưới đây ta sẽ khảo sát chi tiết một số bộ phận của thiết bị:</para>
+          <para id="id18655672">a) Bộ phận đóng trước:</para>
+          <para id="id8543866">Bộ phận đóng trước (hình 10.4a) bao gồm máy biến áp trung gian B4, phần tử chỉnh lưu, bộ lọc L, phần tử vi phân VP, cơ cấu không P1 và các rơle trung gian 1RG  3RG làm nhiệm vụ thay đổi trị số đặt về thời gian đóng trước.</para>
+          <para id="id8543888">Phần tử chính của bộ phận đóng trước là cơ cấu không P1, tín hiệu ở đầu ra của nó xuất hiện khi dòng điện ở 2 đầu vào đạt được giá trị bằng nhau (tại điểm a1 và a2 trên hinh 10.4c). Tín hiệu ở đầu ra của bộ phận đóng trước là điện áp Uđt dạng xung chữ nhật tồn tại đến cuối chu kỳ trượt.</para>
+          <para id="id8543922">Dòng i1 ở đầu vào thứ nhất của cơ cấu không P1 được xác định bằng giá trị điện áp phách US và điện trở R1  R3:</para>
+          <para id="id17702080"><figure id="id17702085"><media id="id1171893436467" alt=""><image src="graphics9.wmf" mime-type="image/wmf" height="43" width="260"/></media></figure>  (10.4)</para>
+          <para id="id17702122">trong đó: R bằng R1, R2 hoặc R3.</para>
+          <para id="id17702129">K1 là hệ số tỷ lệ. </para>
+          <para id="id17702143">Dòng i2 ở đầu vào thứ hai của cơ cấu không P1 được xác định bằng điện áp ở đầu ra VP (hình 10.4b). Phần tử vi phân tạo nên điện áp tỷ lệ với đạo hàm điện áp phách. Đầu vào của VP nhận được điện áp phách US. </para>
+          <para id="id18840943">Điện áp ở đầu ra VP bằng:</para>
+          <para id="id18840948">Ura = RC<figure id="id18840960"><media id="id1171893140692" alt=""><image src="graphics10.wmf" mime-type="image/wmf" height="43" width="49"/></media></figure> (10.5)</para>
+          <para id="id18840995">Phần tử vi phân VP được nối như thế nào để dòng i2 tạo nên bởi điện áp Ura có dạng:</para>
+          <para id="id18841014">i2 = - K2<media id="id1171894823059" alt=""><image src="graphics11.wmf" mime-type="image/wmf" height="46" width="51"/></media> (10.6)</para>
+          <para id="id18972479">trong đó: Uvào là điện áp đầu vào của phần tử vi phân (Uvào = US)</para>
+          <para id="id18972504">K2 là hệ số tỷ lệ</para>
+          <para id="id18345790">Từ hình 10.4c ta thấy, vào thời điểm t = TS - tđt thì i1 = i2 (vào thời điểm này phần tử không P1 sẽ cho tín hiệu đi đóng máy phát). Do vậy:</para>
+          <figure id="id18345829">
+            <media id="id1171896217526" alt=""><image src="graphics12.wmf" mime-type="image/wmf" height="483" width="557"/></media>
+          </figure>
+          <para id="id18345852">Hình 10.4: Bộ phận đóng trước của máy hòa đồng bộ</para>
+          <para id="id6238057">a) Sơ đồ khối chức năng ; b) Sơ đồ phần tử vi phân VP; </para>
+          <para id="id6238064"> c) Đồ thị thời gian làm việc</para>
+          <figure id="id6238078">
+            <media id="id1171892625118" alt=""><image src="graphics13.wmf" mime-type="image/wmf" height="43" width="385"/></media>
+          </figure>
+          <figure id="id6238105">
+            <media id="id1171890503684" alt=""><image src="graphics14.wmf" mime-type="image/wmf" height="47" width="232"/></media>
+          </figure>
+          <para id="id6238129"><figure id="id6238132"><media id="id1171893841163" alt=""><image src="graphics15.wmf" mime-type="image/wmf" height="25" width="86"/></media></figure> nhỏ  <figure id="id18975536"><media id="id1171893430891" alt=""><image src="graphics16.wmf" mime-type="image/wmf" height="47" width="107"/></media></figure></para>
+          <para id="id18975564">tđt = <figure id="id18975580"><media id="id1171893248739" alt=""><image src="graphics17.wmf" mime-type="image/wmf" height="47" width="29"/></media></figure> = const.</para>
+          <para id="id17541346">Như vậy, thời gian đóng trước tạo nên bởi cơ cấu không P1 là một đại lượng không đổi không phụ thuộc vào tốc độ góc trượt (trên hình 10.4c, ta thấy rằng tđt1 = tđt2).</para>
+          <para id="id17541373">Để hiệu chỉnh cơ cấu không P1 có thời gian đóng trước bằng với thời gian đóng của máy cắt, dùng khóa chuyển mạch K1 điều khiển các rơle trung gian 1RG  3RG để thay đổi điện trở R1  R3 (hình 10.4a).</para>
+          <para id="id17541394">b) Bộ phận kiểm tra độ lệch tần số:</para>
+          <para id="id17541400">Bộ phận kiểm tra độ lệch tần số (hình 10.5a) gồm máy biến áp trung gian B5, phần tử chỉnh lưu, bộ lọc L, phần tử rơle P2, trigơ P3 và P5, phần tử thời gian P4 và P6.</para>
+          <para id="id17844539">Ở đầu vào của bộ phân kiểm tra độ lệch tần số, cũng như ở đầu vào của bộ phận đóng trước, là điện áp phách uS. Điện áp này sau khi chỉnh lưu để có US được đưa vào phần tử rơle P2. Tín hiệu ở đầu ra của phần tử P2 xuất hiện khi điện áp phách US đạt tới trị số điện áp khởi động UkđP2 của phần tử P2. Tín hiệu này tồn tại đến khi nào điện áp phách giảm xuống nhỏ hơn điện áp trở về UtvP2. Điện áp khởi động và trở về có thể điều chỉnh được nhờ điện trở R4 và R5. Trên đồ thị hình 10.5b, thời điểm khởi động của phần tử P2 tương ứng tại các điểm a1, a2, a3; thời điểm trở về - điểm b1, b2, b3. Độ dài tín hiệu ở đầu ra của phần tử P2 tỷ lệ thuận với chu kỳ trượt. Để kiểm tra độ dài của chu kỳ trượt (hoặc độ lệch tần số), trong sơ đồ dùng 2 phần tử thời gian P4, P6 được điều khiển bởi các trigơ P3, P5.</para>
+          <para id="id18598128">Trigơ là một phần tử chuyển mạch được đặc trưng bằng 2 trạng thái cân bằng điện ổn định co hoặc không có tín hiệu ở đầu ra của nó. Trigơ chuyển từ trạng thái này sang trạng thái khác khi có tín hiệu đưa đến một trong những đầu vào của nó. Sau khi mất tín hiệu điều khiển, trigơ vẫn giữ nguyên trạng thái của mình.</para>
+          <para id="id18598163">Bộ phận kiểm tra độ lệch tần số làm việc như sau :</para>
+          <para id="id18598172">* Khi tốc độ góc trượt s1 &gt; scp (scp là tốc độ góc trượt lớn nhất cho phép lúc hòa đồng bộ): phần tử rơle P2 khởi động (tại điểm a1) chuyển trigơ P3 sang trạng thái có tín hiệu, đảm bảo sự khởi động của phần tử thời gian P4. Ứng với tốc độ trượt này phần tử P4 có thời gian duy trì t1 sẽ không tác động được, vì trước đó tại điểm b1 phần tử P2 đã trở về và đồng thời phần tử logic KHÔNG đưa tín hiệu đi giải trừ trigơ P3. Điện áp ở đầu ra của bộ phận kiểm tra độ lệch tần số UKf trong trường hợp này bằng không, làm ngăn cản tác động của thiết bị hòa đồng bộ.</para>
+          <para id="id18407992">* Trong phạm vi tốc độ trượt cho phép s2  scp: ví dụ khi s2 = scp, chu kỳ trượt lớn hơn trường hợp thứ nhất. Trong khoảng thời gian giới hạn giữa 2 điểm a2 và b2, phần tử thời gian P4 làm việc thành công. Tín hiệu ở đầu ra của nó chuyển trigơ P3 sang trạng thái không tín hiệu, chuyển trigơ P5 sang trạng thái có tín hiệu.</para>
+          <figure id="id18654911">
+            <media id="id1171891736659" alt=""><image src="../../media/graphics18-cbeb.png" mime-type="image/png" height="643" width="578"/></media>
+          </figure>
+          <para id="id16775466">Hình 10.5: Bộ phận kiểm tra độ lệch tần số của máy hòa đồng bộ </para>
+          <para id="id16775484">a) Sơ đồ khối chức năng ;  b) Đồ thị thời gian làm việc</para>
+          <para id="id16775494">Trigơ P5 là phần tử đầu ra của bộ phận kiểm tra độ lệch tần số, điện áp UKf ở đầu ra của nó được đưa đến bộ phận đóng của thiết bị hòa đồng bộ. Độ dài của tín hiệu đầu ra được xác định bằng thời gian duy trì t2 của phần tử thời gian P6. Độ dài của tín hiệu đầu ra có thể nhỏ hơn khoảng thời gian t2 nếu sau khi bộ phận kiểm tra độ lệch tần số làm việc, quá trình trượt tần số vẫn chưa chấm dứt. Tín hiệu đầu ra mất đi khi phần tử rơle P2 khởi động trong chu kỳ trượt kế tiếp (điểm a3 trên hình 10.5b).</para>
+          <para id="id18116308">Trong vùng tốc độ trượt cho phép, điện áp UKf ở đầu ra của bộ phận kiểm tra độ lệch tần số và điện áp Uđt ở đầu ra của bộ phận đóng trước có một vùng trùng nhau (vùng gạch chéo), tại vùng đó khi đảm bảo tuân theo đúng những điều kiện hòa đồng bộ còn lại sẽ xuất hiện tín hiệu đi đóng máy cắt.</para>
+          <figure id="id18116339">
+            <media id="id1171896298442" alt=""><image src="../../media/graphics19-9de1.png" mime-type="image/png" height="220" width="414"/></media>
+          </figure>
+          <figure id="id18116366">
+            <media id="id1171892054534" alt=""><image src="../../media/graphics20.png" mime-type="image/png" height="215" width="186"/></media>
+          </figure>
+          <figure id="id18240795">
+            <media id="id1171893261561" alt=""><image src="../../media/graphics21.png" mime-type="image/png" height="354" width="484"/></media>
+          </figure>
+          <para id="id18240818">Hình 10.6: Bộ phận kiểm tra độ lệch điện áp của máy hòa đồng bộ </para>
+          <para id="id18240833">a) Sơ đồ khối chức năng ; b) Sơ đồ nối vào điện áp phách</para>
+          <para id="id18240844">c) Đồ thị thời gian làm việc</para>
+          <figure id="id18240853">
+            <media id="id1171892491771" alt=""><image src="../../media/graphics22.png" mime-type="image/png" height="433" width="520"/></media>
+          </figure>
+          <para id="id18981792">Hình 10.7: Đồ thị véctơ giải thích đặc tính thời gian của</para>
+          <para id="id18981809">bộ phận kiểm tra độ lệch điện áp</para>
+          <para id="id18981815">a)  = 0; UF = UHT b)  = 1800 ; UF = UHT</para>
+          <para id="id18140841">c)  = 0; UF &lt; UHT  d)  = 1800 ; UF &lt; UHT</para>
+          <para id="id16762187">* Khi tốc độ góc trượt s3 &lt;&lt; scp: Bộ phận kiểm tra độ lệch tần số khóa thiết bị hòa đồng bộ không những khi tần số trượt lớn hơn cho phép mà còn cả khi tốc độ trượt quá bé. Chế độ tốc độ trượt quá bé được đặc trưng bằng hiện tượng “treo” tần số của máy phát. Chế độ này không tốt vì quá trình tiến đến trùng khít vectơ điện áp máy phát và điện áp hệ thống diễn ra chậm chạp làm kéo dài thời gian đóng máy phát. Sự làm việc của các phần tử trong bộ phận này khi tốc độ trượt quá bé được minh họa trên đồ thị thời gian hình 10.5b. Từ đồ thị ta thấy rằng, điện áp UKf ở đầu ra của bộ phận kiểm tra độ lệch tần số và điện áp Uđt ở đầu ra của bộ phận đóng trước không trùng nhau về thời gian, điều này làm cho tín hiệu đi đóng máy cắt ở bộ phận đóng không xuất hiện.</para>
+          <para id="id16762256">c) Bộ phận kiểm tra độ lệch điện áp:</para>
+          <para id="id16762262">Bộ phận kiểm tra độ lệch điện áp (hình 10.6a) bao gồm phần tử chỉnh lưu, bộ lọc L, cơ cấu không P7, trigơ P8 và P9, phần tử thời gian P10. Đầu vào của bộ phận kiểm tra độ lệch điện áp là điện áp phách lấy giữa điểm giữa của phân áp R6-R7 với điện áp UB (hình 10.6b). Điện áp phách mà bộ phận này sử dụng lệch 180 so với điện áp phách từ pha UAF và UAHT. Đường biểu diễn sự thay đổi điện áp phách ở đầu vào như trên hình 10.6c. Đồ thị vectơ giải thích tính chất thay đổi của điện áp phách trên hình 10.7. Từ đó ta thấy rằng, điện áp phách mà bộ phận này sử dụng có trị số cực đại khi = 0, cực tiểu khi  =180. Việc kiểm tra độ lệch điện áp máy phát và hệ thống được thực hiện ở vùng có góc   180. Vào thời điểm  = 180, nếu UF = UHT thì điện áp phách bằng 0, nếu UF  UHT thì điện áp phách lớn hơn 0.</para>
+          <para id="id5521146">Điện áp phách US đưa đến đầu vào thứ nhất của cơ cấu không P7, ở đầu vào thứ hai của nó là điện áp mẫu Umẫu từ bộ nguồn Ung. Điện áp mẫu có thể điều chỉnh được nhờ điện trở R8. Điện áp mẫu lấy bằng độ lệch cho phép của điện áp máy phát và hệ thống, vào khoảng (10  11)% Uđm.</para>
+          <para id="id18987596">Bộ phận kiểm tra độ lệch điện áp làm việc như sau :</para>
+          <para id="id18987602">* Nếu UF = UHT hay nếu độ lệch UF và UHT không vượt quá giá trị cho phép, thì cơ cấu không P7 khởi động. Tín hiệu ở đầu ra của P7 xuất hiện trong vùng góc   1800 khi điện áp phách và điện áp mẫu bằng nhau (điểm a trên hình 10.6c), tại điểm b tín hiệu này mất đi. Trigơ P8 ghi nhận sự khởi động của phần tử P7, tín hiệu ở đầu ra của P8 là điện áp UKU được đưa đến bộ phận đóng. Độ dài của tín hiệu đầu ra được giới hạn bởi phần tử thời gian P10 điều khiển bằng trigơ P9 theo tín hiệu từ bộ phận đóng trước. Thời gian t3 của P10 được tính toán đủ để đảm bảo cho bộ phận đóng làm việc một cách chắc chắn trong vùng góc  = 0o (hay 360o).</para>
+          <para id="id18246279">* Nếu độ lệch điện áp máy phát UF và hệ thống UHT vượt quá giá trị cho phép, điện áp phách luôn luôn lớn hơn điện áp mẫu Umẫu, vì vậy cơ cấu không P7 không khởi động, điện áp đầu ra UKU bằng 0 và bộ phận đóng bị khóa.</para>
+          <para id="id18246314">d) Bộ phận điều chỉnh tần số:</para>
+          <para id="id18246320">Bộ phận điều chỉnh tần số (hình 10.8a) bao gồm các máy biến áp trung gian B6 và B7, phần tử chỉnh lưu và bộ lọc L, phần tử rơle P11 và P12, bộ khuếch đại P13, P14, P17, P18, phần tử thời gian P15 và P16, rơle trung gian 6RG, 7RG và rơle đầu ra 9RG, 10RG. Bộ phận này có hai phần đối xứng: phần thứ nhất gồm các phần tử B6, P11, P13, 6RG, P17, 9RG có nhiệm vụ làm tăng tần số máy phát, phần thứ hai gồm các phần tử B7, P12, P14, 7RG7, P18, 10RG làm giảm tần số máy phát. Phần tử P15 và P16 chung cho cả 2 phần.</para>
+          <para id="id17469790">Đưa vào máy biến áp B6 là điện áp phách tạo nên bởi UAHT và UAF, vào máy biến áp B7 là điện áp phách tạo nên bởi UAHT và UCF. Từ đồ thị vectơ trên hình 10.9 ta thấy: khi F &lt; HT (S = F - HT &lt; 0), điện áp UP12 trên phần tử P12 chậm 600 sau điện áp UP11 trên phần tử P11; khi F &gt;HT (S = F - HT &gt; 0), điện áp UP12 trên phần tử P12 vượt 600 trước điện áp UP11 trên phần tử P11. Tính chất thay đổi điện áp phách như vậy được dùng để xác định dấu của độ lệch tần số máy phát và tần số hệ thống nhằm tạo nên các tác động điều khiển tương ứng.</para>
+          <para id="id17922116">Phần tử rơle P11, P12 được chỉnh định ở cùng một điện áp khởi động và điện áp trở về như nhau, việc chỉnh định được thực hiện nhờ các điện trở R9  R12. Điện áp trở về được điều chỉnh khá thấp để vào thời điểm trở về của một phần tử (điểm b1 hoặc b2 trên hình 10.8b), điện áp trên phần tử kia sẽ nhỏ hơn điện áp khởi động (điểm c1 hoặc c2). Nhờ vậy loại trừ được khả năng cùng khởi động 2 phần tử rơle P11, P12 trong một chu kỳ trượt.</para>
+          <para id="id16781331">Bộ phận điều chỉnh tần số tác động như sau :</para>
+          <para id="id16781337">* Nếu F &lt; HT thì phần tử rơle P11 khởi động trước (điểm a1 trên hình 10.8). Điện áp xuất hiện ở đầu ra của nó và qua bộ khuếch đại P13 làm rơle trung gian 6RG tác động. Tiếp điểm của 6RG mở ra cắt mạch điện áp đưa đến phần tử P12, khóa phần tác </para>
+          <figure id="id16781393">
+            <media id="id1171891968510" alt=""><image src="../../media/graphics23.png" mime-type="image/png" height="416" width="508"/></media>
+          </figure>
+          <figure id="id18251415">
+            <media id="id1171892027254" alt=""><image src="../../media/graphics24.png" mime-type="image/png" height="423" width="457"/></media>
+          </figure>
+          <para id="id18251439">Hình 10.8: Bộ phận điều chỉnh tần số</para>
+          <para id="id18251456">a) Sơ đồ khối chức năng ; b) Đồ thị thời gian làm việc.</para>
+          <figure id="id18251470">
+            <media id="id1171899379016" alt=""><image src="../../media/graphics25.png" mime-type="image/png" height="241" width="530"/></media>
+          </figure>
+          <para id="id18760115">Hình 10.9: Đồ thị vectơ giải thích đặc tính của bộ phận điều chỉnh</para>
+          <para id="id18760132">động đi giảm tần số. Khóa liên động như vậy có tác dụng cho đến khi phần tử P11 trở về (điểm b1). Khi P11 tác động, phần tử thời gian P16 sẽ khởi động sau thời gian chậm trễ t4 của phần tử thời gian P15, qua phần tử P17 và rơle đầu ra 9RG đưa tín hiệu tác động đến cơ cấu điều khiển turbine theo hướng “tăng tốc độ”.</para>
+          <para id="id18760159">Thời gian t4 cần thiết để loại trừ khả năng tác động đến turbine khi khởi động ngắn hạn phần tử P11và P12 vào thời điểm đóng của máy hòa đồng bộ. Độ dài của tín hiệu đưa đến cơ cấu điều khiển turbine được giới hạn bởi thời gian t5 tạo nên bằng phần tử P16. Trị số đặt của phần tử P16 có thể điều chỉnh được nhờ điện trở R13. Như vậy trong mỗi chu kỳ trượt, bộ phận này tạo nên một xung tác động đưa đến bộ điều chỉnh tần số quay của turbine. Tần số trượt càng lớn thì xung điều chỉnh càng dày, nghĩa là bộ phận điều chỉnh tần số thực hiện một sự điều chỉnh bằng xung tỉ lệ. </para>
+          <para id="id17552033">* Bộ phận điều chỉnh tần số cũng tác động tương tự khi F &gt;HT nhưng theo hướng ngược lại và tạo xung tác động làm “giảm tốc độ” của máy phát.</para>
+          <figure id="id17552066">
+            <media id="id1171892043701" alt=""><image src="../../media/graphics26.png" mime-type="image/png" height="223" width="334"/></media>
+          </figure>
+          <para id="id17552090">Hình 8.10: Sơ đồ khối chức năng của bộ phận đóng</para>
+          <para id="id17552104">e) Bộ phận đóng:</para>
+          <para id="id5647136">Bộ phận đóng trên hình 8.10 gồm có phần tử VÀ, trigơ P19, khuếch đại P20 và P22, rơle đầu ra 4RG, phần tử thời gian P21 và rơle giới hạn xung đóng 5RG. Tín hiệu đi đóng máy cắt của máy phát được tạo nên bởi phần tử VÀ khi tồn tại đồng thời 3 tín hiệu ở đầu vào của nó: điện áp ở đầu ra của bộ phận đóng trước Uđt, điện áp ở đầu ra của bộ phận kiểm tra độ lệch tần số UKf và điện áp ở đầu ra của bộ phận kiểm tra độ lệch điện áp UKU. Tín hiệu này được ghi nhận bằng trigơ P19 và rơle đầu ra 4RG. Mạch giới hạn tín hiệu đi đóng máy cắt gồm các phần tử P21, P22 và rơle 5RG. Khi tín hiệu đi đóng máy cắt được phát đi thì phần tử thời gian P21 cũng khởi động. Sau thời gian duy trì t6 của P21, rơle 5RG sẽ tác động, tiếp điểm của 5RG mở mạch cung cấp cho bộ phận nguồn của thiết bị hòa đồng bộ. Như vậy sau khi thực hiện thao tác tự động đóng máy phát, thiết bị hòa đồng bộ cũng sẽ được tự động tách ra.</para>
+        </section>
+      </section>
+    </section>
+    <section id="id-00706336278759">
+      <title>phương pháp hòa TỰ đồng bộ: </title>
+      <section id="id-100300595636">
+        <title>Dòng cân bằng:</title>
+        <para id="id5647221">Điểm đặc biệt của phương pháp hòa tự đồng bộ là vào thời điểm đóng máy phát vào hệ thống sẽ kéo theo sự tăng vọt của dòng điện.</para>
+        <para id="id17426545">Theo sơ đồ thay thế hình 8.11b, dòng cân bằng xuất hiện khi đóng máy phát được xác định bằng công thức:</para>
+        <para id="id17426554"><figure id="id17426557"><media id="id1171892715739" alt=""><image src="graphics27.wmf" mime-type="image/wmf" height="51" width="144"/></media></figure> (10.7)</para>
+        <para id="id17426586">trong đó:</para>
+        <para id="id17426591">x’’dF : điện kháng siêu quá độ dọc trục của máy phát .</para>
+        <para id="id17426608">xHT : điện kháng của hệ thống.</para>
+        <para id="id17426619">xll : điện kháng của phần tử liên lạc giữa máy phát và hệ thống.</para>
+        <para id="id16757757">Khi đóng máy phát vào hệ thống có công suất vô cùng lớn (xHT = 0; xll = 0) thì:</para>
+        <para id="id16757774"><figure id="id16757778"><media id="id7947236" alt=""><image src="graphics28.wmf" mime-type="image/wmf" height="51" width="157"/></media></figure> (10.8)</para>
+        <para id="id16757807">Ta thấy dòng cân bằng khi hòa tự đồng bộ xấp xỉ dòng ngắn mạch 3 pha ở đầu cực máy phát và nó nhỏ hơn dòng cân bằng lớn nhất khi hòa đồng bộ chính xác. Đóng máy phát bằng phương pháp tự đồng bộ cũng làm giảm thấp điện áp ở đầu cực của máy phát, ảnh hưởng không tốt đến sự làm việc của các hộ tiêu thụ nối với thanh góp điện áp máy phát của nhà máy điện.</para>
+        <figure id="id16757824">
+          <media id="id1171892612386" alt=""><image src="../../media/graphics29.png" mime-type="image/png" height="139" width="367"/></media>
+        </figure>
+        <para id="id18685305">Hình 8.11: Sơ đồ hòa tự đồng bộ máy phát điện</para>
+        <para id="id18685321">a) Sơ đồ nối điện b) Sơ đồ thay thế</para>
+        <para id="id18685333">Ưu điểm chính của phương pháp tự đồng bộ là có khả năng đóng máy phát vào mạng khá nhanh so với phương pháp hòa chính xác. Điều này đặc biệt quan trọng khi đóng máy phát trong điều kiện sự cố của mạng điện, lúc ấy cần phải đóng nhanh máy phát dự trữ.</para>
+      </section>
+      <section id="id-822882241685">
+        <title>Thiết bị hòa tự đồng bộ:</title>
+        <para id="id16712454">Ở các nhà máy nhiệt điện, việc hòa tự đồng bộ được thực hiện nữa tự động do sự phức tạp của quá trình tự động khởi động các phần nhiệt của nhà máy từ trạng thái tĩnh. Ở các nhà thủy điện, người ta áp dụng các thiết bị tự động khởi động các tổ máy phát thủy điện, vì vậy có thể sử dụng thiết bị hòa tự đồng bộ tự động cũng như nữa tự động.</para>
+        <para id="id16712474">Thiết bị hòa tự đồng bộ nữa tự động đảm bảo tự động đóng máy cắt của máy phát chưa được kích từ khi tần số quay của máy phát gần bằng tần số quay của các máy phát khác đang làm việc. Việc điều chỉnh tần số quay của máy phát trước khi đóng vào có thể được tiến hành bằng tay bằng cách tác động đến bộ điều chỉnh tốc độ quay của turbin, máy phát được kích từ sau khi đóng máy cắt của nó.</para>
+        <para id="id16712489">Dưới đây, chúng ta khảo sát thiết bị hòa tự đồng bộ nữa tự động áp dụng ở các nhà máy nhiệt điện.</para>
+        <para id="id16712498">Phần tử chính của thiết bị (hình 8.12) là rơle hiệu tần số Rf, có nhiệm vụ kiểm tra độ lệch tần số của điện áp máy phát và hệ thống. Cuộn I của Rf nối vào máy biến điện áp 1BU cuả máy phát và nối nối tiếp với điện trở R1. Cuộn II của Rf nối với máy biến điện áp 2BU của hệ thống.</para>
+        <para id="id16712512">Thiết bị hòa tự đồng bộ nữa tự động được đưa vào làm việc bằng cách chuyển khóa điều khiển K sang vị trí Đ, đóng mạch 1BU, 2BU, mạch thao tác một chiều và mạch đầu ra.</para>
+        <para id="id18842137">Khi chưa được kích từ, trị số điện áp dư của mỗi máy phát một khác nhau. Để điện áp từ 1BU của các máy phát khác nhau đưa đến cuộn I của rơle Rf gần bằng nhau, mỗi máy phát được hiệu chỉnh với một trị số điện trở R1 khác nhau. Việc điều chỉnh biến trở R1 được thực hiện khi hiệu chỉnh thiết bị.</para>
+        <figure id="id18842152">
+          <media id="id1686056" alt=""><image src="../../media/graphics30.png" mime-type="image/png" height="279" width="546"/></media>
+        </figure>
+        <para id="id18842174">Hình 8.12: Sơ đồ thiết bị hòa tự đồng bộ nữa tự động</para>
+        <para id="id18842188">a) Mạch xoay chiều ; b) Mạch thao tác</para>
+        <para id="id18842198">Vào lúc đưa điện áp đến các cuộn dây của rơle Rf, tiếp điểm của rơle có thể đóng ngắn hạn. Để loại trừ tác động không đúng của thiết bị, cuộn dây I và II của Rf được nối vào 1BU và 2BU không cùng một lúc: trước tiên nối cuộn dây II, sau đó một thời gian (khoảng vài sec) được hiệu chỉnh ở tiếp điểm RT1 của rơle thời gian RT, cuộn dây I được nối vào nhờ rơle trung gian 3RG (qua tiếp điểm 3RG2). Ngoài ra thời gian duy trì của tiếp điểm RT2 trong mạch gồm các tiếp điểm Rf1 và Rf2 cần thiết để loại trừ sự tác động không đúng của rơle vào lúc đưa điện áp đến cuộn I của rơle Rf.</para>
+        <para id="id18879278">Khi tần số trượt bằng tần số khởi động của rơle Rf, rơle đầu ra 1RG của thiết bị sẽ khởi động và tự duy trì bằng tiếp điểm 1RG11. Tiếp điểm 1RG3 khép mạch đóng máy cắt 1MC của máy phát. Sau khi đóng 1MC, aptomat diệt từ ADT của máy phát đóng lại đưa kích từ đến cuộn dây rôto máy phát (trạng thái đóng của máy phát được kiểm tra bằng tiếp điểm phụ 1MC1). Máy phát đã được kích từ và sẽ được kéo vào làm việc đồng bộ.</para>
+        <para id="id18879319">Rơle 1RG tự giữ để đảm bảo đóng chắc chắn 1MC và ADT của máy phát. Rơle trung gian 2RG khi trở về có thời gian chậm trễ nhằm giới hạn độ dài tín hiệu đi đóng 1MC và ADT . Rơle Rf không được tính toán để chịu đựng lâu dài điện áp định mức từ 1BU của máy phát đã được kích từ. Do vậy để loại trừ tác hại đến cuộn dây I của nó, tiếp điểm 3RG2 sẽ mở mạch cung cấp cho cuộn dây I sau khi 3RG trở về do 1RG2 mở ra. Rơle RU nhận điện áp từ 1BU có nhiệm vụ khóa mạch đưa điện áp định mức của máy phát được kích từ đến cuộn I của rơle Rf trong trường hợp xảy ra thao tác nhầm lẫn của nhân viên vận hành (đóng kích từ trước khi đóng máy phát vào hệ thống). Tiếp điểm RU mở mạch cuộn dây RT và nhờ vậy loại trừ khả năng khởi động của 3RG.</para>
+      </section>
+    </section>
+  </content>
+</document>

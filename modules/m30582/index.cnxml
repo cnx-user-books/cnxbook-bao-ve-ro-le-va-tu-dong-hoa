@@ -1,0 +1,141 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Tự động trở lại nguồn điện</title>
+  <metadata>
+  <md:content-id>m30582</md:content-id><md:title>Tự động trở lại nguồn điện</md:title>
+  <md:abstract>Tự động đóng trở lại nguồn điện</md:abstract>
+  <md:uuid>78fbcfc5-f667-46fe-b073-10fb5316c99c</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-292145680734">
+      <title>Ý nghĩa của TĐL:</title>
+      <para id="id18759800">Kinh nghiệm vận hành cho thấy, đa số ngắn mạch xảy ra trên đường dây truyền tải điện năng đều có thể tự tiêu tan nếu cắt nhanh đường dây bằng các thiết bị bảo vệ rơle. Cắt nhanh đường dây làm cho hồ quang sinh ra ở chỗ ngắn mạch bị tắt và không có khả năng gây nên những hư hỏng nghiêm trọng cản trở việc đóng trở lại đường dây. Hư hỏng tự tiêu tan như vậy được gọi là thoáng qua. Đóng trở lại một đường dây có hư hỏng thoáng qua thường là thành công.</para>
+      <para id="id18621632">Những hư hỏng trên đường dây như đứt dây dẫn, vỡ sứ, ngã trụ .... không thể tự tiêu tan, vì vậy chúng được gọi là hư hỏng tồn tại. Khi đóng trở lại đường dây có xảy ra ngắn mạch tồn tại thì đường dây lại bị cắt ra một lần nữa, việc đóng trở lại như vậy là không thành công.</para>
+      <para id="id16691273">Để giảm thời gian ngừng cung cấp điện cho các hộ tiêu thụ, thao tác đóng trở lại đường dây cần được thực hiện một cách tự động nhờ các thiết bị tự động đóng trở lại (TĐL). Thiết bị TĐL cũng có thể tác động cả khi máy cắt bị cắt ra do thao tác nhầm của nhân viên vận hành hoặc do thiết bị bảo vệ rơle làm việc không đúng.</para>
+      <para id="id17520987">Ap dụng TĐL có hiệu quả nhất là ở những đường dây có nguồn cung cấp một phía, vì trong trường hợp này TĐL thành công sẽ khôi phục nguồn cung cấp cho các hộ tiêu thụ. Ở mạng vòng, cắt một đường dây không làm ngừng cung cấp điện, tuy nhiên áp dụng TĐL là hợp lí vì làm tăng nhanh việc loại trừ chế độ không bình thường và khôi phục sơ đồ mạng đảm bảo vận hành kinh tế và tin cậy. Khả năng TĐL thành công ở những đường dây trên không vào khoảng 7090%.</para>
+    </section>
+    <section id="id-231356343574">
+      <title>Phân loại thiết bị TĐL:</title>
+      <para id="id17521015">Trong thực tế người ta có thể áp dụng những loại TĐL sau: TĐL 3 pha, thực hiện đóng cả 3 pha của máy cắt sau khi nó bị cắt ra bởi bảo vệ rơle. TĐL 1 pha, thực hiện đóng máy cắt 1 pha sau khi nó bị cắt ra bởi bảo vệ chống ngắn mạch một pha. TĐL hỗn hợp, đóng 3 pha (khi ngắn mạch nhiều pha) hay đóng 1 pha (khi ngắn mạch một pha).</para>
+      <para id="id18731032">Riêng TĐL 3 pha được phân ra thành một số dạng: TĐL đơn giản, TĐL tác động nhanh, TĐL có kiểm tra điện áp, TĐL có kiểm tra đồng bộ....</para>
+      <para id="id18731042">Theo loại thiết bị mà TĐL tác động đến có: TĐL đường dây, TĐL thanh góp, TĐL máy biến áp, TĐL động cơ điện.</para>
+      <para id="id18731051">Theo số lần tác động có: TĐL một lần và TĐL nhiều lần.</para>
+      <para id="id18731058">Theo cách thức tác động đến cơ cấu truyền động của máy cắt có: TĐL điện và TĐL cơ khí.</para>
+    </section>
+    <section id="id-385486648357">
+      <title>các yêu cầu cơ bản đối với thiết bị TĐL:</title>
+      <para id="id17829063">Tùy điều kiện cụ thể, sơ đồ TĐL dùng cho đường dây hoặc những thiết bị điện khác có thể khác nhau nhiều. Nhưng tất cả các thiết bị TĐL phải thỏa mãn những yêu cầu cơ bản sau:</para>
+      <section id="id-640289509931">
+        <title>Tác động nhanh: Thời gian tác động của TĐL cần phải càng nhỏ càng tốt để đảm bảo thời gian ngừng cung cấp điện là nhỏ nhất. Ở các đường dây có nguồn cung cấp từ 2 phía tác động nhanh của TĐL cần thiết để rút ngắn thời gian khôi phục tình trạng làm việc bình thường của mạng điện. Tuy nhiên thời gian TĐL bị hạn chế bởi điều kiện khử ion hoàn toàn môi trường tại chỗ ngắn mạch nhằm đảm bảo TĐL thành công: </title>
+        <para id="id17829085">tkhử ion &lt; tTĐL &lt; ttkđ</para>
+        <para id="id18236328">Khi TĐL máy cắt dầu không cần quan tâm đến tkhử ion , nhưng đối với máy cắt không khí do thời gian đóng của nó rất bé nên phải xét đến điều kiện khử ion.</para>
+        <para id="id18236344">Ngoài ra thời gian tác động của TĐL còn bị giới hạn bởi thời gian cần thiết để phục hồi khả năng truyền động của máy cắt khi đóng nó trở lại và khả năng cắt nếu ngắn mạch tồn tại.</para>
+      </section>
+      <section id="id-333136770578">
+        <title>TĐL phải tự đông trở về vị trí ban đầu sau khi tác động để chuẩn bị cho các lần làm việc sau.</title>
+        <para id="id18705195">
+          <!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that added as a byproduct of the word importer.-->
+        </para>
+      </section>
+      <section id="id-543773757337">
+        <title>Sơ đồ TĐL cần phải đảm bảo số lần tác động đã định trước cho nó và không được tác động lặp đi lặp lại. Phổ biến nhất là loại TĐL một lần, trong một số trường hợp người ta cũng sử dụng TĐL hai lần và TĐL ba lần.</title>
+        <para id="id18705207">
+          <!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that added as a byproduct of the word importer.-->
+        </para>
+      </section>
+      <section id="id-575736665684">
+        <title>Khi đóng hay mở máy cắt bằng tay thì TĐL không được tác động. Khi đóng máy cắt bằng tay, nếu nó bị cắt ra ngay lập tức bởi bảo vệ rơle, chứng tỏ là đã đóng máy cắt vào ngắn mạch tồn tại, lúc ấy chắc chắn việc đóng trở lại sẽ không thành công. Sơ đồ TĐL cũng cần dự tính đến khả năng cấm TĐL trong trường hợp máy cắt bị cắt ra bởi một số bảo vệ nào đó. Ví dụ, thường không cho phép TĐL máy biến áp tác động khi bảo vệ so lệch máy biến áp làm việc (hư hỏng bên trong nó).</title>
+        <para id="id18705224">
+          <!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that added as a byproduct of the word importer.-->
+        </para>
+      </section>
+    </section>
+    <section id="id-0302940819672">
+      <title>TĐL đường dây có nguồn cung cấp 1 phía:</title>
+      <section id="id-388448735075">
+        <title>Hoạt động của sơ đồ:</title>
+        <para id="id18089484">Trên hình 9.2 là sơ đồ của thiết bị TĐL một lần khởi động bằng phương pháp không tương ứng của đường dây có nguồn cung cấp 1 phía. Hoạt động của sơ đồ trong một số chế độ làm việc của mạng điện như sau:</para>
+        <list id="id18089497" list-type="bulleted">
+          <item>Ở chế độ vận hành bình thường, khóa điều khiển KĐK ở vị trí đóng Đ2, tiếp điểm KĐKIV mở, rơle 3RG có điện phản ảnh vị trí đóng của MC; tiếp điểm KĐKI đóng, tụ C được nạp đầy điện qua điện trở nạp R. Trong khi đó, do máy cắt đang đóng nên tiếp điểm phụ của nó MC2 mở ra và rơle 2RG không có điện. Sơ đồ đang ở trong tình trạng sẵn sàng để tác động.</item>
+          <item>Khi xảy ra ngắn mạch, thiết bị bảo vệ rơle BV tác động cắt máy cắt, tiếp điểm phụ MC2 đóng lại, rơle 2RG có điện và đóng tiếp điểm trong mạch khởi động TĐL (điện trở R1 hạn chế dòng trong mạch vừa đủ để 2RG làm việc nhưng không đủ để máy cắt đóng lại). Rơle RT có điện, sau một thời gian tRT đặt trước tiếp điểm RT1 khép lại. Tụ C phóng điện qua cuộn dây điện áp của rơle 1RG, tiếp điểm 1RG1 của nó khép lại và cuộn đóng CĐ của máy cắt có điện theo mạch: (+)KĐKI1RG1cuộn dòng 1RGIThĐN4RG2MC2CĐ(-). Lúc này máy cắt sẽ được đóng trở lại.</item>
+          <item>Nếu ngắn mạch tự tiêu tan: máy cắt sau khi được TĐL đóng lại sẽ giữ nguyên vị trí đóng, tụ C lại được nạp đầy để đưa sơ đồ trở lại trạng thái ban đầu chuẩn bị cho các lần làm việc sau.</item>
+          <item>Nếu ngắn mạch tồn tại: bảo vệ rơle lại tác động cắt máy cắt và TĐL lại khởi động như trình tự đã nêu trên. Nhưng vì tụ C đã phóng hết điện trong lần tác động trước, đến lúc này chưa được nạp đủ nên không thể làm cho rơle 1RG tác động được và máy cắt sẽ không thể đóng lại. Điều đó đảm bảo cho TĐL chỉ tác động một lần như đã định trước cho nó.</item>
+          <item>Khi mở máy cắt bằng tay (chuyển KĐK sang vị trí C1): tiếp điểm KĐKI mở ra cắt nguồn vào RT và nguồn nạp tụ, tiếp điểm KĐKII nối tụ C vào điện trở phóng R4, năng lượng tích lũy ở tụ C sẽ phóng qua R4 biến thành nhiệt năng và tiêu tán ở R4. Nhờ vậy đảm bảo TĐL không thể tác động khi mở máy cắt bằng tay. Trong một số trường hợp, tiếp điểm “cấm TĐL” đóng lại, tụ C phóng điện và TĐL cũng không thể làm việc.</item>
+          <item>Khi đóng máy cắt bằng tay (KĐK ở vị trí Đ1): tụ C bắt đầu được nạp điện, nếu máy cắt lại mở ra thì TĐL cũng không tác động được vì cho đến lúc này tụ C vẫn chưa nạp đầy.</item>
+        </list>
+        <figure id="id18824743">
+          <media id="id4078410" alt=""><image src="graphics1.wmf" mime-type="image/wmf" height="566" width="582"/></media>
+        </figure>
+        <para id="id18824767">Hình 9.2: Sơ đồ thiết bị TĐL một lần đường dây có nguồn cung cấp 1 phía</para>
+      </section>
+      <section id="id-18811967299">
+        <title>Đặc điểm của sơ đồ:</title>
+        <list id="id18560573" list-type="bulleted">
+          <item>Sơ đồ khởi động theo phương pháp không tương ứng giữa vị trí của khóa điều khiển (tiếp điểm KĐKI) và vị trí của máy cắt (tiếp điểm 2RG của rơle phản ánh vị trí cắt của máy cắt).</item>
+          <item>Tiếp điểm RT2 và điện trở R3 nối song song để tăng lực khởi động ban đầu của RT và khi duy trì thì RT không bị phát nóng nhờ R3 cản bớt dòng.</item>
+          <item>Rơle 1RG có hai cuộn dây, khi RT1 khép, tụ C phóng qua cuộn dây điện áp 1RGU, cuộn dây dòng điện 1RGI làm nhiệm vụ tự giữ vì tụ C chỉ cung cấp một xung ngắn hạn đủ để khởi động 1RG chứ không duy trì được.</item>
+          <item>Rơle 4RG có hai cuộn dây, để chống máy cắt đóng lặp đi lặp lại khi ngắn mạch tồn tại và hỏng hóc TĐL. Ví dụ khi hỏng tiếp điểm 1RG1 (dính) và xảy ra ngắn mạch, cuộn cắt của máy cắt có điện, đồng thời cuộn dòng 4RGI cũng có điện. Máy cắt mở ra và các tiếp điểm 4RG1 đóng lại, 4RG2 mở ra. Nếu tiếp điểm 1RG1 bị dính thì ngay lập tức cuộn áp 4RGU có điện để duy trì trạng thái của các tiếp điểm 4RG1 , 4RG2. Do vậy mạch cuộn đóng của máy cắt bị hở và máy cắt không thể đóng lặp đi lặp lại.</item>
+        </list>
+        <figure id="id18609005">
+          <media id="id4171689" alt=""><image src="../../media/graphics2-b2b9.png" mime-type="image/png" height="390" width="573"/></media>
+        </figure>
+        <para id="id16781042">Hình 9.3: Biểu đồ thời gian trong chu trình TĐL một lần</para>
+      </section>
+    </section>
+    <section id="id-288192938109">
+      <title>Phối hợp tác động giữa bảo vệ rơle và tđl:</title>
+      <section id="id-927822758419">
+        <title>Tăng tốc độ tác động của bảo vệ sau TĐL:</title>
+        <para id="id16712576">Sau khi cắt chọn lọc đường dây bị hư hỏng, thiết bị TĐL sẽ tác động đóng máy cắt trở lại đồng thời nối tắt bộ phận tạo thời gian của bảo vệ chính (hoặc đưa bảo vệ tác động nhanh vào làm việc) trong một khoảng thời gian giới hạn nào đó, nhờ vậy đảm bảo cắt nhanh máy cắt trong trường hợp đóng trở lại đường dây vào ngắn mạch tồn tại.</para>
+        <figure id="id16712592">
+          <media id="id7915484" alt=""><image src="../../media/graphics3-9f79.png" mime-type="image/png" height="224" width="558"/></media>
+        </figure>
+        <para id="id17936448">Hình 9.4 : Tăng tốc độ tác động của bảo vệ sau TĐL</para>
+        <para id="id17936466">a) Sơ đồ mạng điện b)Mạch tăng tốc</para>
+        <para id="id17936476">Xét sơ đồ mạng điện hình 9.4a và sơ đồ thực hiện tăng tốc hình 9.4b. Khi xảy ra ngắn mạch tại điểm N thì các tiếp điểm của rơle 1RI, 2RI của bảo vệ 1BV đóng mạch cuộn dây RT, tiếp điểm RT1 đóng tức thời nhưng tiếp điểm RGT1 đang mở nên cuộn dây RG không có điện. Sau thời gian tRT thì tiếp điểm RT2 đóng mạch cuộn dây RG để đi cắt máy cắt 1MC. Lúc này thiết bị TĐL sẽ đưa xung đi đóng lại 1MC đồng thời khởi động RGT, tiếp điểm RGT1 đóng. Nếu ngắn mạch tồn tại 1RI, 2RI và RT lại có điện nên RT1 đóng mạch cuộn dây RG và cắt nhanh máy cắt 1MC. Nếu ngắn mạch tự tiêu tan (TĐL thành công), thì sau một thời gian đủ để đóng chắc chắn 1MC tiếp điểm RGT1 mở ra và bảo vệ 1BV lại làm việc với thời gian đặt trước cho nó.</para>
+        <para id="id18705661">Như vậy tăng tốc độ tác động của bảo vệ sau TĐL cho phép rút ngắn thời gian cắt trở lại một hư hỏng tồn tại. Tuy nhiên cần lưu ý là bộ phận khởi động dòng của bảo vệ được tăng tốc phải chỉnh định khỏi dòng tự khởi động của các động cơ (các động cơ bị hãm lại do mất điện trong quá trình ngắn mạch và trong chu trình TĐL).</para>
+      </section>
+      <section id="id-0420817336489">
+        <title>Tăng tốc độ tác động của bảo vệ trước TĐL:</title>
+        <para id="id18239354">Cắt máy cắt lần thứ 1 bằng bảo vệ tác động nhanh không chọn lọc (ví dụ, bảo vệ dòng cắt nhanh), sau đó bảo vệ này bị khóa lại trong trong một khoảng thời gian nhất định để việc cắt máy cắt lần thứ 2 (nếu TĐL không thành công) được thực hiện bởi các bảo vệ tác động chọn lọc. </para>
+        <para id="id18239369">Trong phương pháp tăng tốc độ tác động của bảo vệ trước TĐL, cắt lần thứ 1 có thể xảy ra khi hư hỏng ở phần tử kề, tức là tác động không chọn lọc. Nếu hư hỏng tự tiêu tan và TĐL thành công, thì tác động không chọn lọc trước đó của bảo vệ được sửa chữa bằng tác động của thiết bị TĐL. Nhờ cắt nhanh ngắn mạch sẽ tạo khả năng TĐL thành công lớn hơn.</para>
+        <figure id="id18239386">
+          <media id="id7608488" alt=""><image src="../../media/graphics4-95c6.png" mime-type="image/png" height="163" width="443"/></media>
+        </figure>
+        <table id="id17984430" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>Hình 9.5 : Tăng tốc độ tácđộng của bảo vệ trước TĐLa) Sơ đồ mạng điệnb)Mạch tăng tốc</entry>
+                <entry>
+                  <media id="id4070622" alt=""><image src="../../media/graphics5-38cb.png" mime-type="image/png"/></media>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id18592289">Sơ đồ bộ phận tăng tốc độ bảo vệ trước TĐL như trên hình 9.5b, tiếp điểm 1RI là của bảo vệ cắt nhanh 3I&gt;&gt;, tiếp điểm 2RI là của bảo vệ dong cực đai 3I&gt;. Thiết bị TĐL đặt ở đoạn đường dây đầu tiên AB (hình 9.5a). Khi ngắn mạch trên một đoạn bất kỳ của đường dây ABCD (ví dụ, tại điểm N), lúc đầu bảo vệ cắt nhanh 3I&gt;&gt; tác động không thời gian đi cắt 3MC. Sau đó TĐL sẽ khởi động và đóng 3MC lại, đồng thời đưa tín hiệu đi khóa bảo vệ 3I&gt;&gt;. Nếu ngắn mạch tồn tại thì các bảo vệ sẽ làm việc một cách chọn lọc theo đặc tính thời gian của chúng, trong trường hợp này bảo vệ dong cực đai 1I&gt; có thời gian làm việc nhỏ nhất sẽ tác động cắt máy cắt 1MC. Cần lưu ý là việc khóa bảo vệ cắt nhanh 3I&gt;&gt; trên sơ đồ hình 9.5b được thực hiện nhờ tín hiệu từ thiết bị TĐL đưa đến RGT để làm hở mạch tác động của rơle 1RI.</para>
+        <para id="id18561996">Nhược điểm của phương pháp tăng tốc độ tác động của bảo vệ trước TĐL là nếu TĐL hoặc máy cắt 3MC bị hỏng thì tất cả các hộ tiêu thụ trên đường dây đều bị mất điện mặc dù ngắn mạch có thể chỉ ở đoạn cuối.</para>
+        <para id="id18592303">Muốn bảo vệ cắt nhanh 3I&gt;&gt; không tác động mất chọn lọc khi ngắn mạch sau các máy biến áp 1B, 2B cần phải chọn dòng khởi động của nó lớn hơn dòng ngắn mạch lớn nhất khi ngắn mạch sau các máy biến áp này. Điều này làm hạn chế phạm vi sử dụng của phương pháp, nhất là khi các đoạn đường dây khá dài và công suất các máy biến áp 1B, 2B khá lớn.</para>
+      </section>
+      <section id="id-384247657917">
+        <title>TĐL theo thứ tự:</title>
+        <para id="id18239612">Trong các mạng điện bao gồm nhiều đoạn đường dây nối tiếp nhau có thể thực hiện cắt nhanh ngắn mạch tồn tại cũng như thoáng qua nhờ phối hợp tác động của bảo vệ cắt nhanh và tác động theo thứ tự của thiết bị TĐL đặt tại máy cắt của những đoạn kề nhau.</para>
+        <figure id="id18239630">
+          <media id="id7802126" alt=""><image src="../../media/graphics6-da95.png" mime-type="image/png" height="344" width="466"/></media>
+        </figure>
+        <para id="id18218454">Hình 9.6 : TĐL theo thứ tự</para>
+        <para id="id18218471">Xét sơ đồ mạng điện hình 9.6, tại các máy cắt 1MC, 2MC, 3MC tương ứng có trang bị: các thiết bị tự động đóng trở lại 1TĐL, 2TĐL, 3TĐL; các bảo vệ cắt nhanh không chọn lọc 1I&gt;&gt;, 2I&gt;&gt;, 3I&gt;&gt; và các bảo vệ dòng cực đại tác động chọn lọc 1I&gt;, 2I&gt;, 3I&gt;. Dòng khởi động của bảo vệ cắt nhanh được chọn lớn hơn dòng khi ngắn mạch sau các máy biến áp 1B, 2B; vì vậy vùng bảo vệ sẽ bao gồm toàn bộ đoạn đường dây được bảo vệ và một phần đoạn kề.</para>
+        <figure id="id18071259">
+          <media id="id7645971" alt=""><image src="../../media/graphics7-7d87.png" mime-type="image/png" height="225" width="452"/></media>
+        </figure>
+        <para id="id18384894">Hình 9.7: Biểu đồ thời gian trong chu trình TĐL theo thứ tự</para>
+        <para id="id18384908">Xét sơ đồ mạng điện hình 9.6, tại các máy cắt 1MC, 2MC, 3MC tương ứng có trang bị: các thiết bị tự động đóng trở lại 1TĐL, 2TĐL, 3TĐL; các bảo vệ cắt nhanh không chọn lọc 1I&gt;&gt;, 2I&gt;&gt;, 3I&gt;&gt; và các bảo vệ dòng cực đại tác động chọn lọc 1I&gt;, 2I&gt;, 3I&gt;. Dòng khởi động của bảo vệ cắt nhanh được chọn lớn hơn dòng khi ngắn mạch sau các máy biến áp 1B, 2B; vì vậy vùng bảo vệ sẽ bao gồm toàn bộ đoạn đường dây được bảo vệ và một phần đoạn kề.</para>
+        <para id="id18624000">Thời gian làm việc của các thiết bị TĐL được chọn tăng dần theo hướng từ nguồn trở đi: t3TĐL &lt; t2TĐL &lt; t1TĐL</para>
+        <para id="id18624027">Khi xảy ra ngắn mạch tại điển N trên đoạn BC, các bảo vệ cắt nhanh 2I&gt;&gt; và 3I&gt;&gt; tác động cắt 2MC và 3MC. Thiết bị 3TĐL có thời gian nhỏ hơn nên tác động trước đóng trở lại 3MC. Vì đoạn AB không hư hỏng nên TĐL thành công. Sau đó 2TĐL sẽ tác động đóng 2MC lại. Nếu ngắn mạch là thoáng qua thì TĐL thành công. Nếu ngắn mạch tồn tại, bảo vệ cắt nhanh 2I&gt;&gt; sẽ tác động cắt 2MC của đoạn đường dây hư hỏng BC vì cho đến thời điểm này bảo vệ cắt nhanh 3I&gt;&gt; của đoạn AB đã bị khóa lại (xem biểu đồ thời gian trên hình 9.7).</para>
+      </section>
+    </section>
+  </content>
+</document>
